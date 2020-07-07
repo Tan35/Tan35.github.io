@@ -1,8 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>「python」- 数据类型和变量</title>
+    <url>/ckcbnnchv00007wtv2ww031wx/</url>
+    <content><![CDATA[<h1 id="python入门-数据类型和变量"><a href="#python入门-数据类型和变量" class="headerlink" title="python入门-数据类型和变量"></a>python入门-数据类型和变量</h1><blockquote>
+<p>什么是变量？变量是用来存东西的。</p>
+</blockquote>
+<p>就像一个杯子用来装水，<strong>但是python里面存的不是水，<br>而存的是在哪能找到这个水</strong>，存的是引用，即变量用于引用内存中存储的对象</p>
+<h2 id="python中的一切都是“对象”（Object）"><a href="#python中的一切都是“对象”（Object）" class="headerlink" title="python中的一切都是“对象”（Object）"></a>python中的一切都是“对象”（Object）</h2><blockquote>
+<p>基本类型也是对象</p>
+</blockquote>
+<h3 id="python是动态类型的：一个变量的类型可以变，可以存数字，过一会可以存字符串"><a href="#python是动态类型的：一个变量的类型可以变，可以存数字，过一会可以存字符串" class="headerlink" title="python是动态类型的：一个变量的类型可以变，可以存数字，过一会可以存字符串"></a>python是<strong>动态类型</strong>的：<strong>一个变量的类型可以变，可以存数字，过一会可以存字符串</strong></h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12</span></span><br><span class="line">print(a)</span><br><span class="line"></span><br><span class="line">a = <span class="string">'abc'</span></span><br><span class="line">print(a)</span><br><span class="line"></span><br><span class="line">输出：<span class="number">12</span></span><br><span class="line">	  abc</span><br></pre></td></tr></table></figure>
+
+<h3 id="python的变量无需声明，在第一次赋值的时候产生"><a href="#python的变量无需声明，在第一次赋值的时候产生" class="headerlink" title="python的变量无需声明，在第一次赋值的时候产生"></a>python的变量<strong>无需声明</strong>，在第一次赋值的时候产生</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//java中：</span></span><br><span class="line"><span class="keyword">int</span> a;</span><br><span class="line">a = <span class="number">12</span>;</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#python中：</span></span><br><span class="line">a = <span class="number">12</span>   <span class="comment"># 即可</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="python是强类型的：不能随便把一个数字和字符串放到一块去"><a href="#python是强类型的：不能随便把一个数字和字符串放到一块去" class="headerlink" title="python是强类型的：不能随便把一个数字和字符串放到一块去"></a>python是<strong>强类型</strong>的：<strong>不能随便把一个数字和字符串放到一块去</strong></h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#连等</span></span><br><span class="line"> a = b = c = <span class="number">12</span></span><br><span class="line"><span class="comment">#等价于</span></span><br><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">12</span></span><br><span class="line">c = <span class="number">12</span></span><br><span class="line">	 </span><br><span class="line"><span class="comment">#再次说明：在python中，a并不保存值本身，而是引用这个值</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>ps:其他语言比如c语言，你让他保存12到一个变量a里面，这个变量里面是真的存了这个12的值</p>
+</blockquote>
+<hr>
+<h3 id="解构赋值（联合赋值）"><a href="#解构赋值（联合赋值）" class="headerlink" title="解构赋值（联合赋值）"></a>解构赋值（联合赋值）</h3><p><code>a,b,c = 12,5,8</code>—&gt;说白了，就是可以同时给很多个变量赋值<br>可以做一些好玩的事情</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">5</span></span><br><span class="line">print(a,b)</span><br><span class="line"></span><br><span class="line">b,a = a,b</span><br><span class="line">print(a,b)</span><br><span class="line"></span><br><span class="line">输出：<span class="number">12</span> <span class="number">5</span></span><br><span class="line">	  <span class="number">5</span> <span class="number">12</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="python基本数据类型"><a href="#python基本数据类型" class="headerlink" title="python基本数据类型"></a>python基本数据类型</h2><table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th>表示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>数字</strong></td>
+<td>int，float</td>
+</tr>
+<tr>
+<td><strong>字符串</strong></td>
+<td>str</td>
+</tr>
+<tr>
+<td><strong>列表</strong></td>
+<td>list</td>
+</tr>
+<tr>
+<td><strong>元组</strong></td>
+<td>tuple</td>
+</tr>
+<tr>
+<td><strong>字典</strong></td>
+<td>dict</td>
+</tr>
+<tr>
+<td><strong>布尔值</strong></td>
+<td>bool</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#接收用户输入</span></span><br><span class="line">（python是强类型的）</span><br><span class="line"></span><br><span class="line">name = input(<span class="string">'请输入你的名字：'</span>)</span><br><span class="line">print(<span class="string">'你好'</span>，+name)</span><br><span class="line"></span><br><span class="line">输出：请输入你的名字：张三（这个张三是用户输入进去的）</span><br><span class="line">      你好，张三</span><br><span class="line">	  </span><br><span class="line"><span class="comment">#ps：</span></span><br><span class="line">age = input(<span class="string">'你今年几岁'</span>)</span><br><span class="line">year = <span class="number">2018</span>-int(age)   </span><br><span class="line"><span class="comment">#加int转换类型是因为input所输入进来的一切都是字符串，所以要转换为int</span></span><br><span class="line"></span><br><span class="line">print(<span class="string">'你是'</span>+str(year)+<span class="string">'出生的'</span>)</span><br><span class="line"><span class="comment">#加str是因为year被上面转换成数字，这里'你是'是字符串，所以需要再转换</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>数据类型</tag>
+        <tag>变量</tag>
+        <tag>python 基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「python」- 字典</title>
+    <url>/ckcbnnci300027wtv7yev6fjw/</url>
+    <content><![CDATA[<h1 id="python学习笔记之字典"><a href="#python学习笔记之字典" class="headerlink" title="python学习笔记之字典"></a>python学习笔记之字典</h1><blockquote>
+<ul>
+<li>要唯一，最好是数字</li>
+<li>字典的作用：找东西啊！！！key很关键，要定好</li>
+<li>字典用于存储“键值对”，用于快速获取、添加、删除、修改某个值，类似于PHP的联合数组、Java的HashMap、JS的json</li>
+<li>And:用户名-&gt;用户资料 等等   <blockquote>
+<p>所有语言中的字典，都是基于Hash、二叉树或其他类似结构的一类无序数据结构，目的就是为了增加数据访问的速度</p>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<h2 id="创建字典"><a href="#创建字典" class="headerlink" title="创建字典"></a>创建字典</h2><p>在Python中，有<strong>两种方式创建字典</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#方法1：直接写</span></span><br><span class="line">    d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    print(d[<span class="string">'gender'</span>])  <span class="comment">#男</span></span><br><span class="line">    print(d[<span class="string">'age'</span>])  <span class="comment">#35</span></span><br><span class="line">·</span><br><span class="line"><span class="comment">#方法2：构造器   d2 = dict([</span></span><br><span class="line">        [<span class="string">'name'</span>,<span class="string">'张三'</span>],</span><br><span class="line">        [<span class="string">'age'</span>,<span class="number">35</span>],</span><br><span class="line">        [<span class="string">'gender'</span>,<span class="string">'男'</span>]</span><br><span class="line">    ])</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="字典的增删改查"><a href="#字典的增删改查" class="headerlink" title="字典的增删改查"></a>字典的增删改查</h2><blockquote>
+<p>直接扔就行</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">         <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">d[<span class="string">'height'</span>] = <span class="number">185</span>---增加身高为<span class="number">185</span></span><br><span class="line"><span class="keyword">del</span> d[<span class="string">'gender'</span>]---删除性别</span><br><span class="line">d[<span class="string">'age'</span>] -= <span class="number">5</span>---修改岁数减少<span class="number">5</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#循环</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> d:</span><br><span class="line">    print(item)</span><br><span class="line">    <span class="comment">#输出：  name </span></span><br><span class="line">            age</span><br><span class="line">            gender</span><br><span class="line">            <span class="comment">#!!!!循环的是key，不是value</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#要全部输出（key和value），可以进行序列的拼接</span></span><br><span class="line">print(key + <span class="string">":"</span> + str(d[key]))-----<span class="number">-35</span>是数字，要转换为字符串</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="长度："><a href="#长度：" class="headerlink" title="长度："></a>长度：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line">print(len(d))</span><br><span class="line"><span class="comment">#输出  3-----可以理解为3个东西，3个键值对</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="是否相等"><a href="#是否相等" class="headerlink" title="是否相等"></a>是否相等</h3><blockquote>
+<ul>
+<li>顺序对字典毫无意义  </li>
+<li>比较的是key，以及key后面的value是否相同</li>
+</ul>
+</blockquote>
+<hr>
+<h3 id="in操作"><a href="#in操作" class="headerlink" title="in操作"></a>in操作</h3><blockquote>
+<p>dict 的in 操作,<strong>检测的是key不是value</strong></p>
+</blockquote>
+<h2 id="字典的方法"><a href="#字典的方法" class="headerlink" title="字典的方法"></a>字典的方法</h2><table>
+<thead>
+<tr>
+<th>方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>clear()</td>
+<td>清空字典</td>
+</tr>
+<tr>
+<td>keys()</td>
+<td>返回所有key</td>
+</tr>
+<tr>
+<td>values()</td>
+<td>返回所有value</td>
+</tr>
+<tr>
+<td>get(key)</td>
+<td>索引，类似于[]</td>
+</tr>
+<tr>
+<td>pop(key)</td>
+<td>删除，类似于上面的del</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python 基础</tag>
+        <tag>字典</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「python」- 元组(tuple)</title>
+    <url>/ckcbnncib00067wtvhbdqfhiy/</url>
+    <content><![CDATA[<h1 id="python之–元组-tuple"><a href="#python之–元组-tuple" class="headerlink" title="python之–元组(tuple)"></a>python之–元组(tuple)</h1><blockquote>
+<p>元组其实和list几乎一模一样，只是<u>不能修改</u>  </p>
+</blockquote>
+<h2 id="创建元组"><a href="#创建元组" class="headerlink" title="创建元组"></a>创建元组</h2><ol>
+<li>方法1：常用<br> <code>tuple1 = (1,2,3)</code><blockquote>
+<p>ps:这里想回忆一下：  </p>
+</blockquote>
+<ul>
+<li>元组是  <code>()</code></li>
+<li>列表是  <code>[]</code></li>
+<li>字典是 <code>{}</code></li>
+</ul>
+</li>
+<li>方法2：构造器<br>t = tuple((1,2,3))</li>
+</ol>
+<hr>
+<h2 id="元组操作，和list共享所有操作，除了修改的操作！！"><a href="#元组操作，和list共享所有操作，除了修改的操作！！" class="headerlink" title="元组操作，和list共享所有操作，除了修改的操作！！"></a>元组操作，和list共享所有操作，除了修改的操作！！</h2><blockquote>
+<p>下面通过代码来说明</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)  <span class="comment">#定义一个元组</span></span><br><span class="line"></span><br><span class="line">print(t)                      <span class="comment">#(1,2,3) √</span></span><br><span class="line">print(t[<span class="number">0</span>])                   <span class="comment">#1 √</span></span><br><span class="line">t[<span class="number">0</span>] = <span class="number">12</span>                     <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line"><span class="keyword">del</span> t[<span class="number">0</span>]                      <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.append(<span class="number">8</span>)                   <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.pop()                       <span class="comment">#报错 ×---！说了不能修改！</span></span><br></pre></td></tr></table></figure>
+<p>综上，增删改通通都别想，只能查。</p>
+<blockquote>
+<p>列举一下查的操作</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> t:</span><br><span class="line">    print(i)</span><br><span class="line">    <span class="comment"># 1</span></span><br><span class="line">      <span class="number">2</span></span><br><span class="line">      <span class="number">3</span></span><br><span class="line">      4 ----&gt;没有增删改，循环输出而已</span><br><span class="line"></span><br><span class="line">其他包括截取索引，<span class="keyword">in</span>和<span class="keyword">not</span> <span class="keyword">in</span> ，min，max，len，sum都可以</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><blockquote>
+<ol>
+<li><code>元组(tuple)</code>通俗来理解可以为 一个 受到保护的<code>列表(list)</code></li>
+<li>元组的意义在哪？比如说 当一些东西长期以来不变的时候就应该用<code>tuple</code>，比如说中国的省份，不是说以后一定不会变化，只是在一定或较长时间内不会发生变化，那么用<code>tuple</code>更加合适。而放在编写项目的时候，在多人协作的一个项目之中，你确定有些部分的内容确实不用改，你可以写成一个<code>tuple</code>,就能防止有人不小心修改了<code>tuple</code>里面的内容，万一将来真的有变化，那就直接从定义那里改，与其说是没意义，还不如说是一个谨慎的列表。</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python 基础</tag>
+        <tag>元组</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>「python」- 函数</title>
-    <url>/ckcblq39p0000n0tv9o9vh662/</url>
+    <url>/ckcbnncie00087wtvfs451ily/</url>
     <content><![CDATA[<h1 id="python之函数"><a href="#python之函数" class="headerlink" title="python之函数"></a>python之函数</h1><blockquote>
 <p>什么是函数？函数是一段可常用的代码，为了日后可以经常性的去调用。python自身有很多内置函数，比如说input,print,我们也可以自己去定义函数</p>
 </blockquote>
@@ -87,123 +268,13 @@
         <category>python</category>
       </categories>
       <tags>
+        <tag>python 基础</tag>
         <tag>函数</tag>
-        <tag>python 基础</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「python」- 元组(tuple)</title>
-    <url>/ckcblq3a40002n0tv8bnp7k9v/</url>
-    <content><![CDATA[<h1 id="python之–元组-tuple"><a href="#python之–元组-tuple" class="headerlink" title="python之–元组(tuple)"></a>python之–元组(tuple)</h1><blockquote>
-<p>元组其实和list几乎一模一样，只是<u>不能修改</u>  </p>
-</blockquote>
-<h2 id="创建元组"><a href="#创建元组" class="headerlink" title="创建元组"></a>创建元组</h2><ol>
-<li>方法1：常用<br> <code>tuple1 = (1,2,3)</code><blockquote>
-<p>ps:这里想回忆一下：  </p>
-</blockquote>
-<ul>
-<li>元组是  <code>()</code></li>
-<li>列表是  <code>[]</code></li>
-<li>字典是 <code>{}</code></li>
-</ul>
-</li>
-<li>方法2：构造器<br>t = tuple((1,2,3))</li>
-</ol>
-<hr>
-<h2 id="元组操作，和list共享所有操作，除了修改的操作！！"><a href="#元组操作，和list共享所有操作，除了修改的操作！！" class="headerlink" title="元组操作，和list共享所有操作，除了修改的操作！！"></a>元组操作，和list共享所有操作，除了修改的操作！！</h2><blockquote>
-<p>下面通过代码来说明</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)  <span class="comment">#定义一个元组</span></span><br><span class="line"></span><br><span class="line">print(t)                      <span class="comment">#(1,2,3) √</span></span><br><span class="line">print(t[<span class="number">0</span>])                   <span class="comment">#1 √</span></span><br><span class="line">t[<span class="number">0</span>] = <span class="number">12</span>                     <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line"><span class="keyword">del</span> t[<span class="number">0</span>]                      <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.append(<span class="number">8</span>)                   <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.pop()                       <span class="comment">#报错 ×---！说了不能修改！</span></span><br></pre></td></tr></table></figure>
-<p>综上，增删改通通都别想，只能查。</p>
-<blockquote>
-<p>列举一下查的操作</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> t:</span><br><span class="line">    print(i)</span><br><span class="line">    <span class="comment"># 1</span></span><br><span class="line">      <span class="number">2</span></span><br><span class="line">      <span class="number">3</span></span><br><span class="line">      4 ----&gt;没有增删改，循环输出而已</span><br><span class="line"></span><br><span class="line">其他包括截取索引，<span class="keyword">in</span>和<span class="keyword">not</span> <span class="keyword">in</span> ，min，max，len，sum都可以</span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><blockquote>
-<ol>
-<li><code>元组(tuple)</code>通俗来理解可以为 一个 受到保护的<code>列表(list)</code></li>
-<li>元组的意义在哪？比如说 当一些东西长期以来不变的时候就应该用<code>tuple</code>，比如说中国的省份，不是说以后一定不会变化，只是在一定或较长时间内不会发生变化，那么用<code>tuple</code>更加合适。而放在编写项目的时候，在多人协作的一个项目之中，你确定有些部分的内容确实不用改，你可以写成一个<code>tuple</code>,就能防止有人不小心修改了<code>tuple</code>里面的内容，万一将来真的有变化，那就直接从定义那里改，与其说是没意义，还不如说是一个谨慎的列表。</li>
-</ol>
-</blockquote>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python 基础</tag>
-        <tag>元组</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「python」- 数据类型和变量</title>
-    <url>/ckcblq3ac0006n0tv9str7p18/</url>
-    <content><![CDATA[<h1 id="python入门-数据类型和变量"><a href="#python入门-数据类型和变量" class="headerlink" title="python入门-数据类型和变量"></a>python入门-数据类型和变量</h1><blockquote>
-<p>什么是变量？变量是用来存东西的。</p>
-</blockquote>
-<p>就像一个杯子用来装水，<strong>但是python里面存的不是水，<br>而存的是在哪能找到这个水</strong>，存的是引用，即变量用于引用内存中存储的对象</p>
-<h2 id="python中的一切都是“对象”（Object）"><a href="#python中的一切都是“对象”（Object）" class="headerlink" title="python中的一切都是“对象”（Object）"></a>python中的一切都是“对象”（Object）</h2><blockquote>
-<p>基本类型也是对象</p>
-</blockquote>
-<h3 id="python是动态类型的：一个变量的类型可以变，可以存数字，过一会可以存字符串"><a href="#python是动态类型的：一个变量的类型可以变，可以存数字，过一会可以存字符串" class="headerlink" title="python是动态类型的：一个变量的类型可以变，可以存数字，过一会可以存字符串"></a>python是<strong>动态类型</strong>的：<strong>一个变量的类型可以变，可以存数字，过一会可以存字符串</strong></h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12</span></span><br><span class="line">print(a)</span><br><span class="line"></span><br><span class="line">a = <span class="string">'abc'</span></span><br><span class="line">print(a)</span><br><span class="line"></span><br><span class="line">输出：<span class="number">12</span></span><br><span class="line">	  abc</span><br></pre></td></tr></table></figure>
-
-<h3 id="python的变量无需声明，在第一次赋值的时候产生"><a href="#python的变量无需声明，在第一次赋值的时候产生" class="headerlink" title="python的变量无需声明，在第一次赋值的时候产生"></a>python的变量<strong>无需声明</strong>，在第一次赋值的时候产生</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//java中：</span></span><br><span class="line"><span class="keyword">int</span> a;</span><br><span class="line">a = <span class="number">12</span>;</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#python中：</span></span><br><span class="line">a = <span class="number">12</span>   <span class="comment"># 即可</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="python是强类型的：不能随便把一个数字和字符串放到一块去"><a href="#python是强类型的：不能随便把一个数字和字符串放到一块去" class="headerlink" title="python是强类型的：不能随便把一个数字和字符串放到一块去"></a>python是<strong>强类型</strong>的：<strong>不能随便把一个数字和字符串放到一块去</strong></h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#连等</span></span><br><span class="line"> a = b = c = <span class="number">12</span></span><br><span class="line"><span class="comment">#等价于</span></span><br><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">12</span></span><br><span class="line">c = <span class="number">12</span></span><br><span class="line">	 </span><br><span class="line"><span class="comment">#再次说明：在python中，a并不保存值本身，而是引用这个值</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>ps:其他语言比如c语言，你让他保存12到一个变量a里面，这个变量里面是真的存了这个12的值</p>
-</blockquote>
-<hr>
-<h3 id="解构赋值（联合赋值）"><a href="#解构赋值（联合赋值）" class="headerlink" title="解构赋值（联合赋值）"></a>解构赋值（联合赋值）</h3><p><code>a,b,c = 12,5,8</code>—&gt;说白了，就是可以同时给很多个变量赋值<br>可以做一些好玩的事情</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">5</span></span><br><span class="line">print(a,b)</span><br><span class="line"></span><br><span class="line">b,a = a,b</span><br><span class="line">print(a,b)</span><br><span class="line"></span><br><span class="line">输出：<span class="number">12</span> <span class="number">5</span></span><br><span class="line">	  <span class="number">5</span> <span class="number">12</span></span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="python基本数据类型"><a href="#python基本数据类型" class="headerlink" title="python基本数据类型"></a>python基本数据类型</h2><table>
-<thead>
-<tr>
-<th>数据类型</th>
-<th>表示</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>数字</strong></td>
-<td>int，float</td>
-</tr>
-<tr>
-<td><strong>字符串</strong></td>
-<td>str</td>
-</tr>
-<tr>
-<td><strong>列表</strong></td>
-<td>list</td>
-</tr>
-<tr>
-<td><strong>元组</strong></td>
-<td>tuple</td>
-</tr>
-<tr>
-<td><strong>字典</strong></td>
-<td>dict</td>
-</tr>
-<tr>
-<td><strong>布尔值</strong></td>
-<td>bool</td>
-</tr>
-</tbody></table>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#接收用户输入</span></span><br><span class="line">（python是强类型的）</span><br><span class="line"></span><br><span class="line">name = input(<span class="string">'请输入你的名字：'</span>)</span><br><span class="line">print(<span class="string">'你好'</span>，+name)</span><br><span class="line"></span><br><span class="line">输出：请输入你的名字：张三（这个张三是用户输入进去的）</span><br><span class="line">      你好，张三</span><br><span class="line">	  </span><br><span class="line"><span class="comment">#ps：</span></span><br><span class="line">age = input(<span class="string">'你今年几岁'</span>)</span><br><span class="line">year = <span class="number">2018</span>-int(age)   </span><br><span class="line"><span class="comment">#加int转换类型是因为input所输入进来的一切都是字符串，所以要转换为int</span></span><br><span class="line"></span><br><span class="line">print(<span class="string">'你是'</span>+str(year)+<span class="string">'出生的'</span>)</span><br><span class="line"><span class="comment">#加str是因为year被上面转换成数字，这里'你是'是字符串，所以需要再转换</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python 基础</tag>
-        <tag>数据类型</tag>
-        <tag>变量</tag>
       </tags>
   </entry>
   <entry>
     <title>「python」- 列表</title>
-    <url>/ckcblq3ag0008n0tvbjz1h4tq/</url>
+    <url>/ckcbnncig000a7wtvdrdyfo24/</url>
     <content><![CDATA[<p>#python 学习笔记之列表<br>#列表跟字符串很像，只不过存的不是字符，可以是任何东西（甚至是另一个list）<br>—-list 非常类似于array</p>
 <p>#创建列表<br>    方法1:直接写<br>    l（这不是1，字母l） = [1,2,3,4]</p>
 <pre><code>方法2：构造器
@@ -278,7 +349,7 @@ print(l2)
   </entry>
   <entry>
     <title>「python」- 数据类型转换</title>
-    <url>/ckcblq3ai000an0tvdulnb1bt/</url>
+    <url>/ckcbnncij000e7wtvcxkd6fql/</url>
     <content><![CDATA[<h1 id="python之数据类型转换"><a href="#python之数据类型转换" class="headerlink" title="python之数据类型转换"></a>python之数据类型转换</h1><blockquote>
 <p>下面用代码来说明吧</p>
 </blockquote>
@@ -303,13 +374,81 @@ print(round(<span class="number">3.2</span>))         <span class="comment">#3  
         <category>python</category>
       </categories>
       <tags>
-        <tag>python 基础</tag>
         <tag>数据类型</tag>
+        <tag>python 基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「python」- 流程控制语句</title>
+    <url>/ckcbnncil000f7wtvaazwgf21/</url>
+    <content><![CDATA[<h1 id="python流程控制语句"><a href="#python流程控制语句" class="headerlink" title="python流程控制语句"></a>python流程控制语句</h1><blockquote>
+<p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
+</blockquote>
+<h2 id="布尔值"><a href="#布尔值" class="headerlink" title="布尔值"></a>布尔值</h2><hr>
+<h3 id="先来回顾一下关系运算符"><a href="#先来回顾一下关系运算符" class="headerlink" title="先来回顾一下关系运算符"></a>先来回顾一下关系运算符</h3><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&gt;</td>
+<td>大于</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>小于</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>大于等于</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>小于等于</td>
+</tr>
+<tr>
+<td>==</td>
+<td>相等</td>
+</tr>
+<tr>
+<td>！=</td>
+<td>不等</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>关系运算符最终得出的结果返回的就是布尔值(boolean)，而所谓的布尔值也就是<code>False</code>和<code>True</code>两个,比如说</p>
+<ul>
+<li>print(12&gt;5)                # True</li>
+<li>print(5&gt;12)                # False</li>
+<li>True 和 False 是python里面的关键字（要么是真的要么是假的）</li>
+</ul>
+</blockquote>
+<p>if 语句就是依靠布尔值来工作的</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> 布尔值:</span><br><span class="line">    为<span class="literal">True</span>时执行的语句</span><br><span class="line"><span class="keyword">else</span> 布尔值:</span><br><span class="line">    为<span class="literal">False</span>时执行的语句</span><br></pre></td></tr></table></figure>
+<p>来看一下关于if的所有内容举例代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">hungry = <span class="literal">True</span>              <span class="comment">#当我规定hungry为真的时候</span></span><br><span class="line">money = <span class="number">5</span>                  <span class="comment">#定义我现在只有五块钱</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> hungry:                <span class="comment">#当hungry为真的时候，这里开始运行</span></span><br><span class="line">    <span class="keyword">if</span> money &lt; <span class="number">5</span>:         <span class="comment">#if之后再if，if是可以嵌套的，当hungry为真，且money&lt;5的时候运行</span></span><br><span class="line">        print(<span class="string">'别吃了饿着吧'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">10</span>:      <span class="comment">#当hungry为真，且money&gt;5 同时小于10的时候运行</span></span><br><span class="line">        print(<span class="string">'吃馒头'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">20</span>:      <span class="comment">#当hungry为真，且money&gt;10 同时小于20的时候运行</span></span><br><span class="line">        print(<span class="string">'吃面'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">30</span>:      <span class="comment">#当hungry为真，且money&gt;20 同时小于30的时候运行</span></span><br><span class="line">        print(<span class="string">'吃饭'</span>)</span><br><span class="line"><span class="keyword">else</span>：                    <span class="comment">#这个else 是对齐上面的大的if的，所以这里是hungry为假的时候运行</span></span><br><span class="line">    print(<span class="string">'接着工作'</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
+<li>if语句是可以嵌套的，python中没有switch</li>
+<li>如果hungry为False就会执行下下面的”接着工作”</li>
+<li>为什么hungry为False就会执行下面的”接着工作”?if 和 else，所以再次强调python的<u>缩进很重要</u>，如果上面的else 和 最上面的if 缩进格数不一样(通俗来讲就是不对齐的话就会报错),而对于缩进的格数没有严格的规定，只要在你相同逻辑下的语句缩进相同格数就行</li>
+<li>python中if是必须的但是else不是必须的比如说<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> hungry == <span class="literal">True</span>:</span><br><span class="line">    print(<span class="string">'快去吃饭'</span>)</span><br></pre></td></tr></table></figure>
+上面如果hungry不等于True该干嘛干嘛，我可以不用管。  </li>
+</ol>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python 基础</tag>
+        <tag>流程控制语句</tag>
+        <tag>if语句</tag>
       </tags>
   </entry>
   <entry>
     <title>「python」- 字符串</title>
-    <url>/ckcblq3ap000en0tv7jbudjoq/</url>
+    <url>/ckcbnncir000j7wtvezwuag0o/</url>
     <content><![CDATA[<h1 id="python类型–字符串"><a href="#python类型–字符串" class="headerlink" title="python类型–字符串"></a>python类型–字符串</h1><blockquote>
 <ul>
 <li>python中的字符串就是一串字符</li>
@@ -485,147 +624,8 @@ print(round(<span class="number">3.2</span>))         <span class="comment">#3  
       </tags>
   </entry>
   <entry>
-    <title>「python」- 流程控制语句</title>
-    <url>/ckcblq3au000gn0tvfubphzp5/</url>
-    <content><![CDATA[<h1 id="python流程控制语句"><a href="#python流程控制语句" class="headerlink" title="python流程控制语句"></a>python流程控制语句</h1><blockquote>
-<p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
-</blockquote>
-<h2 id="布尔值"><a href="#布尔值" class="headerlink" title="布尔值"></a>布尔值</h2><hr>
-<h3 id="先来回顾一下关系运算符"><a href="#先来回顾一下关系运算符" class="headerlink" title="先来回顾一下关系运算符"></a>先来回顾一下关系运算符</h3><table>
-<thead>
-<tr>
-<th>符号</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&gt;</td>
-<td>大于</td>
-</tr>
-<tr>
-<td>&lt;</td>
-<td>小于</td>
-</tr>
-<tr>
-<td>&gt;=</td>
-<td>大于等于</td>
-</tr>
-<tr>
-<td>&lt;=</td>
-<td>小于等于</td>
-</tr>
-<tr>
-<td>==</td>
-<td>相等</td>
-</tr>
-<tr>
-<td>！=</td>
-<td>不等</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>关系运算符最终得出的结果返回的就是布尔值(boolean)，而所谓的布尔值也就是<code>False</code>和<code>True</code>两个,比如说</p>
-<ul>
-<li>print(12&gt;5)                # True</li>
-<li>print(5&gt;12)                # False</li>
-<li>True 和 False 是python里面的关键字（要么是真的要么是假的）</li>
-</ul>
-</blockquote>
-<p>if 语句就是依靠布尔值来工作的</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> 布尔值:</span><br><span class="line">    为<span class="literal">True</span>时执行的语句</span><br><span class="line"><span class="keyword">else</span> 布尔值:</span><br><span class="line">    为<span class="literal">False</span>时执行的语句</span><br></pre></td></tr></table></figure>
-<p>来看一下关于if的所有内容举例代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">hungry = <span class="literal">True</span>              <span class="comment">#当我规定hungry为真的时候</span></span><br><span class="line">money = <span class="number">5</span>                  <span class="comment">#定义我现在只有五块钱</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> hungry:                <span class="comment">#当hungry为真的时候，这里开始运行</span></span><br><span class="line">    <span class="keyword">if</span> money &lt; <span class="number">5</span>:         <span class="comment">#if之后再if，if是可以嵌套的，当hungry为真，且money&lt;5的时候运行</span></span><br><span class="line">        print(<span class="string">'别吃了饿着吧'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">10</span>:      <span class="comment">#当hungry为真，且money&gt;5 同时小于10的时候运行</span></span><br><span class="line">        print(<span class="string">'吃馒头'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">20</span>:      <span class="comment">#当hungry为真，且money&gt;10 同时小于20的时候运行</span></span><br><span class="line">        print(<span class="string">'吃面'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">30</span>:      <span class="comment">#当hungry为真，且money&gt;20 同时小于30的时候运行</span></span><br><span class="line">        print(<span class="string">'吃饭'</span>)</span><br><span class="line"><span class="keyword">else</span>：                    <span class="comment">#这个else 是对齐上面的大的if的，所以这里是hungry为假的时候运行</span></span><br><span class="line">    print(<span class="string">'接着工作'</span>)</span><br></pre></td></tr></table></figure>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
-<li>if语句是可以嵌套的，python中没有switch</li>
-<li>如果hungry为False就会执行下下面的”接着工作”</li>
-<li>为什么hungry为False就会执行下面的”接着工作”?if 和 else，所以再次强调python的<u>缩进很重要</u>，如果上面的else 和 最上面的if 缩进格数不一样(通俗来讲就是不对齐的话就会报错),而对于缩进的格数没有严格的规定，只要在你相同逻辑下的语句缩进相同格数就行</li>
-<li>python中if是必须的但是else不是必须的比如说<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> hungry == <span class="literal">True</span>:</span><br><span class="line">    print(<span class="string">'快去吃饭'</span>)</span><br></pre></td></tr></table></figure>
-上面如果hungry不等于True该干嘛干嘛，我可以不用管。  </li>
-</ol>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python 基础</tag>
-        <tag>流程控制语句</tag>
-        <tag>if语句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「python」- 字典</title>
-    <url>/ckcblq3az000ln0tv5rwk3679/</url>
-    <content><![CDATA[<h1 id="python学习笔记之字典"><a href="#python学习笔记之字典" class="headerlink" title="python学习笔记之字典"></a>python学习笔记之字典</h1><blockquote>
-<ul>
-<li>要唯一，最好是数字</li>
-<li>字典的作用：找东西啊！！！key很关键，要定好</li>
-<li>字典用于存储“键值对”，用于快速获取、添加、删除、修改某个值，类似于PHP的联合数组、Java的HashMap、JS的json</li>
-<li>And:用户名-&gt;用户资料 等等   <blockquote>
-<p>所有语言中的字典，都是基于Hash、二叉树或其他类似结构的一类无序数据结构，目的就是为了增加数据访问的速度</p>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-<h2 id="创建字典"><a href="#创建字典" class="headerlink" title="创建字典"></a>创建字典</h2><p>在Python中，有<strong>两种方式创建字典</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#方法1：直接写</span></span><br><span class="line">    d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    print(d[<span class="string">'gender'</span>])  <span class="comment">#男</span></span><br><span class="line">    print(d[<span class="string">'age'</span>])  <span class="comment">#35</span></span><br><span class="line">·</span><br><span class="line"><span class="comment">#方法2：构造器   d2 = dict([</span></span><br><span class="line">        [<span class="string">'name'</span>,<span class="string">'张三'</span>],</span><br><span class="line">        [<span class="string">'age'</span>,<span class="number">35</span>],</span><br><span class="line">        [<span class="string">'gender'</span>,<span class="string">'男'</span>]</span><br><span class="line">    ])</span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="字典的增删改查"><a href="#字典的增删改查" class="headerlink" title="字典的增删改查"></a>字典的增删改查</h2><blockquote>
-<p>直接扔就行</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">         <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">d[<span class="string">'height'</span>] = <span class="number">185</span>---增加身高为<span class="number">185</span></span><br><span class="line"><span class="keyword">del</span> d[<span class="string">'gender'</span>]---删除性别</span><br><span class="line">d[<span class="string">'age'</span>] -= <span class="number">5</span>---修改岁数减少<span class="number">5</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#循环</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> d:</span><br><span class="line">    print(item)</span><br><span class="line">    <span class="comment">#输出：  name </span></span><br><span class="line">            age</span><br><span class="line">            gender</span><br><span class="line">            <span class="comment">#!!!!循环的是key，不是value</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#要全部输出（key和value），可以进行序列的拼接</span></span><br><span class="line">print(key + <span class="string">":"</span> + str(d[key]))-----<span class="number">-35</span>是数字，要转换为字符串</span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="长度："><a href="#长度：" class="headerlink" title="长度："></a>长度：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line">print(len(d))</span><br><span class="line"><span class="comment">#输出  3-----可以理解为3个东西，3个键值对</span></span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="是否相等"><a href="#是否相等" class="headerlink" title="是否相等"></a>是否相等</h3><blockquote>
-<ul>
-<li>顺序对字典毫无意义  </li>
-<li>比较的是key，以及key后面的value是否相同</li>
-</ul>
-</blockquote>
-<hr>
-<h3 id="in操作"><a href="#in操作" class="headerlink" title="in操作"></a>in操作</h3><blockquote>
-<p>dict 的in 操作,<strong>检测的是key不是value</strong></p>
-</blockquote>
-<h2 id="字典的方法"><a href="#字典的方法" class="headerlink" title="字典的方法"></a>字典的方法</h2><table>
-<thead>
-<tr>
-<th>方法</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>clear()</td>
-<td>清空字典</td>
-</tr>
-<tr>
-<td>keys()</td>
-<td>返回所有key</td>
-</tr>
-<tr>
-<td>values()</td>
-<td>返回所有value</td>
-</tr>
-<tr>
-<td>get(key)</td>
-<td>索引，类似于[]</td>
-</tr>
-<tr>
-<td>pop(key)</td>
-<td>删除，类似于上面的del</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python 基础</tag>
-        <tag>字典</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「python」- 数字</title>
-    <url>/ckcblq659001qn0tv6s6ve1qn/</url>
+    <url>/ckcbnncit000l7wtv17yzc2ru/</url>
     <content><![CDATA[<h1 id="python中的数字"><a href="#python中的数字" class="headerlink" title="python中的数字"></a>python中的数字</h1><blockquote>
 <p>int 整数：23<br>float 浮点数、小数：15.8<br>complex 复数，：-1根号  </p>
 </blockquote>
@@ -655,7 +655,7 @@ print(round(<span class="number">3.2</span>))         <span class="comment">#3  
   </entry>
   <entry>
     <title>SQlite3 &amp; Navicat premium15 初步认识与使用</title>
-    <url>/ckcblq65x001vn0tvdhwwfpqp/</url>
+    <url>/ckcbnnciv000o7wtv1byhcox4/</url>
     <content><![CDATA[<h1 id="SQlite3安装教程与初步使用-amp-amp-navicat-premium15"><a href="#SQlite3安装教程与初步使用-amp-amp-navicat-premium15" class="headerlink" title="SQlite3安装教程与初步使用 &amp;&amp; navicat premium15"></a>SQlite3安装教程与初步使用 &amp;&amp; navicat premium15</h1><blockquote>
 <ol>
 <li>什么是sqlite？SQLite是一个小型的C程序库，实现了独立的，可嵌入的，零配置的SQL数据库引擎   </li>
