@@ -869,4 +869,49 @@ print(round(<span class="number">3.2</span>))         <span class="comment">#3  
         <tag>数据类型</tag>
       </tags>
   </entry>
+  <entry>
+    <title>“幸运之子会是谁呢”</title>
+    <url>/ckdvsfuyg0000dgtv088zhvui/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今日分享的是一个偶然在少数派上面看到的一个软件：LuckyYou，这款软件的作者是 <a href="https://github.com/jwenjian" target="_blank" rel="noopener">jwenjian</a>,我是被作者对这款软件的描述吸引的<img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/Snipaste_2020-08-15_17-23-21.jpg" alt=""><br>而对于这款软件的实际意义来说简单四个字：随机抽取（<del>废话</del>）</p>
+<ul>
+<li>班级上的点名，无论是随机点到还是随机”抽奖”</li>
+<li>幸运观众的抽取</li>
+</ul>
+<h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>在这个花名册逐渐电子化的时代，“抽奖工具”的出现似乎是必不可少了，那么这款软件最大的优势是什么呢？  <strong>强（hao）大（kan）</strong>  </p>
+<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>代码是开源的，并且是免费的。 链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>不同系统选择不同的安装包下载即可<br><strong>注</strong>：<br>|系统|安装包后缀名|<br>|-|-|<br>|Windows|.msi|<br>|Debian、 Ubuntu|.deb|<br>|Macos|.dmg|</p>
+<blockquote>
+<p>安装过程就是一键傻瓜式到底就行，路径可自行选择</p>
+</blockquote>
+<h2 id="使用步骤"><a href="#使用步骤" class="headerlink" title="使用步骤"></a>使用步骤</h2><p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37b0fe14195aa594fe21cd.jpg" alt="主界面"></p>
+<blockquote>
+<p>软件以简约风格展现，图中老虎机的设计也是本软件的主题所在：<strong>随机抽取的乐趣</strong>。</p>
+</blockquote>
+<hr>
+<h3 id="事前准备"><a href="#事前准备" class="headerlink" title="事前准备"></a>事前准备</h3><p>你要准备好抽取对象的照片和名字，照片最后会被软件裁切为正方形，毕竟本意也是个“电子花名册”，下面以抽取三个人（张三，李四，欧阳六）为例子进行展示</p>
+<h3 id="开始！"><a href="#开始！" class="headerlink" title="开始！"></a>开始！</h3><p>按下软件主界面中间的Select images(选择图片)即可进行抽取对象的选择，然后按开始便可以享受抽取的快乐<br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37bb7114195aa594013581.gif" alt=""></p>
+<h3 id="软件小tips"><a href="#软件小tips" class="headerlink" title="软件小tips"></a>软件小tips</h3><ul>
+<li>软件设计默认为英文，右上角<strong>第二个</strong>按钮可进行语言的切换，可切换到简体中文</li>
+<li>软件支持深色模式，右上角<strong>第五个</strong>按钮可实现浅色模式与深色模式的切换</li>
+<li>声音是老虎机的声音，比较有趣，右上角<strong>第一个</strong>按钮可进行声音开关操作</li>
+<li>选取的图片格式可以是：.jpg,.jpeg,.png,.gif（.ico也可以!）</li>
+<li>选取的图片不宜过大，并不是不能过大，测试过7M的照片还是可以的，至于作者所说的不宜过大应该是在抽取过程中，如果图片过大会使得图片动画过渡不自然，最终抽取效果不佳</li>
+<li>选取的照片张数作者并没有说，不过测试过50张也是没有问题的</li>
+<li>当然你也可以请作者喝杯咖啡，选择右上角<strong>第四个</strong>按钮<h3 id="第三个按钮呢？"><a href="#第三个按钮呢？" class="headerlink" title="第三个按钮呢？"></a>第三个按钮呢？</h3>软件<strong>第三个</strong>按钮为设置抽取的规则  </li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37bdfb14195aa59401d7c3.jpg" alt="">  </p>
+<p>这个规则直白点说就是：<strong>上面的例子中，张三/李四/欧阳六是否可以被重复抽中多次</strong>。然而更让我意想不到的是（<del>愚钝的我</del>）,在选择否之后，软件在抽取一个对象之后，会将此抽中对象从抽取列表中删除，然后进行列表中剩余对象的抽取，如图，我在选择否之后再次进行抽奖。  </p>
+<p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37c01914195aa594028f43.gif" alt="">  </p>
+<p>可看到被抽中的对象一个个从抽奖列表中删除，直到最后剩下张三不再进行抽奖。<br>其实不难理解，我觉得这也应该是定下这个规则之后的抽奖逻辑，当然选择否之后不从列表删除抽中对象这个逻辑也是没有问题的。</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>在写下这篇博客的时候，作者对于此应用在Windows下的适配还没有完全解决好，Windows系统安装完之后还是不能正常使用，只能通过作者提供的方法使用<a href="https://luckyyou.netlify.app/" target="_blank" rel="noopener">PWA应用</a>。我也算是和这位作者有点缘份，作者在少数派发表文章之后我就发现了问题并求教作者，给作者提供Windows下LuckyYou不能运行的具体问题，在交流之中可以看出是一位比较负责的作者了。最后希望Windows系统下的LuckyYou可以尽快修复bug，毕竟这软件真不错，无论是界面、UI还是主要功能，当然也希望作者可以加入更多额外功能，比如某网友说的从 Excel 导入学号姓名作为“抽奖”的另一种方法，也可以制定更多抽奖的规则。<br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d39c14195aa5940802cd.jpg" alt="作者说明"><br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d65514195aa59408b21b.jpg" alt="讨论过程"><br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d65514195aa59408b21d.jpg" alt="讨论过程"></p>
+]]></content>
+      <categories>
+        <category>一些软件</category>
+      </categories>
+      <tags>
+        <tag>VUE</tag>
+        <tag>抽奖</tag>
+        <tag>LuckyYouu=</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
 </search>
