@@ -878,7 +878,27 @@ print(round(<span class="number">3.2</span>))         <span class="comment">#3  
 <li>幸运观众的抽取</li>
 </ul>
 <h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>在这个花名册逐渐电子化的时代，“抽奖工具”的出现似乎是必不可少了，那么这款软件最大的优势是什么呢？  <strong>强（hao）大（kan）</strong>  </p>
-<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>代码是开源的，并且是免费的。 链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>不同系统选择不同的安装包下载即可<br><strong>注</strong>：<br>|系统|安装包后缀名|<br>|-|-|<br>|Windows|.msi|<br>|Debian、 Ubuntu|.deb|<br>|Macos|.dmg|</p>
+<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>代码是开源的，并且是免费的。 链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>不同系统选择不同的安装包下载即可<br><strong>注</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>系统说明</th>
+<th>安装包后缀名</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Windows</td>
+<td>.msi</td>
+</tr>
+<tr>
+<td>Ubuntu</td>
+<td>.deb</td>
+</tr>
+<tr>
+<td>Macos</td>
+<td>.dmg</td>
+</tr>
+</tbody></table>
 <blockquote>
 <p>安装过程就是一键傻瓜式到底就行，路径可自行选择</p>
 </blockquote>
