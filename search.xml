@@ -1,8 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>“幸运之子会是谁呢”</title>
+    <url>/ckdvub2kx0000ugtv2j1i6axp/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今日分享的是一个偶然在少数派上面看到的一个软件：LuckyYou，这款软件的作者是 <a href="https://github.com/jwenjian" target="_blank" rel="noopener">jwenjian</a>,我是被作者对这款软件的描述吸引的<img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/Snipaste_2020-08-15_17-23-21.jpg" alt=""><br>而对于这款软件的实际意义来说简单四个字：随机抽取（<del>废话</del>）</p>
+<ul>
+<li>班级上的点名，无论是随机点到还是随机”抽奖”</li>
+<li>幸运观众的抽取</li>
+</ul>
+<h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>在这个花名册逐渐电子化的时代，“抽奖工具”的出现似乎是必不可少了，那么这款软件最大的优势是什么呢？  <strong>强（hao）大（kan）</strong>  </p>
+<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>代码是开源的，并且是免费的。 链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>不同系统选择不同的安装包下载即可<br><strong>注</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>系统说明</th>
+<th>安装包后缀名</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Windows</td>
+<td>.msi</td>
+</tr>
+<tr>
+<td>Ubuntu</td>
+<td>.deb</td>
+</tr>
+<tr>
+<td>Macos</td>
+<td>.dmg</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>安装过程就是一键傻瓜式到底就行，路径可自行选择</p>
+</blockquote>
+<h2 id="使用步骤"><a href="#使用步骤" class="headerlink" title="使用步骤"></a>使用步骤</h2><p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37b0fe14195aa594fe21cd.jpg" alt="主界面"></p>
+<blockquote>
+<p>软件以简约风格展现，图中老虎机的设计也是本软件的主题所在：<strong>随机抽取的乐趣</strong>。</p>
+</blockquote>
+<hr>
+<h3 id="事前准备"><a href="#事前准备" class="headerlink" title="事前准备"></a>事前准备</h3><p>你要准备好抽取对象的照片和名字，照片最后会被软件裁切为正方形，毕竟本意也是个“电子花名册”，下面以抽取三个人（张三，李四，欧阳六）为例子进行展示</p>
+<h3 id="开始！"><a href="#开始！" class="headerlink" title="开始！"></a>开始！</h3><p>按下软件主界面中间的Select images(选择图片)即可进行抽取对象的选择，然后按开始便可以享受抽取的快乐<br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37bb7114195aa594013581.gif" alt=""></p>
+<h3 id="软件小tips"><a href="#软件小tips" class="headerlink" title="软件小tips"></a>软件小tips</h3><ul>
+<li>软件设计默认为英文，右上角<strong>第二个</strong>按钮可进行语言的切换，可切换到简体中文</li>
+<li>软件支持深色模式，右上角<strong>第五个</strong>按钮可实现浅色模式与深色模式的切换</li>
+<li>声音是老虎机的声音，比较有趣，右上角<strong>第一个</strong>按钮可进行声音开关操作</li>
+<li>选取的图片格式可以是：.jpg,.jpeg,.png,.gif（.ico也可以!）</li>
+<li>选取的图片不宜过大，并不是不能过大，测试过7M的照片还是可以的，至于作者所说的不宜过大应该是在抽取过程中，如果图片过大会使得图片动画过渡不自然，最终抽取效果不佳</li>
+<li>选取的照片张数作者并没有说，不过测试过50张也是没有问题的</li>
+<li>当然你也可以请作者喝杯咖啡，选择右上角<strong>第四个</strong>按钮<h3 id="第三个按钮呢？"><a href="#第三个按钮呢？" class="headerlink" title="第三个按钮呢？"></a>第三个按钮呢？</h3>软件<strong>第三个</strong>按钮为设置抽取的规则  </li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37bdfb14195aa59401d7c3.jpg" alt="">  </p>
+<p>这个规则直白点说就是：<strong>上面的例子中，张三/李四/欧阳六是否可以被重复抽中多次</strong>。然而更让我意想不到的是（<del>愚钝的我</del>）,在选择否之后，软件在抽取一个对象之后，会将此抽中对象从抽取列表中删除，然后进行列表中剩余对象的抽取，如图，我在选择否之后再次进行抽奖。  </p>
+<p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37c01914195aa594028f43.gif" alt="">  </p>
+<p>可看到被抽中的对象一个个从抽奖列表中删除，直到最后剩下张三不再进行抽奖。<br>其实不难理解，我觉得这也应该是定下这个规则之后的抽奖逻辑，当然选择否之后不从列表删除抽中对象这个逻辑也是没有问题的。</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>在写下这篇博客的时候，作者对于此应用在Windows下的适配还没有完全解决好，Windows系统安装完之后还是不能正常使用，只能通过作者提供的方法使用<a href="https://luckyyou.netlify.app/" target="_blank" rel="noopener">PWA应用</a>。我也算是和这位作者有点缘份，作者在少数派发表文章之后我就发现了问题并求教作者，给作者提供Windows下LuckyYou不能运行的具体问题，在交流之中可以看出是一位比较负责的作者了。最后希望Windows系统下的LuckyYou可以尽快修复bug，毕竟这软件真不错，无论是界面、UI还是主要功能，当然也希望作者可以加入更多额外功能，比如某网友说的从 Excel 导入学号姓名作为“抽奖”的另一种方法，也可以制定更多抽奖的规则。<br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d39c14195aa5940802cd.jpg" alt="作者说明"><br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d65514195aa59408b21b.jpg" alt="讨论过程"><br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d65514195aa59408b21d.jpg" alt="讨论过程"></p>
+]]></content>
+      <categories>
+        <category>一些软件</category>
+      </categories>
+      <tags>
+        <tag>VUE</tag>
+        <tag>抽奖</tag>
+        <tag>LuckyYou</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「python」- 元组(tuple)</title>
+    <url>/ckdvub2l40001ugtvf5w4axzq/</url>
+    <content><![CDATA[<h1 id="python之–元组-tuple"><a href="#python之–元组-tuple" class="headerlink" title="python之–元组(tuple)"></a>python之–元组(tuple)</h1><blockquote>
+<p>元组其实和list几乎一模一样，只是<u>不能修改</u>  </p>
+</blockquote>
+<h2 id="创建元组"><a href="#创建元组" class="headerlink" title="创建元组"></a>创建元组</h2><ol>
+<li>方法1：常用<br> <code>tuple1 = (1,2,3)</code><blockquote>
+<p>ps:这里想回忆一下：  </p>
+</blockquote>
+<ul>
+<li>元组是  <code>()</code></li>
+<li>列表是  <code>[]</code></li>
+<li>字典是 <code>{}</code></li>
+</ul>
+</li>
+<li>方法2：构造器<br>t = tuple((1,2,3))</li>
+</ol>
+<hr>
+<h2 id="元组操作，和list共享所有操作，除了修改的操作！！"><a href="#元组操作，和list共享所有操作，除了修改的操作！！" class="headerlink" title="元组操作，和list共享所有操作，除了修改的操作！！"></a>元组操作，和list共享所有操作，除了修改的操作！！</h2><blockquote>
+<p>下面通过代码来说明</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)  <span class="comment">#定义一个元组</span></span><br><span class="line"></span><br><span class="line">print(t)                      <span class="comment">#(1,2,3) √</span></span><br><span class="line">print(t[<span class="number">0</span>])                   <span class="comment">#1 √</span></span><br><span class="line">t[<span class="number">0</span>] = <span class="number">12</span>                     <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line"><span class="keyword">del</span> t[<span class="number">0</span>]                      <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.append(<span class="number">8</span>)                   <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.pop()                       <span class="comment">#报错 ×---！说了不能修改！</span></span><br></pre></td></tr></table></figure>
+<p>综上，增删改通通都别想，只能查。</p>
+<blockquote>
+<p>列举一下查的操作</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> t:</span><br><span class="line">    print(i)</span><br><span class="line">    <span class="comment"># 1</span></span><br><span class="line">      <span class="number">2</span></span><br><span class="line">      <span class="number">3</span></span><br><span class="line">      4 ----&gt;没有增删改，循环输出而已</span><br><span class="line"></span><br><span class="line">其他包括截取索引，<span class="keyword">in</span>和<span class="keyword">not</span> <span class="keyword">in</span> ，min，max，len，sum都可以</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><blockquote>
+<ol>
+<li><code>元组(tuple)</code>通俗来理解可以为 一个 受到保护的<code>列表(list)</code></li>
+<li>元组的意义在哪？比如说 当一些东西长期以来不变的时候就应该用<code>tuple</code>，比如说中国的省份，不是说以后一定不会变化，只是在一定或较长时间内不会发生变化，那么用<code>tuple</code>更加合适。而放在编写项目的时候，在多人协作的一个项目之中，你确定有些部分的内容确实不用改，你可以写成一个<code>tuple</code>,就能防止有人不小心修改了<code>tuple</code>里面的内容，万一将来真的有变化，那就直接从定义那里改，与其说是没意义，还不如说是一个谨慎的列表。</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>元组</tag>
+        <tag>python 基础</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>「python」- 函数</title>
-    <url>/ckcha0umi0000w8tvgos06j0w/</url>
+    <url>/ckdvub2l90004ugtv4nzw1303/</url>
     <content><![CDATA[<h1 id="python之函数"><a href="#python之函数" class="headerlink" title="python之函数"></a>python之函数</h1><blockquote>
 <p>什么是函数？函数是一段可常用的代码，为了日后可以经常性的去调用。python自身有很多内置函数，比如说input,print,我们也可以自己去定义函数</p>
 </blockquote>
@@ -87,13 +196,13 @@
         <category>python</category>
       </categories>
       <tags>
-        <tag>函数</tag>
         <tag>python 基础</tag>
+        <tag>函数</tag>
       </tags>
   </entry>
   <entry>
     <title>「python」- 列表</title>
-    <url>/ckcha0umr0001w8tv4sgu90go/</url>
+    <url>/ckdvub2lb0005ugtv3udidvfb/</url>
     <content><![CDATA[<p>#python 学习笔记之列表<br>#列表跟字符串很像，只不过存的不是字符，可以是任何东西（甚至是另一个list）<br>—-list 非常类似于array</p>
 <p>#创建列表<br>    方法1:直接写<br>    l（这不是1，字母l） = [1,2,3,4]</p>
 <pre><code>方法2：构造器
@@ -168,7 +277,7 @@ print(l2)
   </entry>
   <entry>
     <title>「python」- 数据类型和变量</title>
-    <url>/ckcha0umx0004w8tvbcrtgwna/</url>
+    <url>/ckdvub2le0006ugtv6tm24slq/</url>
     <content><![CDATA[<h1 id="python入门-数据类型和变量"><a href="#python入门-数据类型和变量" class="headerlink" title="python入门-数据类型和变量"></a>python入门-数据类型和变量</h1><blockquote>
 <p>什么是变量？变量是用来存东西的。</p>
 </blockquote>
@@ -233,191 +342,8 @@ print(l2)
       </tags>
   </entry>
   <entry>
-    <title>「python」- 字典</title>
-    <url>/ckcha0un00005w8tv656o7szt/</url>
-    <content><![CDATA[<h1 id="python学习笔记之字典"><a href="#python学习笔记之字典" class="headerlink" title="python学习笔记之字典"></a>python学习笔记之字典</h1><blockquote>
-<ul>
-<li>要唯一，最好是数字</li>
-<li>字典的作用：找东西啊！！！key很关键，要定好</li>
-<li>字典用于存储“键值对”，用于快速获取、添加、删除、修改某个值，类似于PHP的联合数组、Java的HashMap、JS的json</li>
-<li>And:用户名-&gt;用户资料 等等   <blockquote>
-<p>所有语言中的字典，都是基于Hash、二叉树或其他类似结构的一类无序数据结构，目的就是为了增加数据访问的速度</p>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-<h2 id="创建字典"><a href="#创建字典" class="headerlink" title="创建字典"></a>创建字典</h2><p>在Python中，有<strong>两种方式创建字典</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#方法1：直接写</span></span><br><span class="line">    d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    print(d[<span class="string">'gender'</span>])  <span class="comment">#男</span></span><br><span class="line">    print(d[<span class="string">'age'</span>])  <span class="comment">#35</span></span><br><span class="line">·</span><br><span class="line"><span class="comment">#方法2：构造器   d2 = dict([</span></span><br><span class="line">        [<span class="string">'name'</span>,<span class="string">'张三'</span>],</span><br><span class="line">        [<span class="string">'age'</span>,<span class="number">35</span>],</span><br><span class="line">        [<span class="string">'gender'</span>,<span class="string">'男'</span>]</span><br><span class="line">    ])</span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="字典的增删改查"><a href="#字典的增删改查" class="headerlink" title="字典的增删改查"></a>字典的增删改查</h2><blockquote>
-<p>直接扔就行</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">         <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">d[<span class="string">'height'</span>] = <span class="number">185</span>---增加身高为<span class="number">185</span></span><br><span class="line"><span class="keyword">del</span> d[<span class="string">'gender'</span>]---删除性别</span><br><span class="line">d[<span class="string">'age'</span>] -= <span class="number">5</span>---修改岁数减少<span class="number">5</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#循环</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> d:</span><br><span class="line">    print(item)</span><br><span class="line">    <span class="comment">#输出：  name </span></span><br><span class="line">            age</span><br><span class="line">            gender</span><br><span class="line">            <span class="comment">#!!!!循环的是key，不是value</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#要全部输出（key和value），可以进行序列的拼接</span></span><br><span class="line">print(key + <span class="string">":"</span> + str(d[key]))-----<span class="number">-35</span>是数字，要转换为字符串</span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="长度："><a href="#长度：" class="headerlink" title="长度："></a>长度：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line">print(len(d))</span><br><span class="line"><span class="comment">#输出  3-----可以理解为3个东西，3个键值对</span></span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="是否相等"><a href="#是否相等" class="headerlink" title="是否相等"></a>是否相等</h3><blockquote>
-<ul>
-<li>顺序对字典毫无意义  </li>
-<li>比较的是key，以及key后面的value是否相同</li>
-</ul>
-</blockquote>
-<hr>
-<h3 id="in操作"><a href="#in操作" class="headerlink" title="in操作"></a>in操作</h3><blockquote>
-<p>dict 的in 操作,<strong>检测的是key不是value</strong></p>
-</blockquote>
-<h2 id="字典的方法"><a href="#字典的方法" class="headerlink" title="字典的方法"></a>字典的方法</h2><table>
-<thead>
-<tr>
-<th>方法</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>clear()</td>
-<td>清空字典</td>
-</tr>
-<tr>
-<td>keys()</td>
-<td>返回所有key</td>
-</tr>
-<tr>
-<td>values()</td>
-<td>返回所有value</td>
-</tr>
-<tr>
-<td>get(key)</td>
-<td>索引，类似于[]</td>
-</tr>
-<tr>
-<td>pop(key)</td>
-<td>删除，类似于上面的del</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python 基础</tag>
-        <tag>字典</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「python」- 流程控制语句</title>
-    <url>/ckcha0un20006w8tvf6nler8g/</url>
-    <content><![CDATA[<h1 id="python流程控制语句"><a href="#python流程控制语句" class="headerlink" title="python流程控制语句"></a>python流程控制语句</h1><blockquote>
-<p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
-</blockquote>
-<h2 id="布尔值"><a href="#布尔值" class="headerlink" title="布尔值"></a>布尔值</h2><hr>
-<h3 id="先来回顾一下关系运算符"><a href="#先来回顾一下关系运算符" class="headerlink" title="先来回顾一下关系运算符"></a>先来回顾一下关系运算符</h3><table>
-<thead>
-<tr>
-<th>符号</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&gt;</td>
-<td>大于</td>
-</tr>
-<tr>
-<td>&lt;</td>
-<td>小于</td>
-</tr>
-<tr>
-<td>&gt;=</td>
-<td>大于等于</td>
-</tr>
-<tr>
-<td>&lt;=</td>
-<td>小于等于</td>
-</tr>
-<tr>
-<td>==</td>
-<td>相等</td>
-</tr>
-<tr>
-<td>！=</td>
-<td>不等</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>关系运算符最终得出的结果返回的就是布尔值(boolean)，而所谓的布尔值也就是<code>False</code>和<code>True</code>两个,比如说</p>
-<ul>
-<li>print(12&gt;5)                # True</li>
-<li>print(5&gt;12)                # False</li>
-<li>True 和 False 是python里面的关键字（要么是真的要么是假的）</li>
-</ul>
-</blockquote>
-<p>if 语句就是依靠布尔值来工作的</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> 布尔值:</span><br><span class="line">    为<span class="literal">True</span>时执行的语句</span><br><span class="line"><span class="keyword">else</span> 布尔值:</span><br><span class="line">    为<span class="literal">False</span>时执行的语句</span><br></pre></td></tr></table></figure>
-<p>来看一下关于if的所有内容举例代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">hungry = <span class="literal">True</span>              <span class="comment">#当我规定hungry为真的时候</span></span><br><span class="line">money = <span class="number">5</span>                  <span class="comment">#定义我现在只有五块钱</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> hungry:                <span class="comment">#当hungry为真的时候，这里开始运行</span></span><br><span class="line">    <span class="keyword">if</span> money &lt; <span class="number">5</span>:         <span class="comment">#if之后再if，if是可以嵌套的，当hungry为真，且money&lt;5的时候运行</span></span><br><span class="line">        print(<span class="string">'别吃了饿着吧'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">10</span>:      <span class="comment">#当hungry为真，且money&gt;5 同时小于10的时候运行</span></span><br><span class="line">        print(<span class="string">'吃馒头'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">20</span>:      <span class="comment">#当hungry为真，且money&gt;10 同时小于20的时候运行</span></span><br><span class="line">        print(<span class="string">'吃面'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">30</span>:      <span class="comment">#当hungry为真，且money&gt;20 同时小于30的时候运行</span></span><br><span class="line">        print(<span class="string">'吃饭'</span>)</span><br><span class="line"><span class="keyword">else</span>：                    <span class="comment">#这个else 是对齐上面的大的if的，所以这里是hungry为假的时候运行</span></span><br><span class="line">    print(<span class="string">'接着工作'</span>)</span><br></pre></td></tr></table></figure>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
-<li>if语句是可以嵌套的，python中没有switch</li>
-<li>如果hungry为False就会执行下下面的”接着工作”</li>
-<li>为什么hungry为False就会执行下面的”接着工作”?if 和 else，所以再次强调python的<u>缩进很重要</u>，如果上面的else 和 最上面的if 缩进格数不一样(通俗来讲就是不对齐的话就会报错),而对于缩进的格数没有严格的规定，只要在你相同逻辑下的语句缩进相同格数就行</li>
-<li>python中if是必须的但是else不是必须的比如说<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> hungry == <span class="literal">True</span>:</span><br><span class="line">    print(<span class="string">'快去吃饭'</span>)</span><br></pre></td></tr></table></figure>
-上面如果hungry不等于True该干嘛干嘛，我可以不用管。  </li>
-</ol>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python 基础</tag>
-        <tag>流程控制语句</tag>
-        <tag>if语句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「python」- 元组(tuple)</title>
-    <url>/ckcha0wzu0013w8tv22vkb5ca/</url>
-    <content><![CDATA[<h1 id="python之–元组-tuple"><a href="#python之–元组-tuple" class="headerlink" title="python之–元组(tuple)"></a>python之–元组(tuple)</h1><blockquote>
-<p>元组其实和list几乎一模一样，只是<u>不能修改</u>  </p>
-</blockquote>
-<h2 id="创建元组"><a href="#创建元组" class="headerlink" title="创建元组"></a>创建元组</h2><ol>
-<li>方法1：常用<br> <code>tuple1 = (1,2,3)</code><blockquote>
-<p>ps:这里想回忆一下：  </p>
-</blockquote>
-<ul>
-<li>元组是  <code>()</code></li>
-<li>列表是  <code>[]</code></li>
-<li>字典是 <code>{}</code></li>
-</ul>
-</li>
-<li>方法2：构造器<br>t = tuple((1,2,3))</li>
-</ol>
-<hr>
-<h2 id="元组操作，和list共享所有操作，除了修改的操作！！"><a href="#元组操作，和list共享所有操作，除了修改的操作！！" class="headerlink" title="元组操作，和list共享所有操作，除了修改的操作！！"></a>元组操作，和list共享所有操作，除了修改的操作！！</h2><blockquote>
-<p>下面通过代码来说明</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)  <span class="comment">#定义一个元组</span></span><br><span class="line"></span><br><span class="line">print(t)                      <span class="comment">#(1,2,3) √</span></span><br><span class="line">print(t[<span class="number">0</span>])                   <span class="comment">#1 √</span></span><br><span class="line">t[<span class="number">0</span>] = <span class="number">12</span>                     <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line"><span class="keyword">del</span> t[<span class="number">0</span>]                      <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.append(<span class="number">8</span>)                   <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.pop()                       <span class="comment">#报错 ×---！说了不能修改！</span></span><br></pre></td></tr></table></figure>
-<p>综上，增删改通通都别想，只能查。</p>
-<blockquote>
-<p>列举一下查的操作</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> t:</span><br><span class="line">    print(i)</span><br><span class="line">    <span class="comment"># 1</span></span><br><span class="line">      <span class="number">2</span></span><br><span class="line">      <span class="number">3</span></span><br><span class="line">      4 ----&gt;没有增删改，循环输出而已</span><br><span class="line"></span><br><span class="line">其他包括截取索引，<span class="keyword">in</span>和<span class="keyword">not</span> <span class="keyword">in</span> ，min，max，len，sum都可以</span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><blockquote>
-<ol>
-<li><code>元组(tuple)</code>通俗来理解可以为 一个 受到保护的<code>列表(list)</code></li>
-<li>元组的意义在哪？比如说 当一些东西长期以来不变的时候就应该用<code>tuple</code>，比如说中国的省份，不是说以后一定不会变化，只是在一定或较长时间内不会发生变化，那么用<code>tuple</code>更加合适。而放在编写项目的时候，在多人协作的一个项目之中，你确定有些部分的内容确实不用改，你可以写成一个<code>tuple</code>,就能防止有人不小心修改了<code>tuple</code>里面的内容，万一将来真的有变化，那就直接从定义那里改，与其说是没意义，还不如说是一个谨慎的列表。</li>
-</ol>
-</blockquote>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python 基础</tag>
-        <tag>元组</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「python」- 字符串</title>
-    <url>/ckcha0wzw0015w8tvdby0cld1/</url>
+    <url>/ckdvub2lh0009ugtv7w5v2chf/</url>
     <content><![CDATA[<h1 id="python类型–字符串"><a href="#python类型–字符串" class="headerlink" title="python类型–字符串"></a>python类型–字符串</h1><blockquote>
 <ul>
 <li>python中的字符串就是一串字符</li>
@@ -593,38 +519,147 @@ print(l2)
       </tags>
   </entry>
   <entry>
-    <title>「python」- 数字</title>
-    <url>/ckcha0wzz0018w8tvchc533u7/</url>
-    <content><![CDATA[<h1 id="python中的数字"><a href="#python中的数字" class="headerlink" title="python中的数字"></a>python中的数字</h1><blockquote>
-<p>int 整数：23<br>float 浮点数、小数：15.8<br>complex 复数，：-1根号  </p>
+    <title>「python」- 流程控制语句</title>
+    <url>/ckdvub2lk000augtv5ezw2m3o/</url>
+    <content><![CDATA[<h1 id="python流程控制语句"><a href="#python流程控制语句" class="headerlink" title="python流程控制语句"></a>python流程控制语句</h1><blockquote>
+<p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
 </blockquote>
-<hr>
-<h1 id="三种类型："><a href="#三种类型：" class="headerlink" title="三种类型："></a>三种类型：</h1><h2 id="整数：所有的整数都属于int-类"><a href="#整数：所有的整数都属于int-类" class="headerlink" title="整数：所有的整数都属于int 类"></a><strong>整数</strong>：所有的整数都属于int 类</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="number">12</span></span><br><span class="line">print(type(a))</span><br><span class="line"></span><br><span class="line">输出 &lt;<span class="class"><span class="keyword">class</span> '<span class="title">int</span>'&gt;</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">#<span class="title">python3</span>里面没有<span class="title">long</span>，也用不着<span class="title">long</span></span></span><br><span class="line"><span class="class">//<span class="title">c</span>语言中</span></span><br><span class="line"><span class="class"><span class="title">int</span> <span class="title">a</span> ---32位整数</span></span><br><span class="line"><span class="class"><span class="title">long</span> <span class="title">b</span> ---64位整数</span></span><br><span class="line"><span class="class"><span class="title">long</span> <span class="title">long</span> <span class="title">c</span> ---128位整数</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">#<span class="title">python</span>的整数可以非常大</span></span><br><span class="line">a = 999999999999999999999999999999</span><br><span class="line">print(a)</span><br><span class="line">输出：<span class="number">999999999999999999999999999999</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="浮点数：所有浮点数都属于float类"><a href="#浮点数：所有浮点数都属于float类" class="headerlink" title="浮点数：所有浮点数都属于float类"></a><strong>浮点数</strong>：所有浮点数都属于float类</h2><blockquote>
-<p>（带了小数点都属于浮点数）</p>
+<h2 id="布尔值"><a href="#布尔值" class="headerlink" title="布尔值"></a>布尔值</h2><hr>
+<h3 id="先来回顾一下关系运算符"><a href="#先来回顾一下关系运算符" class="headerlink" title="先来回顾一下关系运算符"></a>先来回顾一下关系运算符</h3><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&gt;</td>
+<td>大于</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>小于</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>大于等于</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>小于等于</td>
+</tr>
+<tr>
+<td>==</td>
+<td>相等</td>
+</tr>
+<tr>
+<td>！=</td>
+<td>不等</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>关系运算符最终得出的结果返回的就是布尔值(boolean)，而所谓的布尔值也就是<code>False</code>和<code>True</code>两个,比如说</p>
+<ul>
+<li>print(12&gt;5)                # True</li>
+<li>print(5&gt;12)                # False</li>
+<li>True 和 False 是python里面的关键字（要么是真的要么是假的）</li>
+</ul>
 </blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12.5</span></span><br><span class="line">print(type(a))</span><br><span class="line">输出&lt;<span class="class"><span class="keyword">class</span>'<span class="title">float</span>'&gt;</span></span><br><span class="line"><span class="class">#<span class="title">python</span>中没有<span class="title">double</span>，也用不着<span class="title">double</span></span></span><br><span class="line"><span class="class">//<span class="title">c</span>语言中</span></span><br><span class="line"><span class="class"><span class="title">float</span> <span class="title">a</span>:</span> -<span class="number">-32</span>位浮点数--小数点后<span class="number">8</span>位</span><br><span class="line">double b;-<span class="number">-128</span>位浮点数--小数点后<span class="number">10</span>^<span class="number">308</span>位</span><br></pre></td></tr></table></figure>
-
-<h2 id="复数：复数都是complex类"><a href="#复数：复数都是complex类" class="headerlink" title="复数：复数都是complex类"></a><strong>复数</strong>：复数都是complex类</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">15</span>+<span class="number">3j</span></span><br><span class="line">b = <span class="number">8</span><span class="number">-2j</span></span><br><span class="line"></span><br><span class="line">print(a+b)</span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="类型检测"><a href="#类型检测" class="headerlink" title="类型检测"></a>类型检测</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#type(x)可以用来检测类型</span></span><br><span class="line">type(<span class="number">120</span>)  <span class="comment">#int</span></span><br><span class="line">type(<span class="number">5.0</span>)  <span class="comment">#float</span></span><br><span class="line">type(<span class="number">12</span>+<span class="number">0j</span>) <span class="comment">#complex</span></span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="Python运算符"><a href="#Python运算符" class="headerlink" title="Python运算符"></a>Python运算符</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#基本运算符（+-*/）和其他语言都一样，但也有些不一样的</span></span><br><span class="line"><span class="comment">#正常除法</span></span><br><span class="line"><span class="number">16</span>/<span class="number">5</span>   <span class="comment">#3.2</span></span><br><span class="line"><span class="number">16</span>%<span class="number">5</span>   <span class="comment">#1--余数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#整除</span></span><br><span class="line"><span class="number">16</span>//<span class="number">5</span>  <span class="comment">#3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#幂操作</span></span><br><span class="line">print(<span class="number">3</span>**<span class="number">100</span>)  两个*代表多少次方</span><br><span class="line">--&gt;转个思路--&gt;print(9**0.5)   9的二分之一次方就是开根号</span><br><span class="line"></span><br><span class="line"><span class="comment">#扩展赋值</span></span><br><span class="line">a = <span class="number">15</span></span><br><span class="line">a = a + <span class="number">5</span>-------等价于 a += <span class="number">5</span></span><br><span class="line">print(a)</span><br><span class="line">输出： <span class="number">20</span></span><br><span class="line"></span><br><span class="line">-----python没有++ -- 操作</span><br><span class="line">i++  ==&gt;  i+=1</span><br><span class="line">i--  ==&gt;  i-=1</span><br><span class="line"><span class="comment">#python没有自增、自减操作，也不需要</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#运算符优先级</span></span><br><span class="line"><span class="number">12</span>+<span class="number">6</span>/<span class="number">2</span>  <span class="comment">#15</span></span><br><span class="line">(<span class="number">12</span>+<span class="number">6</span>)/<span class="number">2</span>  <span class="comment">#9</span></span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="优先级表："><a href="#优先级表：" class="headerlink" title="优先级表："></a>优先级表：</h2><p><strong>括号&gt;函数&gt;列表/属性&gt;数值运算&gt;逻辑运算&gt;赋值</strong></p>
+<p>if 语句就是依靠布尔值来工作的</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> 布尔值:</span><br><span class="line">    为<span class="literal">True</span>时执行的语句</span><br><span class="line"><span class="keyword">else</span> 布尔值:</span><br><span class="line">    为<span class="literal">False</span>时执行的语句</span><br></pre></td></tr></table></figure>
+<p>来看一下关于if的所有内容举例代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">hungry = <span class="literal">True</span>              <span class="comment">#当我规定hungry为真的时候</span></span><br><span class="line">money = <span class="number">5</span>                  <span class="comment">#定义我现在只有五块钱</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> hungry:                <span class="comment">#当hungry为真的时候，这里开始运行</span></span><br><span class="line">    <span class="keyword">if</span> money &lt; <span class="number">5</span>:         <span class="comment">#if之后再if，if是可以嵌套的，当hungry为真，且money&lt;5的时候运行</span></span><br><span class="line">        print(<span class="string">'别吃了饿着吧'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">10</span>:      <span class="comment">#当hungry为真，且money&gt;5 同时小于10的时候运行</span></span><br><span class="line">        print(<span class="string">'吃馒头'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">20</span>:      <span class="comment">#当hungry为真，且money&gt;10 同时小于20的时候运行</span></span><br><span class="line">        print(<span class="string">'吃面'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">30</span>:      <span class="comment">#当hungry为真，且money&gt;20 同时小于30的时候运行</span></span><br><span class="line">        print(<span class="string">'吃饭'</span>)</span><br><span class="line"><span class="keyword">else</span>：                    <span class="comment">#这个else 是对齐上面的大的if的，所以这里是hungry为假的时候运行</span></span><br><span class="line">    print(<span class="string">'接着工作'</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
+<li>if语句是可以嵌套的，python中没有switch</li>
+<li>如果hungry为False就会执行下下面的”接着工作”</li>
+<li>为什么hungry为False就会执行下面的”接着工作”?if 和 else，所以再次强调python的<u>缩进很重要</u>，如果上面的else 和 最上面的if 缩进格数不一样(通俗来讲就是不对齐的话就会报错),而对于缩进的格数没有严格的规定，只要在你相同逻辑下的语句缩进相同格数就行</li>
+<li>python中if是必须的但是else不是必须的比如说<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> hungry == <span class="literal">True</span>:</span><br><span class="line">    print(<span class="string">'快去吃饭'</span>)</span><br></pre></td></tr></table></figure>
+上面如果hungry不等于True该干嘛干嘛，我可以不用管。  </li>
+</ol>
 ]]></content>
       <categories>
         <category>python</category>
       </categories>
       <tags>
         <tag>python 基础</tag>
-        <tag>数字</tag>
+        <tag>流程控制语句</tag>
+        <tag>if语句</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「python」- 字典</title>
+    <url>/ckdvub2mh001lugtv17wi9lqb/</url>
+    <content><![CDATA[<h1 id="python学习笔记之字典"><a href="#python学习笔记之字典" class="headerlink" title="python学习笔记之字典"></a>python学习笔记之字典</h1><blockquote>
+<ul>
+<li>要唯一，最好是数字</li>
+<li>字典的作用：找东西啊！！！key很关键，要定好</li>
+<li>字典用于存储“键值对”，用于快速获取、添加、删除、修改某个值，类似于PHP的联合数组、Java的HashMap、JS的json</li>
+<li>And:用户名-&gt;用户资料 等等   <blockquote>
+<p>所有语言中的字典，都是基于Hash、二叉树或其他类似结构的一类无序数据结构，目的就是为了增加数据访问的速度</p>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<h2 id="创建字典"><a href="#创建字典" class="headerlink" title="创建字典"></a>创建字典</h2><p>在Python中，有<strong>两种方式创建字典</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#方法1：直接写</span></span><br><span class="line">    d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    print(d[<span class="string">'gender'</span>])  <span class="comment">#男</span></span><br><span class="line">    print(d[<span class="string">'age'</span>])  <span class="comment">#35</span></span><br><span class="line">·</span><br><span class="line"><span class="comment">#方法2：构造器   d2 = dict([</span></span><br><span class="line">        [<span class="string">'name'</span>,<span class="string">'张三'</span>],</span><br><span class="line">        [<span class="string">'age'</span>,<span class="number">35</span>],</span><br><span class="line">        [<span class="string">'gender'</span>,<span class="string">'男'</span>]</span><br><span class="line">    ])</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="字典的增删改查"><a href="#字典的增删改查" class="headerlink" title="字典的增删改查"></a>字典的增删改查</h2><blockquote>
+<p>直接扔就行</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">         <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">d[<span class="string">'height'</span>] = <span class="number">185</span>---增加身高为<span class="number">185</span></span><br><span class="line"><span class="keyword">del</span> d[<span class="string">'gender'</span>]---删除性别</span><br><span class="line">d[<span class="string">'age'</span>] -= <span class="number">5</span>---修改岁数减少<span class="number">5</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#循环</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> d:</span><br><span class="line">    print(item)</span><br><span class="line">    <span class="comment">#输出：  name </span></span><br><span class="line">            age</span><br><span class="line">            gender</span><br><span class="line">            <span class="comment">#!!!!循环的是key，不是value</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#要全部输出（key和value），可以进行序列的拼接</span></span><br><span class="line">print(key + <span class="string">":"</span> + str(d[key]))-----<span class="number">-35</span>是数字，要转换为字符串</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="长度："><a href="#长度：" class="headerlink" title="长度："></a>长度：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line">print(len(d))</span><br><span class="line"><span class="comment">#输出  3-----可以理解为3个东西，3个键值对</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="是否相等"><a href="#是否相等" class="headerlink" title="是否相等"></a>是否相等</h3><blockquote>
+<ul>
+<li>顺序对字典毫无意义  </li>
+<li>比较的是key，以及key后面的value是否相同</li>
+</ul>
+</blockquote>
+<hr>
+<h3 id="in操作"><a href="#in操作" class="headerlink" title="in操作"></a>in操作</h3><blockquote>
+<p>dict 的in 操作,<strong>检测的是key不是value</strong></p>
+</blockquote>
+<h2 id="字典的方法"><a href="#字典的方法" class="headerlink" title="字典的方法"></a>字典的方法</h2><table>
+<thead>
+<tr>
+<th>方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>clear()</td>
+<td>清空字典</td>
+</tr>
+<tr>
+<td>keys()</td>
+<td>返回所有key</td>
+</tr>
+<tr>
+<td>values()</td>
+<td>返回所有value</td>
+</tr>
+<tr>
+<td>get(key)</td>
+<td>索引，类似于[]</td>
+</tr>
+<tr>
+<td>pop(key)</td>
+<td>删除，类似于上面的del</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python 基础</tag>
+        <tag>字典</tag>
       </tags>
   </entry>
   <entry>
     <title>SQlite3 &amp; Navicat premium15 初步认识与使用</title>
-    <url>/ckcha0x01001aw8tvhf2p2kr0/</url>
+    <url>/ckdvub2mj001nugtvfmt571fk/</url>
     <content><![CDATA[<h1 id="SQlite3安装教程与初步使用-amp-amp-navicat-premium15"><a href="#SQlite3安装教程与初步使用-amp-amp-navicat-premium15" class="headerlink" title="SQlite3安装教程与初步使用 &amp;&amp; navicat premium15"></a>SQlite3安装教程与初步使用 &amp;&amp; navicat premium15</h1><blockquote>
 <ol>
 <li>什么是sqlite？SQLite是一个小型的C程序库，实现了独立的，可嵌入的，零配置的SQL数据库引擎   </li>
@@ -840,7 +875,7 @@ print(l2)
   </entry>
   <entry>
     <title>「python」- 数据类型转换</title>
-    <url>/ckcha0x04001dw8tv0no9dqxy/</url>
+    <url>/ckdvub2xn002fugtvaei1c2yz/</url>
     <content><![CDATA[<h1 id="python之数据类型转换"><a href="#python之数据类型转换" class="headerlink" title="python之数据类型转换"></a>python之数据类型转换</h1><blockquote>
 <p>下面用代码来说明吧</p>
 </blockquote>
@@ -870,68 +905,33 @@ print(round(<span class="number">3.2</span>))         <span class="comment">#3  
       </tags>
   </entry>
   <entry>
-    <title>“幸运之子会是谁呢”</title>
-    <url>/ckdvsfuyg0000dgtv088zhvui/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今日分享的是一个偶然在少数派上面看到的一个软件：LuckyYou，这款软件的作者是 <a href="https://github.com/jwenjian" target="_blank" rel="noopener">jwenjian</a>,我是被作者对这款软件的描述吸引的<img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/Snipaste_2020-08-15_17-23-21.jpg" alt=""><br>而对于这款软件的实际意义来说简单四个字：随机抽取（<del>废话</del>）</p>
-<ul>
-<li>班级上的点名，无论是随机点到还是随机”抽奖”</li>
-<li>幸运观众的抽取</li>
-</ul>
-<h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>在这个花名册逐渐电子化的时代，“抽奖工具”的出现似乎是必不可少了，那么这款软件最大的优势是什么呢？  <strong>强（hao）大（kan）</strong>  </p>
-<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>代码是开源的，并且是免费的。 链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>不同系统选择不同的安装包下载即可<br><strong>注</strong>：</p>
-<table>
-<thead>
-<tr>
-<th>系统说明</th>
-<th>安装包后缀名</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Windows</td>
-<td>.msi</td>
-</tr>
-<tr>
-<td>Ubuntu</td>
-<td>.deb</td>
-</tr>
-<tr>
-<td>Macos</td>
-<td>.dmg</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>安装过程就是一键傻瓜式到底就行，路径可自行选择</p>
-</blockquote>
-<h2 id="使用步骤"><a href="#使用步骤" class="headerlink" title="使用步骤"></a>使用步骤</h2><p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37b0fe14195aa594fe21cd.jpg" alt="主界面"></p>
-<blockquote>
-<p>软件以简约风格展现，图中老虎机的设计也是本软件的主题所在：<strong>随机抽取的乐趣</strong>。</p>
+    <title>「python」- 数字</title>
+    <url>/ckdvub2xo002gugtv37tyez57/</url>
+    <content><![CDATA[<h1 id="python中的数字"><a href="#python中的数字" class="headerlink" title="python中的数字"></a>python中的数字</h1><blockquote>
+<p>int 整数：23<br>float 浮点数、小数：15.8<br>complex 复数，：-1根号  </p>
 </blockquote>
 <hr>
-<h3 id="事前准备"><a href="#事前准备" class="headerlink" title="事前准备"></a>事前准备</h3><p>你要准备好抽取对象的照片和名字，照片最后会被软件裁切为正方形，毕竟本意也是个“电子花名册”，下面以抽取三个人（张三，李四，欧阳六）为例子进行展示</p>
-<h3 id="开始！"><a href="#开始！" class="headerlink" title="开始！"></a>开始！</h3><p>按下软件主界面中间的Select images(选择图片)即可进行抽取对象的选择，然后按开始便可以享受抽取的快乐<br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37bb7114195aa594013581.gif" alt=""></p>
-<h3 id="软件小tips"><a href="#软件小tips" class="headerlink" title="软件小tips"></a>软件小tips</h3><ul>
-<li>软件设计默认为英文，右上角<strong>第二个</strong>按钮可进行语言的切换，可切换到简体中文</li>
-<li>软件支持深色模式，右上角<strong>第五个</strong>按钮可实现浅色模式与深色模式的切换</li>
-<li>声音是老虎机的声音，比较有趣，右上角<strong>第一个</strong>按钮可进行声音开关操作</li>
-<li>选取的图片格式可以是：.jpg,.jpeg,.png,.gif（.ico也可以!）</li>
-<li>选取的图片不宜过大，并不是不能过大，测试过7M的照片还是可以的，至于作者所说的不宜过大应该是在抽取过程中，如果图片过大会使得图片动画过渡不自然，最终抽取效果不佳</li>
-<li>选取的照片张数作者并没有说，不过测试过50张也是没有问题的</li>
-<li>当然你也可以请作者喝杯咖啡，选择右上角<strong>第四个</strong>按钮<h3 id="第三个按钮呢？"><a href="#第三个按钮呢？" class="headerlink" title="第三个按钮呢？"></a>第三个按钮呢？</h3>软件<strong>第三个</strong>按钮为设置抽取的规则  </li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37bdfb14195aa59401d7c3.jpg" alt="">  </p>
-<p>这个规则直白点说就是：<strong>上面的例子中，张三/李四/欧阳六是否可以被重复抽中多次</strong>。然而更让我意想不到的是（<del>愚钝的我</del>）,在选择否之后，软件在抽取一个对象之后，会将此抽中对象从抽取列表中删除，然后进行列表中剩余对象的抽取，如图，我在选择否之后再次进行抽奖。  </p>
-<p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37c01914195aa594028f43.gif" alt="">  </p>
-<p>可看到被抽中的对象一个个从抽奖列表中删除，直到最后剩下张三不再进行抽奖。<br>其实不难理解，我觉得这也应该是定下这个规则之后的抽奖逻辑，当然选择否之后不从列表删除抽中对象这个逻辑也是没有问题的。</p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>在写下这篇博客的时候，作者对于此应用在Windows下的适配还没有完全解决好，Windows系统安装完之后还是不能正常使用，只能通过作者提供的方法使用<a href="https://luckyyou.netlify.app/" target="_blank" rel="noopener">PWA应用</a>。我也算是和这位作者有点缘份，作者在少数派发表文章之后我就发现了问题并求教作者，给作者提供Windows下LuckyYou不能运行的具体问题，在交流之中可以看出是一位比较负责的作者了。最后希望Windows系统下的LuckyYou可以尽快修复bug，毕竟这软件真不错，无论是界面、UI还是主要功能，当然也希望作者可以加入更多额外功能，比如某网友说的从 Excel 导入学号姓名作为“抽奖”的另一种方法，也可以制定更多抽奖的规则。<br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d39c14195aa5940802cd.jpg" alt="作者说明"><br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d65514195aa59408b21b.jpg" alt="讨论过程"><br><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37d65514195aa59408b21d.jpg" alt="讨论过程"></p>
+<h1 id="三种类型："><a href="#三种类型：" class="headerlink" title="三种类型："></a>三种类型：</h1><h2 id="整数：所有的整数都属于int-类"><a href="#整数：所有的整数都属于int-类" class="headerlink" title="整数：所有的整数都属于int 类"></a><strong>整数</strong>：所有的整数都属于int 类</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="number">12</span></span><br><span class="line">print(type(a))</span><br><span class="line"></span><br><span class="line">输出 &lt;<span class="class"><span class="keyword">class</span> '<span class="title">int</span>'&gt;</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">#<span class="title">python3</span>里面没有<span class="title">long</span>，也用不着<span class="title">long</span></span></span><br><span class="line"><span class="class">//<span class="title">c</span>语言中</span></span><br><span class="line"><span class="class"><span class="title">int</span> <span class="title">a</span> ---32位整数</span></span><br><span class="line"><span class="class"><span class="title">long</span> <span class="title">b</span> ---64位整数</span></span><br><span class="line"><span class="class"><span class="title">long</span> <span class="title">long</span> <span class="title">c</span> ---128位整数</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">#<span class="title">python</span>的整数可以非常大</span></span><br><span class="line">a = 999999999999999999999999999999</span><br><span class="line">print(a)</span><br><span class="line">输出：<span class="number">999999999999999999999999999999</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="浮点数：所有浮点数都属于float类"><a href="#浮点数：所有浮点数都属于float类" class="headerlink" title="浮点数：所有浮点数都属于float类"></a><strong>浮点数</strong>：所有浮点数都属于float类</h2><blockquote>
+<p>（带了小数点都属于浮点数）</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12.5</span></span><br><span class="line">print(type(a))</span><br><span class="line">输出&lt;<span class="class"><span class="keyword">class</span>'<span class="title">float</span>'&gt;</span></span><br><span class="line"><span class="class">#<span class="title">python</span>中没有<span class="title">double</span>，也用不着<span class="title">double</span></span></span><br><span class="line"><span class="class">//<span class="title">c</span>语言中</span></span><br><span class="line"><span class="class"><span class="title">float</span> <span class="title">a</span>:</span> -<span class="number">-32</span>位浮点数--小数点后<span class="number">8</span>位</span><br><span class="line">double b;-<span class="number">-128</span>位浮点数--小数点后<span class="number">10</span>^<span class="number">308</span>位</span><br></pre></td></tr></table></figure>
+
+<h2 id="复数：复数都是complex类"><a href="#复数：复数都是complex类" class="headerlink" title="复数：复数都是complex类"></a><strong>复数</strong>：复数都是complex类</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">15</span>+<span class="number">3j</span></span><br><span class="line">b = <span class="number">8</span><span class="number">-2j</span></span><br><span class="line"></span><br><span class="line">print(a+b)</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="类型检测"><a href="#类型检测" class="headerlink" title="类型检测"></a>类型检测</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#type(x)可以用来检测类型</span></span><br><span class="line">type(<span class="number">120</span>)  <span class="comment">#int</span></span><br><span class="line">type(<span class="number">5.0</span>)  <span class="comment">#float</span></span><br><span class="line">type(<span class="number">12</span>+<span class="number">0j</span>) <span class="comment">#complex</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="Python运算符"><a href="#Python运算符" class="headerlink" title="Python运算符"></a>Python运算符</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#基本运算符（+-*/）和其他语言都一样，但也有些不一样的</span></span><br><span class="line"><span class="comment">#正常除法</span></span><br><span class="line"><span class="number">16</span>/<span class="number">5</span>   <span class="comment">#3.2</span></span><br><span class="line"><span class="number">16</span>%<span class="number">5</span>   <span class="comment">#1--余数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#整除</span></span><br><span class="line"><span class="number">16</span>//<span class="number">5</span>  <span class="comment">#3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#幂操作</span></span><br><span class="line">print(<span class="number">3</span>**<span class="number">100</span>)  两个*代表多少次方</span><br><span class="line">--&gt;转个思路--&gt;print(9**0.5)   9的二分之一次方就是开根号</span><br><span class="line"></span><br><span class="line"><span class="comment">#扩展赋值</span></span><br><span class="line">a = <span class="number">15</span></span><br><span class="line">a = a + <span class="number">5</span>-------等价于 a += <span class="number">5</span></span><br><span class="line">print(a)</span><br><span class="line">输出： <span class="number">20</span></span><br><span class="line"></span><br><span class="line">-----python没有++ -- 操作</span><br><span class="line">i++  ==&gt;  i+=1</span><br><span class="line">i--  ==&gt;  i-=1</span><br><span class="line"><span class="comment">#python没有自增、自减操作，也不需要</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#运算符优先级</span></span><br><span class="line"><span class="number">12</span>+<span class="number">6</span>/<span class="number">2</span>  <span class="comment">#15</span></span><br><span class="line">(<span class="number">12</span>+<span class="number">6</span>)/<span class="number">2</span>  <span class="comment">#9</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="优先级表："><a href="#优先级表：" class="headerlink" title="优先级表："></a>优先级表：</h2><p><strong>括号&gt;函数&gt;列表/属性&gt;数值运算&gt;逻辑运算&gt;赋值</strong></p>
 ]]></content>
       <categories>
-        <category>一些软件</category>
+        <category>python</category>
       </categories>
       <tags>
-        <tag>VUE</tag>
-        <tag>抽奖</tag>
-        <tag>软件</tag>
-        <tag>LuckyYou</tag>
+        <tag>python 基础</tag>
+        <tag>数字</tag>
       </tags>
   </entry>
 </search>
