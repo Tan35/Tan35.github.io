@@ -9,7 +9,7 @@
 <li>幸运观众的抽取</li>
 </ul>
 <h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><p>在这个花名册逐渐电子化的时代，“抽奖工具”的出现似乎是必不可少了，那么这款软件最大的优势是什么呢？  <strong>强（hao）大（kan）</strong>  </p>
-<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>代码是开源的，并且是免费的。 链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>不同系统选择不同的安装包下载即可<br><strong>注</strong>：</p>
+<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>代码是开源的，并且是免费的。链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>不同系统选择不同的安装包下载即可<br><strong>注</strong>：</p>
 <table>
 <thead>
 <tr>
@@ -47,8 +47,9 @@
 <li>选取的图片格式可以是：.jpg,.jpeg,.png,.gif（.ico也可以!）</li>
 <li>选取的图片不宜过大，并不是不能过大，测试过7M的照片还是可以的，至于作者所说的不宜过大应该是在抽取过程中，如果图片过大会使得图片动画过渡不自然，最终抽取效果不佳</li>
 <li>选取的照片张数作者并没有说，不过测试过50张也是没有问题的</li>
-<li>当然你也可以请作者喝杯咖啡，选择右上角<strong>第四个</strong>按钮<h3 id="第三个按钮呢？"><a href="#第三个按钮呢？" class="headerlink" title="第三个按钮呢？"></a>第三个按钮呢？</h3>软件<strong>第三个</strong>按钮为设置抽取的规则  </li>
+<li>当然你也可以请作者喝杯咖啡，选择右上角<strong>第四个</strong>按钮  </li>
 </ul>
+<h3 id="第三个按钮呢？"><a href="#第三个按钮呢？" class="headerlink" title="第三个按钮呢？"></a>第三个按钮呢？</h3><p>软件<strong>第三个</strong>按钮为设置抽取的规则  </p>
 <p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37bdfb14195aa59401d7c3.jpg" alt="">  </p>
 <p>这个规则直白点说就是：<strong>上面的例子中，张三/李四/欧阳六是否可以被重复抽中多次</strong>。然而更让我意想不到的是（<del>愚钝的我</del>）,在选择否之后，软件在抽取一个对象之后，会将此抽中对象从抽取列表中删除，然后进行列表中剩余对象的抽取，如图，我在选择否之后再次进行抽奖。  </p>
 <p><img src= "/img/loading.gif" data-src="https://pic.downk.cc/item/5f37c01914195aa594028f43.gif" alt="">  </p>
