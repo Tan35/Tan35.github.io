@@ -1047,13 +1047,7 @@ print(round(<span class="number">3.2</span>))         <span class="comment">#3  
 </blockquote>
 </li>
 </ul>
-<iframe
-    width="200" 
-    height="100" 
-    src="https://player.youku.com/embed/XNDgyNTM0NzcyOA=="
-    frameborder="0" 
-    allowfullscreen>
-</iframe>
+<iframe src="http://player.bilibili.com/player.html?aid=456906892&cid=230216552&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 <hr>
 <h2 id="效率"><a href="#效率" class="headerlink" title="效率"></a><b><font face="Sarasa Mono HC"  color=black>效率</font></b></h2><ul>
