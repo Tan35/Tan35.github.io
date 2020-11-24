@@ -10,7 +10,7 @@
 
   <!--Description-->
   
-  <meta name="description" content="任何一个程序之所以称为程序，他总有一个逻辑在里面，流程控制语句就是来控制程序的流程">
+  <meta name="description" content="练习">
   
 
   <!--Author-->
@@ -20,11 +20,11 @@
 
   <!--Open Graph Title-->
   
-      <meta property="og:title" content="「python」- 流程控制语句"/>
+      <meta property="og:title" content="Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]"/>
   
   <!--Open Graph Description-->
   
-      <meta property="og:description" content="任何一个程序之所以称为程序，他总有一个逻辑在里面，流程控制语句就是来控制程序的流程" />
+      <meta property="og:description" content="练习" />
   
   <!--Open Graph Site Name-->
   <meta property="og:site_name" content="Tanxy"/>
@@ -39,7 +39,7 @@
 
   <!-- Title -->
   
-  <title>「python」- 流程控制语句 - Tanxy</title>
+  <title>Flex Layout + SVG 实现 Apple动效练习[参考陈东泽] - Tanxy</title>
 
 
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/final_fav.png">
@@ -150,9 +150,9 @@
             </li>
           
             <li>
-              <a href="/atom.xml">
+              <a href="https://mailchi.mp/0360e8248b9e/db8sn08o17" target="_blank" rel="noopener">
                 
-                  RSS
+                  訂閱
                 
               </a>
             </li>
@@ -177,25 +177,25 @@
         <!-- Title date & tags -->
         <div class="post-header">
           <h1 class="entry-title">
-            「python」- 流程控制语句
+            Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]
             
           </h1>
           <p class="posted-on">
-          2020-02-22
+          2020-08-18
           </p>
           <div class="tags-links">
             
               
-                <a href="/tags/python基础/" rel="tag">
-                  python基础
+                <a href="/tags/Flex-Layout/" rel="tag">
+                  Flex-Layout
                 </a>
               
-                <a href="/tags/流程控制语句/" rel="tag">
-                  流程控制语句
+                <a href="/tags/SVG/" rel="tag">
+                  SVG
                 </a>
               
-                <a href="/tags/if语句/" rel="tag">
-                  if语句
+                <a href="/tags/微信公众号/" rel="tag">
+                  微信公众号
                 </a>
               
             
@@ -203,59 +203,86 @@
         </div>
         <!-- Post Main Content -->
         <div class="entry-content">
-          <h1>python流程控制语句</h1>
+          <h1>Flex Layout + SVG  实现 Apple 动效</h1>
 <blockquote>
-<p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
+<p>本文参考于大佬 陈东泽的<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">文章</a></p>
 </blockquote>
-<h2 id="布尔值">布尔值</h2>
-<h3 id="回顾-关系运算符">回顾 - 关系运算符</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">符号</th>
-<th style="text-align:center">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&gt;</td>
-<td style="text-align:center">大于</td>
-</tr>
-<tr>
-<td style="text-align:center">&lt;</td>
-<td style="text-align:center">小于</td>
-</tr>
-<tr>
-<td style="text-align:center">&gt;=</td>
-<td style="text-align:center">大于等于</td>
-</tr>
-<tr>
-<td style="text-align:center">&lt;=</td>
-<td style="text-align:center">小于等于</td>
-</tr>
-<tr>
-<td style="text-align:center">==</td>
-<td style="text-align:center">相等</td>
-</tr>
-<tr>
-<td style="text-align:center">！=</td>
-<td style="text-align:center">不等</td>
-</tr>
-</tbody>
-</table>
-<p>关系运算符最终得出的结果返回的就是布尔值(boolean)，而所谓的布尔值也就是<code>False</code>和<code>True</code>两个,比如说  <code>print(12&gt;5)# True</code>，<code>print(5&gt;12)# False</code>，<code>True</code> 和 <code>False</code> 是python里面的关键字（要么是真的要么是假的）。</p>
-<p>if 语句就是依靠布尔值来工作的</p>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> 布尔值:</span><br><span class="line">    为<span class="literal">True</span>时执行的语句</span><br><span class="line"><span class="keyword">else</span> 布尔值:</span><br><span class="line">    为<span class="literal">False</span>时执行的语句</span><br></pre></td></tr></table></figure></h2>
-<p>来看一下关于if的所有内容举例代码：</p>
-<h2 id="￼1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">hungry = <span class="literal">True</span>              <span class="comment">#当我规定hungry为真的时候</span></span><br><span class="line">money = <span class="number">5</span>                  <span class="comment">#定义我现在只有五块钱</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> hungry:                <span class="comment">#当hungry为真的时候，这里开始运行</span></span><br><span class="line">    <span class="keyword">if</span> money &lt; <span class="number">5</span>:         <span class="comment">#if之后再if，if是可以嵌套的，当hungry为真，且money&lt;5的时候运行</span></span><br><span class="line">        print(<span class="string">'别吃了饿着吧'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">10</span>:      <span class="comment">#当hungry为真，且money&gt;5 同时小于10的时候运行</span></span><br><span class="line">        print(<span class="string">'吃馒头'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">20</span>:      <span class="comment">#当hungry为真，且money&gt;10 同时小于20的时候运行</span></span><br><span class="line">        print(<span class="string">'吃面'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">30</span>:      <span class="comment">#当hungry为真，且money&gt;20 同时小于30的时候运行</span></span><br><span class="line">        print(<span class="string">'吃饭'</span>)</span><br><span class="line"><span class="keyword">else</span>：                    <span class="comment">#这个else 是对齐上面的大的if的，所以这里是hungry为假的时候运行</span></span><br><span class="line">    print(<span class="string">'接着工作'</span>)</span><br></pre></td></tr></table></figure></h2>
+<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f3b8f3b14195aa594ea0185.jpg" alt=""></p>
+<blockquote>
+<p>看了 陈东泽大佬对于Apple公众号里面的–&gt;<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">排版讲解</a>。突然有点想学前端了，有趣。</p>
+</blockquote>
+<h2 id="CSS学习中">CSS学习中</h2>
+<blockquote>
+<p>A B C D E的布局分布css代码大概是这样</p>
+</blockquote>
+<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f3b8fe114195aa594ea71e6.jpg" alt=""></p>
+<h2 id="￼0"><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;div style="display: flex"&gt;</span><br><span class="line">    &lt;div style="display: flex; width: 50%; flex-direction: column;"&gt;</span><br><span class="line">         &lt;div style="display: block;"&gt;</span><br><span class="line">                 &lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">A</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">         &lt;/div&gt;</span><br><span class="line">        &lt;div style="display: block;"&gt;</span><br><span class="line">                &lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">B</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">         &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; width: 50%;flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">C</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">D</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">E</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></h2>
+<h2 id="仿照">仿照</h2>
+<blockquote>
+<p>仿照修改了一个，是真的有意思，突然想对放下已久的微信公众号动刀</p>
+</blockquote>
+<section style="display: block;text-align: center;">
+  <div style="display: flex;background-color: #000000;">
+    <div style="display: flex;width: 50%;flex-direction: column;">
+      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
+          height="100%" width="100%" data-filename="03_01.jpg"
+          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3a943a14195aa594af8543.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 100%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
+          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="2s" keyTimes="0; 0.01; 0.70; 1"
+            values="0; 1; 1; 0;"></animate>
+        </svg></div>
+      <div data-filename="02_01.gif"
+        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa49514195aa594b3ad5f.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 100%;width: 100%;">
+      </div>
+      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
+          height="100%" width="100%" data-filename="03_02.jpg"
+          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa8fa14195aa594b4c7b2.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 100%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
+          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="2s" keyTimes="0; 0.01; 0.70; 1"
+            values="0; 1; 1; 0;"></animate>
+        </svg></div><svg data-filename="02_02.jpg" preserveAspectRatio="xMinYMin meet"
+        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa43714195aa594b39780.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;width: 100%;"
+        viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+    <div style="display: flex;width: 50%;flex-direction: column;">
+      <div style="display: block;height: 0px !important;"><svg data-filename="02_03.gif"
+          preserveAspectRatio="xMinYMin meet"
+          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aaf2b14195aa594b64cb6.png&quot;);background-color: #141414;background-size: 100% auto;background-repeat: no-repeat;width: 100%;margin-top: 50%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
+          viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg"></svg></div>
+      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
+          height="100%" width="100%" data-filename="03_03_15_opt70.gif"
+          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aad0314195aa594b5d91b.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 200%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
+          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="5s" keyTimes="0; 0.01; 0.70; 1"
+            values="0; 1; 1; 0;"></animate>
+        </svg></div><svg data-filename="02_03.jpg" preserveAspectRatio="xMinYMin meet"
+        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3a554014195aa5949fd13a.jpg&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;width: 100%;"
+        viewBox="0 0 540 1080" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+  </div>
+  <div style="display: block;margin-top: -1px;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg"
+      opacity="0" height="100%" width="100%" data-filename="03_04.jpg"
+      style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa19f14195aa594b301e3.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 50%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
+      <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="3s" keyTimes="0; 0.01; 0.70; 1"
+        values="0; 1; 1; 0;"></animate>
+    </svg></div>
+  <div data-filename="02_04.jpg"
+    style="display: block;background-image: url(&quot;https://pic.downk.cc/item/5f3aa2de14195aa594b34bb0.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 50%;width: 100%;margin-top: -1px;">
+  </div>
+  <div style="display: block;height: 0px !important;"><svg data-filename="03_05.jpg" height="100%" opacity="0"
+      style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa1dd14195aa594b30fe1.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 50%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
+      width="100%" xmlns="http://www.w3.org/2000/svg">
+      <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="7s" keyTimes="0; 0.01; 0.70; 1"
+        values="0; 1; 1; 0;"></animate>
+    </svg></div>
+  <div data-filename="02_05.jpg"
+    style="display: block;background-image: url(&quot;https://pic.downk.cc/item/5f3aa17114195aa594b2f70d.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 50%;width: 100%;">
+  </div>
+</section>
 <h2 id="总结">总结</h2>
 <ol>
-<li>if语句是可以嵌套的，python中没有<code>switch</code></li>
-<li>如果hungry为<code>False</code>就会执行下下面的&quot;接着工作&quot;。</li>
-<li>为什么hungry为<code>False</code>就会执行下面的&quot;接着工作&quot;?if 和 else，所以再次强调python的<u>缩进很重要</u>，如果上面的<code>else</code> 和最上面的<code>if</code>缩进格数不一样(通俗来讲就是不对齐的话就会报错),而对于缩进的格数没有严格的规定，只要在你相同逻辑下的语句缩进相同格数就行。</li>
-<li>python中<code>if</code>是必须的但是<code>else</code>不是必须的比如说</li>
+<li>微信公众号的编辑器是不支持直接修改文章 HTML 的，要用Chrome Inspect进行调试贴上代码</li>
+<li>另外微信公众平台的编辑器也有很多“潜规则”，很多css的属性都可能作废。有人总结了一下-&gt;<a href="https://www.cnblogs.com/haqiao/p/13438686.html" target="_blank" rel="noopener">发SVG文的一些坑</a>,以后可以作为参考，另外这篇文章也不错-&gt;<a href="https://www.jianshu.com/p/8c2e4fc26e8a" target="_blank" rel="noopener">详细教你微信公众号正文页SVG交互开发</a>。</li>
+<li>考虑一下要不要捡起我的公众号吧。可以先关注一波，微信搜索： 麻麻哋阿巴阿巴。</li>
+<li>可以微信搜索 东泽聊技术,看牛人的技术操作这篇文章 也写的相当不错-&gt;<a href="https://mp.weixin.qq.com/s/GPJ2TjgIdA-XG5rNWVCXZQ" target="_blank" rel="noopener">程序员就该这样解读《隐秘的角落》</a></li>
 </ol>
-<h2 id="￼2"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> hungry == <span class="literal">True</span>:</span><br><span class="line">    print(<span class="string">'快去吃饭'</span>)</span><br></pre></td></tr></table></figure></h2>
 
         </div>
       </article>
@@ -278,8 +305,8 @@
     <script type="text/javascript">
     var disqus_config = function () {
           this.page.url = window.location.href;
-          this.page.identifier = 'post-python控制语句';
-          this.page.title = '「python」- 流程控制语句';
+          this.page.identifier = 'post-test';
+          this.page.title = 'Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]';
       };
     </script>
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
@@ -295,12 +322,12 @@
     <div class="nav-links">
       
         <div class="nav-previous">
-          <a href="/ckhvpkpzs000buktvcx3d9uoe/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
+          <a href="/ckhvq5kio00060ctv8vl8eaal/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
         </div>
       
       
         <div class="nav-next">
-          <a href="/ckhvpkq04000ouktv1vl64pc7/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
+          <a href="/ckhvq5kii00030ctv5yymcbh1/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
         </div>
       
     </div>
@@ -400,7 +427,7 @@ setInterval("createtime()",250);
 
 
   
-  var disqus_url = 'https://tanxy.club/ckhvpkq09000tuktv19az1ct4/';
+  var disqus_url = 'https://tanxy.club/ckhvq5kjl00130ctvfz9q67db/';
   
 
 /// Not to load disqus before users click the botton

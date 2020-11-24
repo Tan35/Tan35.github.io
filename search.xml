@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>标题</title>
+    <url>/ckhvq5kic00010ctv2v1f4udo/</url>
+    <content><![CDATA[<p>这条应该是简介吧</p>
+<a id="more"></a>
+<h2 id="Daily">Daily</h2>
+<p>这个主题确实不错</p>
+]]></content>
+      <tags>
+        <tag>博客</tag>
+        <tag>Start</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>“幸运之子会是谁呢”</title>
-    <url>/ckhvpkpz70001uktv0mh95x3l/</url>
+    <url>/ckhvq5kii00030ctv5yymcbh1/</url>
     <content><![CDATA[<p>一款有趣的“抽奖”工具</p>
 <a id="more"></a>
 <h2 id="前言">前言</h2>
@@ -86,21 +99,8 @@
       </tags>
   </entry>
   <entry>
-    <title>标题</title>
-    <url>/ckhvpkpzd0003uktveujy984n/</url>
-    <content><![CDATA[<p>这条应该是简介吧</p>
-<a id="more"></a>
-<h2 id="Daily">Daily</h2>
-<p>这个主题确实不错</p>
-]]></content>
-      <tags>
-        <tag>博客</tag>
-        <tag>Start</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>那些年你错过的网站</title>
-    <url>/ckhvpkpzm0007uktv6i77ai3m/</url>
+    <url>/ckhvq5kio00060ctv8vl8eaal/</url>
     <content><![CDATA[<p>实用网站分享</p>
 <a id="more"></a>
 <h1><b><font face="Sarasa Mono HC"  color=black>前言</font></b></h1>
@@ -206,7 +206,7 @@
   </entry>
   <entry>
     <title>「python」- 数据类型和变量</title>
-    <url>/ckhvpkpzp0009uktv5id5hzoh/</url>
+    <url>/ckhvq5kir00090ctv7u1s2d2w/</url>
     <content><![CDATA[<h1>Python入门 - 数据类型和变量</h1>
 <p>变量是用来存东西的。就像一个杯子用来装水,但是Python里面存的不是水，而存的是在哪能找到这个水，存的是引用，即变量用于引用内存中存储的对象。</p>
 <h2 id="python中的一切都是“对象”（Object）">python中的一切都是“对象”（Object）</h2>
@@ -274,7 +274,7 @@
   </entry>
   <entry>
     <title>「python」- 函数</title>
-    <url>/ckhvpkpzs000buktvcx3d9uoe/</url>
+    <url>/ckhvq5kit000b0ctvgo0lhks3/</url>
     <content><![CDATA[<h1>python之函数</h1>
 <p>什么是函数？函数是一段可常用的代码，为了日后可以经常性的去调用。python自身有很多内置函数，比如说<code>input()</code>,<code>print()</code>,我们也可以自己去定义函数。</p>
 <h2 id="创建函数">创建函数</h2>
@@ -437,7 +437,7 @@
   </entry>
   <entry>
     <title>「python」- 元组(tuple)</title>
-    <url>/ckhvpkpzu000fuktvd7qhcy9m/</url>
+    <url>/ckhvq5kiw000e0ctv52yq6y5f/</url>
     <content><![CDATA[<h1>python之–元组(tuple)</h1>
 <p>元组其实和list几乎一模一样，只是<u>不能修改</u>。</p>
 <h2 id="创建元组">创建元组</h2>
@@ -480,7 +480,7 @@
   </entry>
   <entry>
     <title>「python」- 列表</title>
-    <url>/ckhvpkpzz000huktvaf3ddqje/</url>
+    <url>/ckhvq5kj1000h0ctv9kwj0l83/</url>
     <content><![CDATA[<h1>python 学习笔记之列表</h1>
 <p>列表跟字符串很像，只不过存的不是字符，可以是任何东西（甚至是另一个list）。</p>
 <h2 id="创建列表">创建列表</h2>
@@ -541,7 +541,7 @@
   </entry>
   <entry>
     <title>「python」- 字典</title>
-    <url>/ckhvpkq02000muktv4i1t62nf/</url>
+    <url>/ckhvq5kj3000k0ctv05ue70y7/</url>
     <content><![CDATA[<h1>python学习笔记之字典</h1>
 <ul>
 <li>要唯一，最好是数字。</li>
@@ -619,25 +619,74 @@
       </tags>
   </entry>
   <entry>
-    <title>「python」- 数据类型转换</title>
-    <url>/ckhvpkq04000ouktv1vl64pc7/</url>
-    <content><![CDATA[<h1>python之数据类型转换</h1>
+    <title>「python」- 流程控制语句</title>
+    <url>/ckhvq5kj6000p0ctvaocc6pc6/</url>
+    <content><![CDATA[<h1>python流程控制语句</h1>
 <blockquote>
-<p>直接用代码来说明</p>
+<p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
 </blockquote>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">s = <span class="string">'5.8'</span>                 <span class="comment">#定义一个字符串</span></span><br><span class="line">a = <span class="number">5</span>                     <span class="comment">#定义一个变量=5</span></span><br><span class="line">b = <span class="number">5.8</span></span><br><span class="line">print(float(s)+<span class="number">1.6</span>)       <span class="comment">#7.4   把字符串转换为浮点型之后与1.6相加得到 7.4</span></span><br><span class="line">print(float(a))          <span class="comment">#5.0   把整型变量转换为浮点型</span></span><br><span class="line">print(int(b))            <span class="comment">#5     把float类型转换为int类型--这里只是截取整数部分，并非四舍五入</span></span><br><span class="line">print(str(a)+s)          <span class="comment">#55.8  注意这里并非数值55.8，只是将5转换为字符串类型然后和5.8拼接</span></span><br><span class="line"></span><br><span class="line">print(round(<span class="number">3.5</span>))         <span class="comment">#4   这才是四舍五入</span></span><br><span class="line">print(round(<span class="number">3.2</span>))         <span class="comment">#3    四舍五入</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="布尔值">布尔值</h2>
+<h3 id="回顾-关系运算符">回顾 - 关系运算符</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">符号</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&gt;</td>
+<td style="text-align:center">大于</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;</td>
+<td style="text-align:center">小于</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt;=</td>
+<td style="text-align:center">大于等于</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;=</td>
+<td style="text-align:center">小于等于</td>
+</tr>
+<tr>
+<td style="text-align:center">==</td>
+<td style="text-align:center">相等</td>
+</tr>
+<tr>
+<td style="text-align:center">！=</td>
+<td style="text-align:center">不等</td>
+</tr>
+</tbody>
+</table>
+<p>关系运算符最终得出的结果返回的就是布尔值(boolean)，而所谓的布尔值也就是<code>False</code>和<code>True</code>两个,比如说  <code>print(12&gt;5)# True</code>，<code>print(5&gt;12)# False</code>，<code>True</code> 和 <code>False</code> 是python里面的关键字（要么是真的要么是假的）。</p>
+<p>if 语句就是依靠布尔值来工作的</p>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> 布尔值:</span><br><span class="line">    为<span class="literal">True</span>时执行的语句</span><br><span class="line"><span class="keyword">else</span> 布尔值:</span><br><span class="line">    为<span class="literal">False</span>时执行的语句</span><br></pre></td></tr></table></figure></h2>
+<p>来看一下关于if的所有内容举例代码：</p>
+<h2 id="￼1"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">hungry = <span class="literal">True</span>              <span class="comment">#当我规定hungry为真的时候</span></span><br><span class="line">money = <span class="number">5</span>                  <span class="comment">#定义我现在只有五块钱</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> hungry:                <span class="comment">#当hungry为真的时候，这里开始运行</span></span><br><span class="line">    <span class="keyword">if</span> money &lt; <span class="number">5</span>:         <span class="comment">#if之后再if，if是可以嵌套的，当hungry为真，且money&lt;5的时候运行</span></span><br><span class="line">        print(<span class="string">'别吃了饿着吧'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">10</span>:      <span class="comment">#当hungry为真，且money&gt;5 同时小于10的时候运行</span></span><br><span class="line">        print(<span class="string">'吃馒头'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">20</span>:      <span class="comment">#当hungry为真，且money&gt;10 同时小于20的时候运行</span></span><br><span class="line">        print(<span class="string">'吃面'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">30</span>:      <span class="comment">#当hungry为真，且money&gt;20 同时小于30的时候运行</span></span><br><span class="line">        print(<span class="string">'吃饭'</span>)</span><br><span class="line"><span class="keyword">else</span>：                    <span class="comment">#这个else 是对齐上面的大的if的，所以这里是hungry为假的时候运行</span></span><br><span class="line">    print(<span class="string">'接着工作'</span>)</span><br></pre></td></tr></table></figure></h2>
+<h2 id="总结">总结</h2>
+<ol>
+<li>if语句是可以嵌套的，python中没有<code>switch</code></li>
+<li>如果hungry为<code>False</code>就会执行下下面的&quot;接着工作&quot;。</li>
+<li>为什么hungry为<code>False</code>就会执行下面的&quot;接着工作&quot;?if 和 else，所以再次强调python的<u>缩进很重要</u>，如果上面的<code>else</code> 和最上面的<code>if</code>缩进格数不一样(通俗来讲就是不对齐的话就会报错),而对于缩进的格数没有严格的规定，只要在你相同逻辑下的语句缩进相同格数就行。</li>
+<li>python中<code>if</code>是必须的但是<code>else</code>不是必须的比如说</li>
+</ol>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> hungry == <span class="literal">True</span>:</span><br><span class="line">    print(<span class="string">'快去吃饭'</span>)</span><br></pre></td></tr></table></figure></h2>
 ]]></content>
       <categories>
         <category>python</category>
       </categories>
       <tags>
-        <tag>数据类型</tag>
         <tag>python基础</tag>
+        <tag>流程控制语句</tag>
+        <tag>if语句</tag>
       </tags>
   </entry>
   <entry>
     <title>「python」- 字符串</title>
-    <url>/ckhvpkq07000suktvd5g2f671/</url>
+    <url>/ckhvq5kj9000t0ctv540fgj53/</url>
     <content><![CDATA[<h1>python类型 - 字符串</h1>
 <ol>
 <li>python中的字符串就是一串字符</li>
@@ -884,74 +933,8 @@ shift_jis:日文</u><br>
       </tags>
   </entry>
   <entry>
-    <title>「python」- 流程控制语句</title>
-    <url>/ckhvpkq09000tuktv19az1ct4/</url>
-    <content><![CDATA[<h1>python流程控制语句</h1>
-<blockquote>
-<p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
-</blockquote>
-<h2 id="布尔值">布尔值</h2>
-<h3 id="回顾-关系运算符">回顾 - 关系运算符</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">符号</th>
-<th style="text-align:center">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&gt;</td>
-<td style="text-align:center">大于</td>
-</tr>
-<tr>
-<td style="text-align:center">&lt;</td>
-<td style="text-align:center">小于</td>
-</tr>
-<tr>
-<td style="text-align:center">&gt;=</td>
-<td style="text-align:center">大于等于</td>
-</tr>
-<tr>
-<td style="text-align:center">&lt;=</td>
-<td style="text-align:center">小于等于</td>
-</tr>
-<tr>
-<td style="text-align:center">==</td>
-<td style="text-align:center">相等</td>
-</tr>
-<tr>
-<td style="text-align:center">！=</td>
-<td style="text-align:center">不等</td>
-</tr>
-</tbody>
-</table>
-<p>关系运算符最终得出的结果返回的就是布尔值(boolean)，而所谓的布尔值也就是<code>False</code>和<code>True</code>两个,比如说  <code>print(12&gt;5)# True</code>，<code>print(5&gt;12)# False</code>，<code>True</code> 和 <code>False</code> 是python里面的关键字（要么是真的要么是假的）。</p>
-<p>if 语句就是依靠布尔值来工作的</p>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> 布尔值:</span><br><span class="line">    为<span class="literal">True</span>时执行的语句</span><br><span class="line"><span class="keyword">else</span> 布尔值:</span><br><span class="line">    为<span class="literal">False</span>时执行的语句</span><br></pre></td></tr></table></figure></h2>
-<p>来看一下关于if的所有内容举例代码：</p>
-<h2 id="￼1"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">hungry = <span class="literal">True</span>              <span class="comment">#当我规定hungry为真的时候</span></span><br><span class="line">money = <span class="number">5</span>                  <span class="comment">#定义我现在只有五块钱</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> hungry:                <span class="comment">#当hungry为真的时候，这里开始运行</span></span><br><span class="line">    <span class="keyword">if</span> money &lt; <span class="number">5</span>:         <span class="comment">#if之后再if，if是可以嵌套的，当hungry为真，且money&lt;5的时候运行</span></span><br><span class="line">        print(<span class="string">'别吃了饿着吧'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">10</span>:      <span class="comment">#当hungry为真，且money&gt;5 同时小于10的时候运行</span></span><br><span class="line">        print(<span class="string">'吃馒头'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">20</span>:      <span class="comment">#当hungry为真，且money&gt;10 同时小于20的时候运行</span></span><br><span class="line">        print(<span class="string">'吃面'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">30</span>:      <span class="comment">#当hungry为真，且money&gt;20 同时小于30的时候运行</span></span><br><span class="line">        print(<span class="string">'吃饭'</span>)</span><br><span class="line"><span class="keyword">else</span>：                    <span class="comment">#这个else 是对齐上面的大的if的，所以这里是hungry为假的时候运行</span></span><br><span class="line">    print(<span class="string">'接着工作'</span>)</span><br></pre></td></tr></table></figure></h2>
-<h2 id="总结">总结</h2>
-<ol>
-<li>if语句是可以嵌套的，python中没有<code>switch</code></li>
-<li>如果hungry为<code>False</code>就会执行下下面的&quot;接着工作&quot;。</li>
-<li>为什么hungry为<code>False</code>就会执行下面的&quot;接着工作&quot;?if 和 else，所以再次强调python的<u>缩进很重要</u>，如果上面的<code>else</code> 和最上面的<code>if</code>缩进格数不一样(通俗来讲就是不对齐的话就会报错),而对于缩进的格数没有严格的规定，只要在你相同逻辑下的语句缩进相同格数就行。</li>
-<li>python中<code>if</code>是必须的但是<code>else</code>不是必须的比如说</li>
-</ol>
-<h2 id="￼2"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> hungry == <span class="literal">True</span>:</span><br><span class="line">    print(<span class="string">'快去吃饭'</span>)</span><br></pre></td></tr></table></figure></h2>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python基础</tag>
-        <tag>流程控制语句</tag>
-        <tag>if语句</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「python」- 数字</title>
-    <url>/ckhvpkq0b000xuktv4rmcdhdv/</url>
+    <url>/ckhvq5kjd000w0ctv70wi7z27/</url>
     <content><![CDATA[<h1>python中的数字</h1>
 <ul>
 <li>int 整数：23</li>
@@ -1001,7 +984,7 @@ shift_jis:日文</u><br>
   </entry>
   <entry>
     <title>SQlite3 &amp; Navicat premium15 初步认识与使用</title>
-    <url>/ckhvpkq0d0010uktvfwpmd9th/</url>
+    <url>/ckhvq5kji000y0ctv5oc71f5j/</url>
     <content><![CDATA[<h1>SQlite3安装教程与初步使用 &amp;&amp; navicat premium15</h1>
 <blockquote>
 <ol>
@@ -1205,8 +1188,25 @@ Ctrl + R输入cmd 打开命令行执行 <code>sqlite3</code> ,如果是下面的
       </tags>
   </entry>
   <entry>
+    <title>「python」- 数据类型转换</title>
+    <url>/ckhvq5kjk00110ctvakpab4mt/</url>
+    <content><![CDATA[<h1>python之数据类型转换</h1>
+<blockquote>
+<p>直接用代码来说明</p>
+</blockquote>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">s = <span class="string">'5.8'</span>                 <span class="comment">#定义一个字符串</span></span><br><span class="line">a = <span class="number">5</span>                     <span class="comment">#定义一个变量=5</span></span><br><span class="line">b = <span class="number">5.8</span></span><br><span class="line">print(float(s)+<span class="number">1.6</span>)       <span class="comment">#7.4   把字符串转换为浮点型之后与1.6相加得到 7.4</span></span><br><span class="line">print(float(a))          <span class="comment">#5.0   把整型变量转换为浮点型</span></span><br><span class="line">print(int(b))            <span class="comment">#5     把float类型转换为int类型--这里只是截取整数部分，并非四舍五入</span></span><br><span class="line">print(str(a)+s)          <span class="comment">#55.8  注意这里并非数值55.8，只是将5转换为字符串类型然后和5.8拼接</span></span><br><span class="line"></span><br><span class="line">print(round(<span class="number">3.5</span>))         <span class="comment">#4   这才是四舍五入</span></span><br><span class="line">print(round(<span class="number">3.2</span>))         <span class="comment">#3    四舍五入</span></span><br></pre></td></tr></table></figure></h2>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>数据类型</tag>
+        <tag>python基础</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]</title>
-    <url>/ckhvpkq0f0014uktveu1dcs6u/</url>
+    <url>/ckhvq5kjl00130ctvfz9q67db/</url>
     <content><![CDATA[<h1>Flex Layout + SVG  实现 Apple 动效</h1>
 <blockquote>
 <p>本文参考于大佬 陈东泽的<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">文章</a></p>

@@ -10,7 +10,7 @@
 
   <!--Description-->
   
-  <meta name="description" content="三种类型：整数、浮点数、复数">
+  <meta name="description" content="字典本质上是一个键值对，比如用户名-&gt;用户资料">
   
 
   <!--Author-->
@@ -20,11 +20,11 @@
 
   <!--Open Graph Title-->
   
-      <meta property="og:title" content="「python」- 数字"/>
+      <meta property="og:title" content="「python」- 字典"/>
   
   <!--Open Graph Description-->
   
-      <meta property="og:description" content="三种类型：整数、浮点数、复数" />
+      <meta property="og:description" content="字典本质上是一个键值对，比如用户名-&gt;用户资料" />
   
   <!--Open Graph Site Name-->
   <meta property="og:site_name" content="Tanxy"/>
@@ -39,7 +39,7 @@
 
   <!-- Title -->
   
-  <title>「python」- 数字 - Tanxy</title>
+  <title>「python」- 字典 - Tanxy</title>
 
 
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/final_fav.png">
@@ -150,9 +150,9 @@
             </li>
           
             <li>
-              <a href="/atom.xml">
+              <a href="https://mailchi.mp/0360e8248b9e/db8sn08o17" target="_blank" rel="noopener">
                 
-                  RSS
+                  訂閱
                 
               </a>
             </li>
@@ -177,11 +177,11 @@
         <!-- Title date & tags -->
         <div class="post-header">
           <h1 class="entry-title">
-            「python」- 数字
+            「python」- 字典
             
           </h1>
           <p class="posted-on">
-          2019-06-06
+          2019-08-13
           </p>
           <div class="tags-links">
             
@@ -190,8 +190,8 @@
                   python基础
                 </a>
               
-                <a href="/tags/数字/" rel="tag">
-                  数字
+                <a href="/tags/字典/" rel="tag">
+                  字典
                 </a>
               
             
@@ -199,44 +199,73 @@
         </div>
         <!-- Post Main Content -->
         <div class="entry-content">
-          <h1>python中的数字</h1>
+          <h1>python学习笔记之字典</h1>
 <ul>
-<li>int 整数：23</li>
-<li>float 浮点数、小数：15.8</li>
-<li>complex 复数，：-1根号</li>
+<li>要唯一，最好是数字。</li>
+<li>字典的作用：找东西。<code>key</code>很关键，要定好。</li>
+<li>字典用于存储“键值对”，用于快速获取、添加、删除、修改某个值，类似于PHP的联合数组、Java的<code>HashMap</code>、JS的<code>json</code>，用户名-&gt;用户资料等等。</li>
+<li>所有语言中的字典，都是基于Hash、二叉树或其他类似结构的一类无序数据结构，目的就是为了<u>增加数据访问的速度</u>。</li>
 </ul>
-<h2 id="三种类型：">三种类型：</h2>
+<h2 id="创建字典">创建字典</h2>
+<p>在Python中，有两种方式创建字典。</p>
 <ol>
-<li>整数：所有的整数都属于int类</li>
+<li>方法1：直接写。</li>
 </ol>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">12</span></span><br><span class="line">print(type(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出 &lt;class 'int'&gt;</span></span><br></pre></td></tr></table></figure></h2>
-<h3 id="python3里面没有long，也用不着long">python3里面没有long，也用不着long</h3>
-<h2 id="￼1"><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//c语言中</span></span><br><span class="line"><span class="keyword">int</span> a <span class="comment">//32位整数</span></span><br><span class="line"><span class="keyword">long</span> b <span class="comment">//64位整数</span></span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> c <span class="number">128</span>位整数</span><br></pre></td></tr></table></figure></h2>
-<h2 id="￼2"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#python的整数可以非常大</span></span><br><span class="line">a = <span class="number">999999999999999999999999999999</span></span><br><span class="line">print(a)</span><br><span class="line">输出：<span class="number">999999999999999999999999999999</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">    <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">    <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">    <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">print(d[<span class="string">'gender'</span>])  <span class="comment">#男</span></span><br><span class="line">print(d[<span class="string">'age'</span>])  <span class="comment">#35</span></span><br></pre></td></tr></table></figure></h2>
 <ol start="2">
-<li>浮点数：所有浮点数都属于float类</li>
+<li>方法2：构造器</li>
 </ol>
-<h2 id="￼3"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">12.5</span></span><br><span class="line">print(type(a))</span><br><span class="line"><span class="comment">#输出&lt;class'float'&gt;</span></span><br><span class="line"><span class="comment">#python中没有double，也用不着double。</span></span><br></pre></td></tr></table></figure></h2>
-<ol start="3">
-<li>复数：复数都是complex类</li>
+<h2 id="￼1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">d2 = dict([</span><br><span class="line">     [<span class="string">'name'</span>,<span class="string">'张三'</span>],</span><br><span class="line">     [<span class="string">'age'</span>,<span class="number">35</span>],</span><br><span class="line">     [<span class="string">'gender'</span>,<span class="string">'男'</span>]</span><br><span class="line"> ])</span><br></pre></td></tr></table></figure></h2>
+<h2 id="字典的增删改查">字典的增删改查</h2>
+<ul>
+<li>例子：</li>
+</ul>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">         <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">d[<span class="string">'height'</span>] = <span class="number">185</span> <span class="comment">#增加身高为185</span></span><br><span class="line"><span class="keyword">del</span> d[<span class="string">'gender'</span>] <span class="comment">#删除性别</span></span><br><span class="line">d[<span class="string">'age'</span>] -= <span class="number">5</span><span class="comment"># 修改岁数减少5</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#循环</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> d:</span><br><span class="line">    print(item)</span><br><span class="line">    </span><br><span class="line"><span class="comment">#输出：</span></span><br><span class="line"><span class="comment">#name </span></span><br><span class="line"><span class="comment">#age</span></span><br><span class="line"><span class="comment">#gender</span></span><br><span class="line">            </span><br><span class="line">print(key + <span class="string">":"</span> + str(d[key]))</span><br></pre></td></tr></table></figure></h2>
+<ol>
+<li>要全部输出（key和value），可以进行序列的拼接。</li>
+<li>因为35是数字（整型），所以要转换为字符串。</li>
 </ol>
-<h2 id="￼4"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">15</span>+<span class="number">3j</span></span><br><span class="line">b = <span class="number">8</span><span class="number">-2j</span></span><br><span class="line"></span><br><span class="line">print(a+b)</span><br></pre></td></tr></table></figure></h2>
-<h2 id="类型检测">类型检测</h2>
-<h2 id="￼5"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#type(x)可以用来检测类型</span></span><br><span class="line">type(<span class="number">120</span>)  <span class="comment">#int</span></span><br><span class="line">type(<span class="number">5.0</span>)  <span class="comment">#float</span></span><br><span class="line">type(<span class="number">12</span>+<span class="number">0j</span>) <span class="comment">#complex</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="Python运算符">Python运算符</h2>
-<p>基本运算符（±*/）和其他语言都一样，但也有些不一样的。</p>
-<h2 id="￼6"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#正常除法</span></span><br><span class="line"><span class="number">16</span>/<span class="number">5</span>   <span class="comment">#3.2</span></span><br><span class="line"><span class="number">16</span>%<span class="number">5</span>   <span class="comment">#1--余数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#整除</span></span><br><span class="line"><span class="number">16</span>//<span class="number">5</span>  <span class="comment">#3</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="幂操作">幂操作</h2>
-<h2 id="￼7"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="number">3</span>**<span class="number">100</span>)  <span class="comment">#两个*代表多少次方</span></span><br><span class="line"><span class="comment">#转个思路</span></span><br><span class="line">print(<span class="number">9</span>**<span class="number">0.5</span>)   <span class="comment">#9的二分之一次方就是开根号</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="扩展赋值">扩展赋值</h2>
-<h2 id="￼8"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">15</span></span><br><span class="line">a = a + <span class="number">5</span> <span class="comment">#等价于 a += 5</span></span><br><span class="line">print(a)</span><br><span class="line"><span class="comment">#输出： 20</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="python没有-操作">python没有<code>++</code> <code>--</code> 操作</h2>
-<p><code>i++</code>  ==&gt;  <code>i+=1 </code>i–<code> ==&gt; </code>i-=1`</p>
-<p>python没有自增、自减操作，也不需要</p>
-<h2 id="运算符优先级">运算符优先级</h2>
-<h2 id="￼9"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">12</span>+<span class="number">6</span>/<span class="number">2</span>  <span class="comment">#15</span></span><br><span class="line">(<span class="number">12</span>+<span class="number">6</span>)/<span class="number">2</span>  <span class="comment">#9</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="优先级表：">优先级表：</h2>
-<p><u>括号 &gt; 函数 &gt; 列表/属性 &gt; 数值运算 &gt; 逻辑运算 &gt; 赋值</u></p>
+<h3 id="长度：">长度：</h3>
+<h2 id="￼3"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line">print(len(d))</span><br><span class="line"><span class="comment">#输出：3</span></span><br></pre></td></tr></table></figure></h2>
+<p>可以理解为3个东西，3个键值对。</p>
+<h3 id="是否相等">是否相等</h3>
+<ul>
+<li>顺序对字典毫无意义</li>
+<li>比较的是<code>key</code>，以及<code>key</code>后面的<code>value</code>是否相同。</li>
+</ul>
+<h3 id="in操作">in操作</h3>
+<p>dict 的<code>in</code>操作,<u>检测的是key不是value</u>。</p>
+<h2 id="字典的方法">字典的方法</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">方法</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">clear()</td>
+<td style="text-align:center">清空字典</td>
+</tr>
+<tr>
+<td style="text-align:center">keys()</td>
+<td style="text-align:center">返回所有key</td>
+</tr>
+<tr>
+<td style="text-align:center">values()</td>
+<td style="text-align:center">返回所有value</td>
+</tr>
+<tr>
+<td style="text-align:center">get(key)</td>
+<td style="text-align:center">索引，类似于[]</td>
+</tr>
+<tr>
+<td style="text-align:center">pop(key)</td>
+<td style="text-align:center">删除，类似于上面的del</td>
+</tr>
+</tbody>
+</table>
 
         </div>
       </article>
@@ -259,8 +288,8 @@
     <script type="text/javascript">
     var disqus_config = function () {
           this.page.url = window.location.href;
-          this.page.identifier = 'post-python类型数字';
-          this.page.title = '「python」- 数字';
+          this.page.identifier = 'post-python基本类型字典(dict)';
+          this.page.title = '「python」- 字典';
       };
     </script>
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
@@ -276,12 +305,12 @@
     <div class="nav-links">
       
         <div class="nav-previous">
-          <a href="/ckhvpkq07000suktvd5g2f671/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
+          <a href="/ckhvq5kiw000e0ctv52yq6y5f/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
         </div>
       
       
         <div class="nav-next">
-          <a href="/ckhvpkpzp0009uktv5id5hzoh/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
+          <a href="/ckhvq5kj1000h0ctv9kwj0l83/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
         </div>
       
     </div>
@@ -381,7 +410,7 @@ setInterval("createtime()",250);
 
 
   
-  var disqus_url = 'https://tanxy.club/ckhvpkq0b000xuktv4rmcdhdv/';
+  var disqus_url = 'https://tanxy.club/ckhvq5kj3000k0ctv05ue70y7/';
   
 
 /// Not to load disqus before users click the botton

@@ -10,7 +10,7 @@
 
   <!--Description-->
   
-  <meta name="description" content="各种数据类型之间都可以转换的">
+  <meta name="description" content="任何一个程序之所以称为程序，他总有一个逻辑在里面，流程控制语句就是来控制程序的流程">
   
 
   <!--Author-->
@@ -20,11 +20,11 @@
 
   <!--Open Graph Title-->
   
-      <meta property="og:title" content="「python」- 数据类型转换"/>
+      <meta property="og:title" content="「python」- 流程控制语句"/>
   
   <!--Open Graph Description-->
   
-      <meta property="og:description" content="各种数据类型之间都可以转换的" />
+      <meta property="og:description" content="任何一个程序之所以称为程序，他总有一个逻辑在里面，流程控制语句就是来控制程序的流程" />
   
   <!--Open Graph Site Name-->
   <meta property="og:site_name" content="Tanxy"/>
@@ -39,7 +39,7 @@
 
   <!-- Title -->
   
-  <title>「python」- 数据类型转换 - Tanxy</title>
+  <title>「python」- 流程控制语句 - Tanxy</title>
 
 
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/final_fav.png">
@@ -150,9 +150,9 @@
             </li>
           
             <li>
-              <a href="/atom.xml">
+              <a href="https://mailchi.mp/0360e8248b9e/db8sn08o17" target="_blank" rel="noopener">
                 
-                  RSS
+                  訂閱
                 
               </a>
             </li>
@@ -177,21 +177,25 @@
         <!-- Title date & tags -->
         <div class="post-header">
           <h1 class="entry-title">
-            「python」- 数据类型转换
+            「python」- 流程控制语句
             
           </h1>
           <p class="posted-on">
-          2020-02-21
+          2020-02-22
           </p>
           <div class="tags-links">
             
               
-                <a href="/tags/数据类型/" rel="tag">
-                  数据类型
-                </a>
-              
                 <a href="/tags/python基础/" rel="tag">
                   python基础
+                </a>
+              
+                <a href="/tags/流程控制语句/" rel="tag">
+                  流程控制语句
+                </a>
+              
+                <a href="/tags/if语句/" rel="tag">
+                  if语句
                 </a>
               
             
@@ -199,11 +203,59 @@
         </div>
         <!-- Post Main Content -->
         <div class="entry-content">
-          <h1>python之数据类型转换</h1>
+          <h1>python流程控制语句</h1>
 <blockquote>
-<p>直接用代码来说明</p>
+<p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
 </blockquote>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">'5.8'</span>                 <span class="comment">#定义一个字符串</span></span><br><span class="line">a = <span class="number">5</span>                     <span class="comment">#定义一个变量=5</span></span><br><span class="line">b = <span class="number">5.8</span></span><br><span class="line">print(float(s)+<span class="number">1.6</span>)       <span class="comment">#7.4   把字符串转换为浮点型之后与1.6相加得到 7.4</span></span><br><span class="line">print(float(a))          <span class="comment">#5.0   把整型变量转换为浮点型</span></span><br><span class="line">print(int(b))            <span class="comment">#5     把float类型转换为int类型--这里只是截取整数部分，并非四舍五入</span></span><br><span class="line">print(str(a)+s)          <span class="comment">#55.8  注意这里并非数值55.8，只是将5转换为字符串类型然后和5.8拼接</span></span><br><span class="line"></span><br><span class="line">print(round(<span class="number">3.5</span>))         <span class="comment">#4   这才是四舍五入</span></span><br><span class="line">print(round(<span class="number">3.2</span>))         <span class="comment">#3    四舍五入</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="布尔值">布尔值</h2>
+<h3 id="回顾-关系运算符">回顾 - 关系运算符</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">符号</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&gt;</td>
+<td style="text-align:center">大于</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;</td>
+<td style="text-align:center">小于</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt;=</td>
+<td style="text-align:center">大于等于</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;=</td>
+<td style="text-align:center">小于等于</td>
+</tr>
+<tr>
+<td style="text-align:center">==</td>
+<td style="text-align:center">相等</td>
+</tr>
+<tr>
+<td style="text-align:center">！=</td>
+<td style="text-align:center">不等</td>
+</tr>
+</tbody>
+</table>
+<p>关系运算符最终得出的结果返回的就是布尔值(boolean)，而所谓的布尔值也就是<code>False</code>和<code>True</code>两个,比如说  <code>print(12&gt;5)# True</code>，<code>print(5&gt;12)# False</code>，<code>True</code> 和 <code>False</code> 是python里面的关键字（要么是真的要么是假的）。</p>
+<p>if 语句就是依靠布尔值来工作的</p>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> 布尔值:</span><br><span class="line">    为<span class="literal">True</span>时执行的语句</span><br><span class="line"><span class="keyword">else</span> 布尔值:</span><br><span class="line">    为<span class="literal">False</span>时执行的语句</span><br></pre></td></tr></table></figure></h2>
+<p>来看一下关于if的所有内容举例代码：</p>
+<h2 id="￼1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">hungry = <span class="literal">True</span>              <span class="comment">#当我规定hungry为真的时候</span></span><br><span class="line">money = <span class="number">5</span>                  <span class="comment">#定义我现在只有五块钱</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> hungry:                <span class="comment">#当hungry为真的时候，这里开始运行</span></span><br><span class="line">    <span class="keyword">if</span> money &lt; <span class="number">5</span>:         <span class="comment">#if之后再if，if是可以嵌套的，当hungry为真，且money&lt;5的时候运行</span></span><br><span class="line">        print(<span class="string">'别吃了饿着吧'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">10</span>:      <span class="comment">#当hungry为真，且money&gt;5 同时小于10的时候运行</span></span><br><span class="line">        print(<span class="string">'吃馒头'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">20</span>:      <span class="comment">#当hungry为真，且money&gt;10 同时小于20的时候运行</span></span><br><span class="line">        print(<span class="string">'吃面'</span>)</span><br><span class="line">    <span class="keyword">elif</span> money &lt; <span class="number">30</span>:      <span class="comment">#当hungry为真，且money&gt;20 同时小于30的时候运行</span></span><br><span class="line">        print(<span class="string">'吃饭'</span>)</span><br><span class="line"><span class="keyword">else</span>：                    <span class="comment">#这个else 是对齐上面的大的if的，所以这里是hungry为假的时候运行</span></span><br><span class="line">    print(<span class="string">'接着工作'</span>)</span><br></pre></td></tr></table></figure></h2>
+<h2 id="总结">总结</h2>
+<ol>
+<li>if语句是可以嵌套的，python中没有<code>switch</code></li>
+<li>如果hungry为<code>False</code>就会执行下下面的&quot;接着工作&quot;。</li>
+<li>为什么hungry为<code>False</code>就会执行下面的&quot;接着工作&quot;?if 和 else，所以再次强调python的<u>缩进很重要</u>，如果上面的<code>else</code> 和最上面的<code>if</code>缩进格数不一样(通俗来讲就是不对齐的话就会报错),而对于缩进的格数没有严格的规定，只要在你相同逻辑下的语句缩进相同格数就行。</li>
+<li>python中<code>if</code>是必须的但是<code>else</code>不是必须的比如说</li>
+</ol>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> hungry == <span class="literal">True</span>:</span><br><span class="line">    print(<span class="string">'快去吃饭'</span>)</span><br></pre></td></tr></table></figure></h2>
 
         </div>
       </article>
@@ -226,8 +278,8 @@
     <script type="text/javascript">
     var disqus_config = function () {
           this.page.url = window.location.href;
-          this.page.identifier = 'post-python数据类型转换';
-          this.page.title = '「python」- 数据类型转换';
+          this.page.identifier = 'post-python控制语句';
+          this.page.title = '「python」- 流程控制语句';
       };
     </script>
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
@@ -243,12 +295,12 @@
     <div class="nav-links">
       
         <div class="nav-previous">
-          <a href="/ckhvpkq09000tuktv19az1ct4/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
+          <a href="/ckhvq5kit000b0ctvgo0lhks3/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
         </div>
       
       
         <div class="nav-next">
-          <a href="/ckhvpkpzu000fuktvd7qhcy9m/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
+          <a href="/ckhvq5kjk00110ctvakpab4mt/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
         </div>
       
     </div>
@@ -348,7 +400,7 @@ setInterval("createtime()",250);
 
 
   
-  var disqus_url = 'https://tanxy.club/ckhvpkq04000ouktv1vl64pc7/';
+  var disqus_url = 'https://tanxy.club/ckhvq5kj6000p0ctvaocc6pc6/';
   
 
 /// Not to load disqus before users click the botton

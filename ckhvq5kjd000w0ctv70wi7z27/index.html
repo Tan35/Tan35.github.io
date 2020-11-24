@@ -10,7 +10,7 @@
 
   <!--Description-->
   
-  <meta name="description" content="练习">
+  <meta name="description" content="三种类型：整数、浮点数、复数">
   
 
   <!--Author-->
@@ -20,11 +20,11 @@
 
   <!--Open Graph Title-->
   
-      <meta property="og:title" content="Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]"/>
+      <meta property="og:title" content="「python」- 数字"/>
   
   <!--Open Graph Description-->
   
-      <meta property="og:description" content="练习" />
+      <meta property="og:description" content="三种类型：整数、浮点数、复数" />
   
   <!--Open Graph Site Name-->
   <meta property="og:site_name" content="Tanxy"/>
@@ -39,7 +39,7 @@
 
   <!-- Title -->
   
-  <title>Flex Layout + SVG 实现 Apple动效练习[参考陈东泽] - Tanxy</title>
+  <title>「python」- 数字 - Tanxy</title>
 
 
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/final_fav.png">
@@ -150,9 +150,9 @@
             </li>
           
             <li>
-              <a href="/atom.xml">
+              <a href="https://mailchi.mp/0360e8248b9e/db8sn08o17" target="_blank" rel="noopener">
                 
-                  RSS
+                  訂閱
                 
               </a>
             </li>
@@ -177,25 +177,21 @@
         <!-- Title date & tags -->
         <div class="post-header">
           <h1 class="entry-title">
-            Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]
+            「python」- 数字
             
           </h1>
           <p class="posted-on">
-          2020-08-18
+          2019-06-06
           </p>
           <div class="tags-links">
             
               
-                <a href="/tags/Flex-Layout/" rel="tag">
-                  Flex-Layout
+                <a href="/tags/python基础/" rel="tag">
+                  python基础
                 </a>
               
-                <a href="/tags/SVG/" rel="tag">
-                  SVG
-                </a>
-              
-                <a href="/tags/微信公众号/" rel="tag">
-                  微信公众号
+                <a href="/tags/数字/" rel="tag">
+                  数字
                 </a>
               
             
@@ -203,86 +199,44 @@
         </div>
         <!-- Post Main Content -->
         <div class="entry-content">
-          <h1>Flex Layout + SVG  实现 Apple 动效</h1>
-<blockquote>
-<p>本文参考于大佬 陈东泽的<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">文章</a></p>
-</blockquote>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f3b8f3b14195aa594ea0185.jpg" alt=""></p>
-<blockquote>
-<p>看了 陈东泽大佬对于Apple公众号里面的–&gt;<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">排版讲解</a>。突然有点想学前端了，有趣。</p>
-</blockquote>
-<h2 id="CSS学习中">CSS学习中</h2>
-<blockquote>
-<p>A B C D E的布局分布css代码大概是这样</p>
-</blockquote>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f3b8fe114195aa594ea71e6.jpg" alt=""></p>
-<h2 id="￼0"><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;div style="display: flex"&gt;</span><br><span class="line">    &lt;div style="display: flex; width: 50%; flex-direction: column;"&gt;</span><br><span class="line">         &lt;div style="display: block;"&gt;</span><br><span class="line">                 &lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">A</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">         &lt;/div&gt;</span><br><span class="line">        &lt;div style="display: block;"&gt;</span><br><span class="line">                &lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">B</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">         &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; width: 50%;flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">C</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">D</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">E</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></h2>
-<h2 id="仿照">仿照</h2>
-<blockquote>
-<p>仿照修改了一个，是真的有意思，突然想对放下已久的微信公众号动刀</p>
-</blockquote>
-<section style="display: block;text-align: center;">
-  <div style="display: flex;background-color: #000000;">
-    <div style="display: flex;width: 50%;flex-direction: column;">
-      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
-          height="100%" width="100%" data-filename="03_01.jpg"
-          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3a943a14195aa594af8543.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 100%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
-          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="2s" keyTimes="0; 0.01; 0.70; 1"
-            values="0; 1; 1; 0;"></animate>
-        </svg></div>
-      <div data-filename="02_01.gif"
-        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa49514195aa594b3ad5f.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 100%;width: 100%;">
-      </div>
-      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
-          height="100%" width="100%" data-filename="03_02.jpg"
-          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa8fa14195aa594b4c7b2.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 100%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
-          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="2s" keyTimes="0; 0.01; 0.70; 1"
-            values="0; 1; 1; 0;"></animate>
-        </svg></div><svg data-filename="02_02.jpg" preserveAspectRatio="xMinYMin meet"
-        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa43714195aa594b39780.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;width: 100%;"
-        viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg"></svg>
-    </div>
-    <div style="display: flex;width: 50%;flex-direction: column;">
-      <div style="display: block;height: 0px !important;"><svg data-filename="02_03.gif"
-          preserveAspectRatio="xMinYMin meet"
-          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aaf2b14195aa594b64cb6.png&quot;);background-color: #141414;background-size: 100% auto;background-repeat: no-repeat;width: 100%;margin-top: 50%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
-          viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg"></svg></div>
-      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
-          height="100%" width="100%" data-filename="03_03_15_opt70.gif"
-          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aad0314195aa594b5d91b.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 200%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
-          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="5s" keyTimes="0; 0.01; 0.70; 1"
-            values="0; 1; 1; 0;"></animate>
-        </svg></div><svg data-filename="02_03.jpg" preserveAspectRatio="xMinYMin meet"
-        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3a554014195aa5949fd13a.jpg&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;width: 100%;"
-        viewBox="0 0 540 1080" xmlns="http://www.w3.org/2000/svg"></svg>
-    </div>
-  </div>
-  <div style="display: block;margin-top: -1px;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg"
-      opacity="0" height="100%" width="100%" data-filename="03_04.jpg"
-      style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa19f14195aa594b301e3.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 50%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
-      <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="3s" keyTimes="0; 0.01; 0.70; 1"
-        values="0; 1; 1; 0;"></animate>
-    </svg></div>
-  <div data-filename="02_04.jpg"
-    style="display: block;background-image: url(&quot;https://pic.downk.cc/item/5f3aa2de14195aa594b34bb0.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 50%;width: 100%;margin-top: -1px;">
-  </div>
-  <div style="display: block;height: 0px !important;"><svg data-filename="03_05.jpg" height="100%" opacity="0"
-      style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa1dd14195aa594b30fe1.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 50%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
-      width="100%" xmlns="http://www.w3.org/2000/svg">
-      <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="7s" keyTimes="0; 0.01; 0.70; 1"
-        values="0; 1; 1; 0;"></animate>
-    </svg></div>
-  <div data-filename="02_05.jpg"
-    style="display: block;background-image: url(&quot;https://pic.downk.cc/item/5f3aa17114195aa594b2f70d.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 50%;width: 100%;">
-  </div>
-</section>
-<h2 id="总结">总结</h2>
+          <h1>python中的数字</h1>
+<ul>
+<li>int 整数：23</li>
+<li>float 浮点数、小数：15.8</li>
+<li>complex 复数，：-1根号</li>
+</ul>
+<h2 id="三种类型：">三种类型：</h2>
 <ol>
-<li>微信公众号的编辑器是不支持直接修改文章 HTML 的，要用Chrome Inspect进行调试贴上代码</li>
-<li>另外微信公众平台的编辑器也有很多“潜规则”，很多css的属性都可能作废。有人总结了一下-&gt;<a href="https://www.cnblogs.com/haqiao/p/13438686.html" target="_blank" rel="noopener">发SVG文的一些坑</a>,以后可以作为参考，另外这篇文章也不错-&gt;<a href="https://www.jianshu.com/p/8c2e4fc26e8a" target="_blank" rel="noopener">详细教你微信公众号正文页SVG交互开发</a>。</li>
-<li>考虑一下要不要捡起我的公众号吧。可以先关注一波，微信搜索： 麻麻哋阿巴阿巴。</li>
-<li>可以微信搜索 东泽聊技术,看牛人的技术操作这篇文章 也写的相当不错-&gt;<a href="https://mp.weixin.qq.com/s/GPJ2TjgIdA-XG5rNWVCXZQ" target="_blank" rel="noopener">程序员就该这样解读《隐秘的角落》</a></li>
+<li>整数：所有的整数都属于int类</li>
 </ol>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">12</span></span><br><span class="line">print(type(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出 &lt;class 'int'&gt;</span></span><br></pre></td></tr></table></figure></h2>
+<h3 id="python3里面没有long，也用不着long">python3里面没有long，也用不着long</h3>
+<h2 id="￼1"><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//c语言中</span></span><br><span class="line"><span class="keyword">int</span> a <span class="comment">//32位整数</span></span><br><span class="line"><span class="keyword">long</span> b <span class="comment">//64位整数</span></span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> c <span class="number">128</span>位整数</span><br></pre></td></tr></table></figure></h2>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#python的整数可以非常大</span></span><br><span class="line">a = <span class="number">999999999999999999999999999999</span></span><br><span class="line">print(a)</span><br><span class="line">输出：<span class="number">999999999999999999999999999999</span></span><br></pre></td></tr></table></figure></h2>
+<ol start="2">
+<li>浮点数：所有浮点数都属于float类</li>
+</ol>
+<h2 id="￼3"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">12.5</span></span><br><span class="line">print(type(a))</span><br><span class="line"><span class="comment">#输出&lt;class'float'&gt;</span></span><br><span class="line"><span class="comment">#python中没有double，也用不着double。</span></span><br></pre></td></tr></table></figure></h2>
+<ol start="3">
+<li>复数：复数都是complex类</li>
+</ol>
+<h2 id="￼4"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">15</span>+<span class="number">3j</span></span><br><span class="line">b = <span class="number">8</span><span class="number">-2j</span></span><br><span class="line"></span><br><span class="line">print(a+b)</span><br></pre></td></tr></table></figure></h2>
+<h2 id="类型检测">类型检测</h2>
+<h2 id="￼5"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#type(x)可以用来检测类型</span></span><br><span class="line">type(<span class="number">120</span>)  <span class="comment">#int</span></span><br><span class="line">type(<span class="number">5.0</span>)  <span class="comment">#float</span></span><br><span class="line">type(<span class="number">12</span>+<span class="number">0j</span>) <span class="comment">#complex</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="Python运算符">Python运算符</h2>
+<p>基本运算符（±*/）和其他语言都一样，但也有些不一样的。</p>
+<h2 id="￼6"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#正常除法</span></span><br><span class="line"><span class="number">16</span>/<span class="number">5</span>   <span class="comment">#3.2</span></span><br><span class="line"><span class="number">16</span>%<span class="number">5</span>   <span class="comment">#1--余数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#整除</span></span><br><span class="line"><span class="number">16</span>//<span class="number">5</span>  <span class="comment">#3</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="幂操作">幂操作</h2>
+<h2 id="￼7"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="number">3</span>**<span class="number">100</span>)  <span class="comment">#两个*代表多少次方</span></span><br><span class="line"><span class="comment">#转个思路</span></span><br><span class="line">print(<span class="number">9</span>**<span class="number">0.5</span>)   <span class="comment">#9的二分之一次方就是开根号</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="扩展赋值">扩展赋值</h2>
+<h2 id="￼8"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">15</span></span><br><span class="line">a = a + <span class="number">5</span> <span class="comment">#等价于 a += 5</span></span><br><span class="line">print(a)</span><br><span class="line"><span class="comment">#输出： 20</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="python没有-操作">python没有<code>++</code> <code>--</code> 操作</h2>
+<p><code>i++</code>  ==&gt;  <code>i+=1 </code>i–<code> ==&gt; </code>i-=1`</p>
+<p>python没有自增、自减操作，也不需要</p>
+<h2 id="运算符优先级">运算符优先级</h2>
+<h2 id="￼9"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">12</span>+<span class="number">6</span>/<span class="number">2</span>  <span class="comment">#15</span></span><br><span class="line">(<span class="number">12</span>+<span class="number">6</span>)/<span class="number">2</span>  <span class="comment">#9</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="优先级表：">优先级表：</h2>
+<p><u>括号 &gt; 函数 &gt; 列表/属性 &gt; 数值运算 &gt; 逻辑运算 &gt; 赋值</u></p>
 
         </div>
       </article>
@@ -305,8 +259,8 @@
     <script type="text/javascript">
     var disqus_config = function () {
           this.page.url = window.location.href;
-          this.page.identifier = 'post-test';
-          this.page.title = 'Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]';
+          this.page.identifier = 'post-python类型数字';
+          this.page.title = '「python」- 数字';
       };
     </script>
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
@@ -322,12 +276,12 @@
     <div class="nav-links">
       
         <div class="nav-previous">
-          <a href="/ckhvpkpzm0007uktv6i77ai3m/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
+          <a href="/ckhvq5kj9000t0ctv540fgj53/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
         </div>
       
       
         <div class="nav-next">
-          <a href="/ckhvpkpz70001uktv0mh95x3l/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
+          <a href="/ckhvq5kir00090ctv7u1s2d2w/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
         </div>
       
     </div>
@@ -427,7 +381,7 @@ setInterval("createtime()",250);
 
 
   
-  var disqus_url = 'https://tanxy.club/ckhvpkq0f0014uktveu1dcs6u/';
+  var disqus_url = 'https://tanxy.club/ckhvq5kjd000w0ctv70wi7z27/';
   
 
 /// Not to load disqus before users click the botton
