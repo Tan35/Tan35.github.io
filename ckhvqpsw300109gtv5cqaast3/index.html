@@ -10,7 +10,7 @@
 
   <!--Description-->
   
-  <meta name="description" content="各种数据类型之间都可以转换的">
+  <meta name="description" content="三种类型：整数、浮点数、复数">
   
 
   <!--Author-->
@@ -20,11 +20,11 @@
 
   <!--Open Graph Title-->
   
-      <meta property="og:title" content="「python」- 数据类型转换"/>
+      <meta property="og:title" content="「python」- 数字"/>
   
   <!--Open Graph Description-->
   
-      <meta property="og:description" content="各种数据类型之间都可以转换的" />
+      <meta property="og:description" content="三种类型：整数、浮点数、复数" />
   
   <!--Open Graph Site Name-->
   <meta property="og:site_name" content="Tanxy"/>
@@ -39,7 +39,7 @@
 
   <!-- Title -->
   
-  <title>「python」- 数据类型转换 - Tanxy</title>
+  <title>「python」- 数字 - Tanxy</title>
 
 
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/final_fav.png">
@@ -177,21 +177,21 @@
         <!-- Title date & tags -->
         <div class="post-header">
           <h1 class="entry-title">
-            「python」- 数据类型转换
+            「python」- 数字
             
           </h1>
           <p class="posted-on">
-          2020-02-21
+          2019-06-06
           </p>
           <div class="tags-links">
             
               
-                <a href="/tags/数据类型/" rel="tag">
-                  数据类型
-                </a>
-              
                 <a href="/tags/python基础/" rel="tag">
                   python基础
+                </a>
+              
+                <a href="/tags/数字/" rel="tag">
+                  数字
                 </a>
               
             
@@ -199,11 +199,44 @@
         </div>
         <!-- Post Main Content -->
         <div class="entry-content">
-          <h1>python之数据类型转换</h1>
-<blockquote>
-<p>直接用代码来说明</p>
-</blockquote>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">'5.8'</span>                 <span class="comment">#定义一个字符串</span></span><br><span class="line">a = <span class="number">5</span>                     <span class="comment">#定义一个变量=5</span></span><br><span class="line">b = <span class="number">5.8</span></span><br><span class="line">print(float(s)+<span class="number">1.6</span>)       <span class="comment">#7.4   把字符串转换为浮点型之后与1.6相加得到 7.4</span></span><br><span class="line">print(float(a))          <span class="comment">#5.0   把整型变量转换为浮点型</span></span><br><span class="line">print(int(b))            <span class="comment">#5     把float类型转换为int类型--这里只是截取整数部分，并非四舍五入</span></span><br><span class="line">print(str(a)+s)          <span class="comment">#55.8  注意这里并非数值55.8，只是将5转换为字符串类型然后和5.8拼接</span></span><br><span class="line"></span><br><span class="line">print(round(<span class="number">3.5</span>))         <span class="comment">#4   这才是四舍五入</span></span><br><span class="line">print(round(<span class="number">3.2</span>))         <span class="comment">#3    四舍五入</span></span><br></pre></td></tr></table></figure></h2>
+          <h1>python中的数字</h1>
+<ul>
+<li>int 整数：23</li>
+<li>float 浮点数、小数：15.8</li>
+<li>complex 复数，：-1根号</li>
+</ul>
+<h2 id="三种类型：">三种类型：</h2>
+<ol>
+<li>整数：所有的整数都属于int类</li>
+</ol>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">12</span></span><br><span class="line">print(type(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出 &lt;class 'int'&gt;</span></span><br></pre></td></tr></table></figure></h2>
+<h3 id="python3里面没有long，也用不着long">python3里面没有long，也用不着long</h3>
+<h2 id="￼1"><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//c语言中</span></span><br><span class="line"><span class="keyword">int</span> a <span class="comment">//32位整数</span></span><br><span class="line"><span class="keyword">long</span> b <span class="comment">//64位整数</span></span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> c <span class="number">128</span>位整数</span><br></pre></td></tr></table></figure></h2>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#python的整数可以非常大</span></span><br><span class="line">a = <span class="number">999999999999999999999999999999</span></span><br><span class="line">print(a)</span><br><span class="line">输出：<span class="number">999999999999999999999999999999</span></span><br></pre></td></tr></table></figure></h2>
+<ol start="2">
+<li>浮点数：所有浮点数都属于float类</li>
+</ol>
+<h2 id="￼3"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">12.5</span></span><br><span class="line">print(type(a))</span><br><span class="line"><span class="comment">#输出&lt;class'float'&gt;</span></span><br><span class="line"><span class="comment">#python中没有double，也用不着double。</span></span><br></pre></td></tr></table></figure></h2>
+<ol start="3">
+<li>复数：复数都是complex类</li>
+</ol>
+<h2 id="￼4"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">15</span>+<span class="number">3j</span></span><br><span class="line">b = <span class="number">8</span><span class="number">-2j</span></span><br><span class="line"></span><br><span class="line">print(a+b)</span><br></pre></td></tr></table></figure></h2>
+<h2 id="类型检测">类型检测</h2>
+<h2 id="￼5"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#type(x)可以用来检测类型</span></span><br><span class="line">type(<span class="number">120</span>)  <span class="comment">#int</span></span><br><span class="line">type(<span class="number">5.0</span>)  <span class="comment">#float</span></span><br><span class="line">type(<span class="number">12</span>+<span class="number">0j</span>) <span class="comment">#complex</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="Python运算符">Python运算符</h2>
+<p>基本运算符（±*/）和其他语言都一样，但也有些不一样的。</p>
+<h2 id="￼6"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#正常除法</span></span><br><span class="line"><span class="number">16</span>/<span class="number">5</span>   <span class="comment">#3.2</span></span><br><span class="line"><span class="number">16</span>%<span class="number">5</span>   <span class="comment">#1--余数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#整除</span></span><br><span class="line"><span class="number">16</span>//<span class="number">5</span>  <span class="comment">#3</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="幂操作">幂操作</h2>
+<h2 id="￼7"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="number">3</span>**<span class="number">100</span>)  <span class="comment">#两个*代表多少次方</span></span><br><span class="line"><span class="comment">#转个思路</span></span><br><span class="line">print(<span class="number">9</span>**<span class="number">0.5</span>)   <span class="comment">#9的二分之一次方就是开根号</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="扩展赋值">扩展赋值</h2>
+<h2 id="￼8"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">15</span></span><br><span class="line">a = a + <span class="number">5</span> <span class="comment">#等价于 a += 5</span></span><br><span class="line">print(a)</span><br><span class="line"><span class="comment">#输出： 20</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="python没有-操作">python没有<code>++</code> <code>--</code> 操作</h2>
+<p><code>i++</code>  ==&gt;  <code>i+=1 </code>i–<code> ==&gt; </code>i-=1`</p>
+<p>python没有自增、自减操作，也不需要</p>
+<h2 id="运算符优先级">运算符优先级</h2>
+<h2 id="￼9"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">12</span>+<span class="number">6</span>/<span class="number">2</span>  <span class="comment">#15</span></span><br><span class="line">(<span class="number">12</span>+<span class="number">6</span>)/<span class="number">2</span>  <span class="comment">#9</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="优先级表：">优先级表：</h2>
+<p><u>括号 &gt; 函数 &gt; 列表/属性 &gt; 数值运算 &gt; 逻辑运算 &gt; 赋值</u></p>
 
         </div>
       </article>
@@ -226,8 +259,8 @@
     <script type="text/javascript">
     var disqus_config = function () {
           this.page.url = window.location.href;
-          this.page.identifier = 'post-python数据类型转换';
-          this.page.title = '「python」- 数据类型转换';
+          this.page.identifier = 'post-python类型数字';
+          this.page.title = '「python」- 数字';
       };
     </script>
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
@@ -243,12 +276,12 @@
     <div class="nav-links">
       
         <div class="nav-previous">
-          <a href="/ckhvq5kj6000p0ctvaocc6pc6/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
+          <a href="/ckhvqpsvx000t9gtv3vvp4bvq/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
         </div>
       
       
         <div class="nav-next">
-          <a href="/ckhvq5kiw000e0ctv52yq6y5f/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
+          <a href="/ckhvqpsvf00099gtvcb29eza7/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
         </div>
       
     </div>
@@ -266,7 +299,7 @@
         <h1 class="widget-title">About</h1>
         <div class="custom-widget-content">
           
-          <div style="font-family:'Sarasa Mono HC', 'Sarasa Mono J', 'Sarasa Mono K', monospace;font-size:5px;">日常与技术</div>
+          <div style="font-family:'Sarasa Mono HC', 'Sarasa Mono J', 'Sarasa Mono K', monospace;font-size:7px;">日常与技术</div>
         </div>
       </aside>
     </div>
@@ -348,7 +381,7 @@ setInterval("createtime()",250);
 
 
   
-  var disqus_url = 'https://tanxy.club/ckhvq5kjk00110ctvakpab4mt/';
+  var disqus_url = 'https://tanxy.club/ckhvqpsw300109gtv5cqaast3/';
   
 
 /// Not to load disqus before users click the botton
@@ -356,7 +389,7 @@ setInterval("createtime()",250);
 
 var disqus = {
   load : function disqus(){
-      var disqus_shortname = 'Tan35';
+      var disqus_shortname = 'Tanxy35';
       if(typeof DISQUS !== 'object') {
         (function () {
         var s = document.createElement('script'); s.async = true;
