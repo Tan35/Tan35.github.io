@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>标题</title>
-    <url>/ckhvqpsux00019gtv33ax8n02/</url>
+    <url>/ckhx783xy0001dctv86o3doee/</url>
     <content><![CDATA[<p>这条应该是简介吧</p>
 <a id="more"></a>
 <h2 id="Daily">Daily</h2>
@@ -14,8 +14,161 @@
       </tags>
   </entry>
   <entry>
+    <title>“幸运之子会是谁呢”</title>
+    <url>/ckhx783y40003dctvb1le6dw7/</url>
+    <content><![CDATA[<p>一款有趣的“抽奖”工具</p>
+<a id="more"></a>
+<h2 id="前言">前言</h2>
+<p>今日分享的是一个偶然在少数派上面看到的一个软件：LuckyYou，这款软件的作者是 <a href="https://github.com/jwenjian" target="_blank" rel="noopener">jwenjian</a>,我是被作者对这款软件的描述吸引的：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/Snipaste_2020-11-22_17-08-14.jpg" alt=""></p>
+<p>而对于这款软件的实际意义来说简单四个字：随机抽取（<s>废话</s>）</p>
+<ul>
+<li>班级上的点名，无论是随机点到还是随机&quot;抽奖&quot;</li>
+<li>幸运观众的抽取</li>
+</ul>
+<h2 id="优势">优势</h2>
+<p>在这个花名册逐渐电子化的时代，“抽奖工具”的出现似乎是必不可少了，那么这款软件最大的优势是什么呢？  <strong>强（hao）大（kan）</strong>  。</p>
+<h2 id="下载安装">下载安装</h2>
+<p>代码是开源的。链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br>
+<img src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>
+不同系统选择不同的安装包下载即可</p>
+<blockquote>
+<p><strong>注</strong>：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">系统说明</th>
+<th style="text-align:center">安装包后缀名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Windows</td>
+<td style="text-align:center">.msi</td>
+</tr>
+<tr>
+<td style="text-align:center">Ubuntu</td>
+<td style="text-align:center">.deb</td>
+</tr>
+<tr>
+<td style="text-align:center">Macos</td>
+<td style="text-align:center">.dmg</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="使用步骤">使用步骤</h2>
+<p><img src="https://pic.downk.cc/item/5f37b0fe14195aa594fe21cd.jpg" alt="主界面"></p>
+<hr>
+<h3 id="事前准备">事前准备</h3>
+<p>你要准备好抽取对象的照片和名字，照片最后会被软件裁切为正方形，毕竟本意也是个“电子花名册”，下面以抽取三个人（张三，李四，欧阳六）为例子进行展示</p>
+<h3 id="开始！">开始！</h3>
+<p>按下软件主界面中间的<code>Select images(选择图片)</code>即可进行抽取对象的选择，然后按开始便可以享受抽取的快乐<br>
+<img src="https://pic.downk.cc/item/5f37bb7114195aa594013581.gif" alt=""></p>
+<h3 id="软件小tips">软件小tips</h3>
+<ul>
+<li>软件设计默认为英文，右上角<strong>第二个</strong>按钮可进行语言的切换，可切换到简体中文</li>
+<li>软件支持深色模式，右上角<strong>第五个</strong>按钮可实现浅色模式与深色模式的切换</li>
+<li>声音是老虎机的声音，比较有趣，右上角<strong>第一个</strong>按钮可进行声音开关操作</li>
+<li>选取的图片格式可以是：.jpg,.jpeg,.png,.gif（.ico也可以!）</li>
+<li>选取的图片不宜过大，并不是不能过大，测试过7M的照片还是可以的，至于作者所说的不宜过大应该是在抽取过程中，如果图片过大会使得图片动画过渡不自然，最终抽取效果不佳</li>
+<li>选取的照片张数作者并没有说，不过测试过50张也是没有问题的</li>
+<li>当然你也可以请作者喝杯咖啡，选择右上角<strong>第四个</strong>按钮</li>
+</ul>
+<h3 id="第三个按钮呢？">第三个按钮呢？</h3>
+<p>软件<strong>第三个</strong>按钮为设置抽取的规则</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/Snipaste_2020-11-22_17-12-45.jpg" alt=""></p>
+<p>这个规则直白点说就是：<strong>上面的例子中，张三/李四/欧阳六是否可以被重复抽中多次</strong>。然而更让我意想不到的是（<s>愚钝的我</s>）,在选择否之后，软件在抽取一个对象之后，会将此抽中对象从抽取列表中删除，然后进行列表中剩余对象的抽取。（我本以为这个规则的意思是在多次抽取的过程中，同一个对象是否能被多此抽中）如图，我在选择否之后再次进行抽奖。</p>
+<p><img src="https://pic.downk.cc/item/5f37c01914195aa594028f43.gif" alt=""></p>
+<p>可看到被抽中的对象一个个从抽奖列表中删除，直到最后剩下张三不再进行抽奖。<br>
+其实不难理解，我觉得这也应该是定下这个规则之后的抽奖逻辑，当然选择否之后不从列表删除抽中对象这个逻辑也是没有问题的。</p>
+<h2 id="最后">最后</h2>
+<p>在写下这篇博客的时候，作者对于此应用在Windows下的适配还没有完全解决好，Windows系统安装完之后还是不能正常使用，只能通过作者提供的方法使用<a href="https://luckyyou.netlify.app/" target="_blank" rel="noopener">PWA应用</a>。我也算是和这位作者有点缘份，作者在少数派发表文章之后我就发现了问题并求教作者，给作者提供Windows下LuckyYou不能运行的具体问题，在交流之中可以看出是一位比较负责的作者了。最后希望Windows系统下的LuckyYou可以尽快修复bug，毕竟这软件真不错，无论是界面、UI还是主要功能，当然也希望作者可以加入更多额外功能，比如某网友说的从 Excel 导入学号姓名作为“抽奖”的另一种方法，也可以制定更多抽奖的规则。</p>
+<p><img src="https://pic.downk.cc/item/5fba2cfcb18d6271139caaaf.jpg" alt=""><br>
+<img src="https://pic.downk.cc/item/5fba2cfcb18d6271139caab6.jpg" alt=""></p>
+]]></content>
+      <categories>
+        <category>一些软件</category>
+      </categories>
+      <tags>
+        <tag>VUE</tag>
+        <tag>抽奖</tag>
+        <tag>LuckyYou</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「python」- 数据类型和变量</title>
+    <url>/ckhx783yb0006dctv2dts6qkg/</url>
+    <content><![CDATA[<h1>Python入门 - 数据类型和变量</h1>
+<p>变量是用来存东西的。就像一个杯子用来装水,但是Python里面存的不是水，而存的是在哪能找到这个水，存的是引用，即变量用于引用内存中存储的对象。</p>
+<h2 id="python中的一切都是“对象”（Object）">python中的一切都是“对象”（Object）</h2>
+<p>基本类型也是对象。</p>
+<h2 id="Python是动态类型的">Python是动态类型的</h2>
+<p>一个变量的类型可以变，可以存数字，过一会可以存字符串。</p>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12</span></span><br><span class="line">print(a)</span><br><span class="line">	</span><br><span class="line">a = <span class="string">'abc'</span></span><br><span class="line">print(a)</span><br><span class="line">	</span><br><span class="line"><span class="comment">#输出：</span></span><br><span class="line"><span class="comment">#12</span></span><br><span class="line"><span class="comment">#abc</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="Python的变量无需声明">Python的变量无需声明</h2>
+<p>在第一次赋值的时候产生。</p>
+<h2 id="￼1"><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//java中：</span></span><br><span class="line"><span class="keyword">int</span> a;</span><br><span class="line">a = <span class="number">12</span>;</span><br></pre></td></tr></table></figure></h2>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#python中：</span></span><br><span class="line">a = <span class="number">12</span>   <span class="comment"># 即可</span></span><br></pre></td></tr></table></figure></h2>
+<h3 id="python是强类型的">python是强类型的</h3>
+<p>不能随便把一个数字和字符串放到一块去。</p>
+<h2 id="￼3"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#连等</span></span><br><span class="line">a = b = c = <span class="number">12</span></span><br><span class="line"><span class="comment">#等价于</span></span><br><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">12</span></span><br><span class="line">c = <span class="number">12</span></span><br><span class="line">	 </span><br><span class="line"><span class="comment">#再次说明：在python中，a并不保存值本身，而是引用这个值</span></span><br></pre></td></tr></table></figure></h2>
+<p>其他语言比如c语言，你让他保存12到一个变量a里面，这个变量里面是真的存了这个12的值。</p>
+<h2 id="解构赋值（联合赋值）">解构赋值（联合赋值）</h2>
+<h2 id="￼4"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a,b,c = <span class="number">12</span>,<span class="number">5</span>,<span class="number">8</span></span><br></pre></td></tr></table></figure></h2>
+<p>说白了，就是可以同时给很多个变量赋值。可以做一些好玩的事情：</p>
+<h2 id="￼5"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">5</span></span><br><span class="line">print(a,b)</span><br><span class="line"></span><br><span class="line">b,a = a,b</span><br><span class="line">print(a,b)</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：</span></span><br><span class="line"><span class="comment">#12 5</span></span><br><span class="line"><span class="comment">#5 12</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="Python基本数据类型">Python基本数据类型</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">表示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">数字</td>
+<td style="text-align:center">int，float</td>
+</tr>
+<tr>
+<td style="text-align:center">字符串</td>
+<td style="text-align:center">str</td>
+</tr>
+<tr>
+<td style="text-align:center">列表</td>
+<td style="text-align:center">list</td>
+</tr>
+<tr>
+<td style="text-align:center">元组</td>
+<td style="text-align:center">tuple</td>
+</tr>
+<tr>
+<td style="text-align:center">字典</td>
+<td style="text-align:center">dict</td>
+</tr>
+<tr>
+<td style="text-align:center">布尔值</td>
+<td style="text-align:center">bool</td>
+</tr>
+</tbody>
+</table>
+<h2 id="￼6"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#接收用户输入</span></span><br><span class="line">（python是强类型的）</span><br><span class="line"></span><br><span class="line">name = input(<span class="string">'请输入你的名字：'</span>)</span><br><span class="line">print(<span class="string">'你好'</span>，+name)</span><br><span class="line"></span><br><span class="line">输出：请输入你的名字：张三（这个张三是用户输入进去的）</span><br><span class="line">      你好，张三</span><br><span class="line">	  </span><br><span class="line"><span class="comment">#注：</span></span><br><span class="line">age = input(<span class="string">'你今年几岁'</span>)</span><br><span class="line">year = <span class="number">2018</span>-int(age)   </span><br><span class="line"><span class="comment">#加int转换类型是因为input所输入进来的一切都是字符串，所以要转换为int</span></span><br><span class="line"></span><br><span class="line">print(<span class="string">'你是'</span>+str(year)+<span class="string">'出生的'</span>)</span><br><span class="line"><span class="comment">#加str是因为year被上面转换成数字，这里'你是'是字符串，所以需要再转换</span></span><br></pre></td></tr></table></figure></h2>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>数据类型</tag>
+        <tag>变量</tag>
+        <tag>python基础</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>那些年你错过的网站</title>
-    <url>/ckhvqpsv500039gtvg2ivgd8q/</url>
+    <url>/ckhx783yf0009dctvdfzs2ylf/</url>
     <content><![CDATA[<p>实用网站分享</p>
 <a id="more"></a>
 <h1><b><font face="Sarasa Mono HC"  color=black>前言</font></b></h1>
@@ -50,7 +203,7 @@
 <blockquote>
 <p><font face="Sarasa Mono HC" size=3.5 color=black>以视频或者gif方式可视化数据，</font></p>
 </blockquote>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f4de712160a154a677cc128.gif" alt=""></p>
+<p><img src="https://pic.downk.cc/item/5f4de712160a154a677cc128.gif" alt=""></p>
 <ul>
 <li><font face="Sarasa Mono HC" size=4 color=black><a href="https://www.deepl.com/translator" target="_blank" rel="noopener">DeepL翻译网站</a></font></li>
 </ul>
@@ -120,161 +273,8 @@
       </tags>
   </entry>
   <entry>
-    <title>“幸运之子会是谁呢”</title>
-    <url>/ckhvqpsvb00069gtva5u89y5c/</url>
-    <content><![CDATA[<p>一款有趣的“抽奖”工具</p>
-<a id="more"></a>
-<h2 id="前言">前言</h2>
-<p>今日分享的是一个偶然在少数派上面看到的一个软件：LuckyYou，这款软件的作者是 <a href="https://github.com/jwenjian" target="_blank" rel="noopener">jwenjian</a>,我是被作者对这款软件的描述吸引的：</p>
-<p><img src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/Snipaste_2020-11-22_17-08-14.jpg" alt=""></p>
-<p>而对于这款软件的实际意义来说简单四个字：随机抽取（<s>废话</s>）</p>
-<ul>
-<li>班级上的点名，无论是随机点到还是随机&quot;抽奖&quot;</li>
-<li>幸运观众的抽取</li>
-</ul>
-<h2 id="优势">优势</h2>
-<p>在这个花名册逐渐电子化的时代，“抽奖工具”的出现似乎是必不可少了，那么这款软件最大的优势是什么呢？  <strong>强（hao）大（kan）</strong>  。</p>
-<h2 id="下载安装">下载安装</h2>
-<p>代码是开源的。链接🔗： <a href="https://github.com/jwenjian/lucky-you/releases" target="_blank" rel="noopener">Download</a><br>
-<img src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/3.jpg" alt=""><br>
-不同系统选择不同的安装包下载即可</p>
-<blockquote>
-<p><strong>注</strong>：</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">系统说明</th>
-<th style="text-align:center">安装包后缀名</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Windows</td>
-<td style="text-align:center">.msi</td>
-</tr>
-<tr>
-<td style="text-align:center">Ubuntu</td>
-<td style="text-align:center">.deb</td>
-</tr>
-<tr>
-<td style="text-align:center">Macos</td>
-<td style="text-align:center">.dmg</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h2 id="使用步骤">使用步骤</h2>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f37b0fe14195aa594fe21cd.jpg" alt="主界面"></p>
-<hr>
-<h3 id="事前准备">事前准备</h3>
-<p>你要准备好抽取对象的照片和名字，照片最后会被软件裁切为正方形，毕竟本意也是个“电子花名册”，下面以抽取三个人（张三，李四，欧阳六）为例子进行展示</p>
-<h3 id="开始！">开始！</h3>
-<p>按下软件主界面中间的<code>Select images(选择图片)</code>即可进行抽取对象的选择，然后按开始便可以享受抽取的快乐<br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f37bb7114195aa594013581.gif" alt=""></p>
-<h3 id="软件小tips">软件小tips</h3>
-<ul>
-<li>软件设计默认为英文，右上角<strong>第二个</strong>按钮可进行语言的切换，可切换到简体中文</li>
-<li>软件支持深色模式，右上角<strong>第五个</strong>按钮可实现浅色模式与深色模式的切换</li>
-<li>声音是老虎机的声音，比较有趣，右上角<strong>第一个</strong>按钮可进行声音开关操作</li>
-<li>选取的图片格式可以是：.jpg,.jpeg,.png,.gif（.ico也可以!）</li>
-<li>选取的图片不宜过大，并不是不能过大，测试过7M的照片还是可以的，至于作者所说的不宜过大应该是在抽取过程中，如果图片过大会使得图片动画过渡不自然，最终抽取效果不佳</li>
-<li>选取的照片张数作者并没有说，不过测试过50张也是没有问题的</li>
-<li>当然你也可以请作者喝杯咖啡，选择右上角<strong>第四个</strong>按钮</li>
-</ul>
-<h3 id="第三个按钮呢？">第三个按钮呢？</h3>
-<p>软件<strong>第三个</strong>按钮为设置抽取的规则</p>
-<p><img src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/Snipaste_2020-11-22_17-12-45.jpg" alt=""></p>
-<p>这个规则直白点说就是：<strong>上面的例子中，张三/李四/欧阳六是否可以被重复抽中多次</strong>。然而更让我意想不到的是（<s>愚钝的我</s>）,在选择否之后，软件在抽取一个对象之后，会将此抽中对象从抽取列表中删除，然后进行列表中剩余对象的抽取。（我本以为这个规则的意思是在多次抽取的过程中，同一个对象是否能被多此抽中）如图，我在选择否之后再次进行抽奖。</p>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f37c01914195aa594028f43.gif" alt=""></p>
-<p>可看到被抽中的对象一个个从抽奖列表中删除，直到最后剩下张三不再进行抽奖。<br>
-其实不难理解，我觉得这也应该是定下这个规则之后的抽奖逻辑，当然选择否之后不从列表删除抽中对象这个逻辑也是没有问题的。</p>
-<h2 id="最后">最后</h2>
-<p>在写下这篇博客的时候，作者对于此应用在Windows下的适配还没有完全解决好，Windows系统安装完之后还是不能正常使用，只能通过作者提供的方法使用<a href="https://luckyyou.netlify.app/" target="_blank" rel="noopener">PWA应用</a>。我也算是和这位作者有点缘份，作者在少数派发表文章之后我就发现了问题并求教作者，给作者提供Windows下LuckyYou不能运行的具体问题，在交流之中可以看出是一位比较负责的作者了。最后希望Windows系统下的LuckyYou可以尽快修复bug，毕竟这软件真不错，无论是界面、UI还是主要功能，当然也希望作者可以加入更多额外功能，比如某网友说的从 Excel 导入学号姓名作为“抽奖”的另一种方法，也可以制定更多抽奖的规则。</p>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5fba2cfcb18d6271139caaaf.jpg" alt=""><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5fba2cfcb18d6271139caab6.jpg" alt=""></p>
-]]></content>
-      <categories>
-        <category>一些软件</category>
-      </categories>
-      <tags>
-        <tag>VUE</tag>
-        <tag>抽奖</tag>
-        <tag>LuckyYou</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「python」- 数据类型和变量</title>
-    <url>/ckhvqpsvf00099gtvcb29eza7/</url>
-    <content><![CDATA[<h1>Python入门 - 数据类型和变量</h1>
-<p>变量是用来存东西的。就像一个杯子用来装水,但是Python里面存的不是水，而存的是在哪能找到这个水，存的是引用，即变量用于引用内存中存储的对象。</p>
-<h2 id="python中的一切都是“对象”（Object）">python中的一切都是“对象”（Object）</h2>
-<p>基本类型也是对象。</p>
-<h2 id="Python是动态类型的">Python是动态类型的</h2>
-<p>一个变量的类型可以变，可以存数字，过一会可以存字符串。</p>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12</span></span><br><span class="line">print(a)</span><br><span class="line">	</span><br><span class="line">a = <span class="string">'abc'</span></span><br><span class="line">print(a)</span><br><span class="line">	</span><br><span class="line"><span class="comment">#输出：</span></span><br><span class="line"><span class="comment">#12</span></span><br><span class="line"><span class="comment">#abc</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="Python的变量无需声明">Python的变量无需声明</h2>
-<p>在第一次赋值的时候产生。</p>
-<h2 id="￼1"><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//java中：</span></span><br><span class="line"><span class="keyword">int</span> a;</span><br><span class="line">a = <span class="number">12</span>;</span><br></pre></td></tr></table></figure></h2>
-<h2 id="￼2"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#python中：</span></span><br><span class="line">a = <span class="number">12</span>   <span class="comment"># 即可</span></span><br></pre></td></tr></table></figure></h2>
-<h3 id="python是强类型的">python是强类型的</h3>
-<p>不能随便把一个数字和字符串放到一块去。</p>
-<h2 id="￼3"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#连等</span></span><br><span class="line">a = b = c = <span class="number">12</span></span><br><span class="line"><span class="comment">#等价于</span></span><br><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">12</span></span><br><span class="line">c = <span class="number">12</span></span><br><span class="line">	 </span><br><span class="line"><span class="comment">#再次说明：在python中，a并不保存值本身，而是引用这个值</span></span><br></pre></td></tr></table></figure></h2>
-<p>其他语言比如c语言，你让他保存12到一个变量a里面，这个变量里面是真的存了这个12的值。</p>
-<h2 id="解构赋值（联合赋值）">解构赋值（联合赋值）</h2>
-<h2 id="￼4"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a,b,c = <span class="number">12</span>,<span class="number">5</span>,<span class="number">8</span></span><br></pre></td></tr></table></figure></h2>
-<p>说白了，就是可以同时给很多个变量赋值。可以做一些好玩的事情：</p>
-<h2 id="￼5"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">5</span></span><br><span class="line">print(a,b)</span><br><span class="line"></span><br><span class="line">b,a = a,b</span><br><span class="line">print(a,b)</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：</span></span><br><span class="line"><span class="comment">#12 5</span></span><br><span class="line"><span class="comment">#5 12</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="Python基本数据类型">Python基本数据类型</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">数据类型</th>
-<th style="text-align:center">表示</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">数字</td>
-<td style="text-align:center">int，float</td>
-</tr>
-<tr>
-<td style="text-align:center">字符串</td>
-<td style="text-align:center">str</td>
-</tr>
-<tr>
-<td style="text-align:center">列表</td>
-<td style="text-align:center">list</td>
-</tr>
-<tr>
-<td style="text-align:center">元组</td>
-<td style="text-align:center">tuple</td>
-</tr>
-<tr>
-<td style="text-align:center">字典</td>
-<td style="text-align:center">dict</td>
-</tr>
-<tr>
-<td style="text-align:center">布尔值</td>
-<td style="text-align:center">bool</td>
-</tr>
-</tbody>
-</table>
-<h2 id="￼6"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#接收用户输入</span></span><br><span class="line">（python是强类型的）</span><br><span class="line"></span><br><span class="line">name = input(<span class="string">'请输入你的名字：'</span>)</span><br><span class="line">print(<span class="string">'你好'</span>，+name)</span><br><span class="line"></span><br><span class="line">输出：请输入你的名字：张三（这个张三是用户输入进去的）</span><br><span class="line">      你好，张三</span><br><span class="line">	  </span><br><span class="line"><span class="comment">#注：</span></span><br><span class="line">age = input(<span class="string">'你今年几岁'</span>)</span><br><span class="line">year = <span class="number">2018</span>-int(age)   </span><br><span class="line"><span class="comment">#加int转换类型是因为input所输入进来的一切都是字符串，所以要转换为int</span></span><br><span class="line"></span><br><span class="line">print(<span class="string">'你是'</span>+str(year)+<span class="string">'出生的'</span>)</span><br><span class="line"><span class="comment">#加str是因为year被上面转换成数字，这里'你是'是字符串，所以需要再转换</span></span><br></pre></td></tr></table></figure></h2>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>数据类型</tag>
-        <tag>变量</tag>
-        <tag>python基础</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「python」- 函数</title>
-    <url>/ckhvqpsvh000b9gtva1nn906q/</url>
+    <url>/ckhx783yi000bdctv96i7h9zm/</url>
     <content><![CDATA[<h1>python之函数</h1>
 <p>什么是函数？函数是一段可常用的代码，为了日后可以经常性的去调用。python自身有很多内置函数，比如说<code>input()</code>,<code>print()</code>,我们也可以自己去定义函数。</p>
 <h2 id="创建函数">创建函数</h2>
@@ -437,7 +437,7 @@
   </entry>
   <entry>
     <title>「python」- 列表</title>
-    <url>/ckhvqpsvk000e9gtvc029a4rl/</url>
+    <url>/ckhx783yl000edctvhyvsgs76/</url>
     <content><![CDATA[<h1>python 学习笔记之列表</h1>
 <p>列表跟字符串很像，只不过存的不是字符，可以是任何东西（甚至是另一个list）。</p>
 <h2 id="创建列表">创建列表</h2>
@@ -498,7 +498,7 @@
   </entry>
   <entry>
     <title>「python」- 字典</title>
-    <url>/ckhvqpsvo000h9gtv0wxthno9/</url>
+    <url>/ckhx783yp000hdctv49yk2h0e/</url>
     <content><![CDATA[<h1>python学习笔记之字典</h1>
 <ul>
 <li>要唯一，最好是数字。</li>
@@ -576,8 +576,51 @@
       </tags>
   </entry>
   <entry>
+    <title>「python」- 元组(tuple)</title>
+    <url>/ckhx783yt000kdctv2zloaouw/</url>
+    <content><![CDATA[<h1>python之–元组(tuple)</h1>
+<p>元组其实和list几乎一模一样，只是<u>不能修改</u>。</p>
+<h2 id="创建元组">创建元组</h2>
+<ol>
+<li>方法1：常用</li>
+</ol>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">tuple1 = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)</span><br></pre></td></tr></table></figure></h2>
+<p>回忆一下：</p>
+<ul>
+<li>元组是  <code>()</code></li>
+<li>列表是  <code>[]</code></li>
+<li>字典是 <code>{}</code></li>
+</ul>
+<ol start="2">
+<li>方法2：构造器</li>
+</ol>
+<h2 id="￼1"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = tuple((<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))</span><br></pre></td></tr></table></figure></h2>
+<h2 id="元组操作">元组操作</h2>
+<p>和list共享所有操作，除了<u>修改</u>的操作。下面通过代码来说明：</p>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)  <span class="comment">#定义一个元组</span></span><br><span class="line"></span><br><span class="line">print(t)                      <span class="comment">#(1,2,3) √</span></span><br><span class="line">print(t[<span class="number">0</span>])                   <span class="comment">#1 √</span></span><br><span class="line">t[<span class="number">0</span>] = <span class="number">12</span>                     <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line"><span class="keyword">del</span> t[<span class="number">0</span>]                      <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.append(<span class="number">8</span>)                   <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.pop()                       <span class="comment">#报错 ×---！说了不能修改！</span></span><br></pre></td></tr></table></figure></h2>
+<p>综上，「增」「删」「改」通通都别想，只能<strong>查</strong>。</p>
+<ul>
+<li>例子： 「查」的操作</li>
+</ul>
+<h2 id="￼3"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> t:</span><br><span class="line">    print(i)</span><br><span class="line"><span class="comment"># 1</span></span><br><span class="line"><span class="comment">#2</span></span><br><span class="line"><span class="comment">#3</span></span><br><span class="line"><span class="comment">#4 </span></span><br><span class="line">	  </span><br><span class="line"><span class="comment">#没有增删改，循环输出而已</span></span><br></pre></td></tr></table></figure></h2>
+<p>其他包括截取索引，<code>in</code>和<code>not in</code> ，<code>min</code>，<code>max</code>，<code>len</code>，<code>sum</code>都可以。</p>
+<h2 id="总结：">总结：</h2>
+<ol>
+<li>元组(tuple)通俗来理解可以为一个「受到保护」的列表(list)。</li>
+<li>元组的意义在哪？比如说 当一些东西长期以来不变的时候就应该用<code>tuple</code>，比如说中国的省份，不是说以后一定不会变化，只是在一定或较长时间内不会发生变化，那么用<code>tuple</code>更加合适。而实际意义中比如说，<u>在多人协作的一个项目之中，你确定有些部分的内容确实不用改，你可以写成一个<code>tuple</code>,就能防止有人不小心修改了<code>tuple</code>里面的内容，</u>万一将来真的有变化，那就直接从定义那里改，与其说是没意义，还不如说是一个<mark>谨慎的列表</mark>。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python基础</tag>
+        <tag>元组</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>「python」- 流程控制语句</title>
-    <url>/ckhvqpsvr000k9gtv4yfce8l4/</url>
+    <url>/ckhx783yz000pdctv5vj1aur7/</url>
     <content><![CDATA[<h1>python流程控制语句</h1>
 <blockquote>
 <p>根据条件不同执行不同的代码是程序非常常见的也是非常重要的行为</p>
@@ -643,7 +686,7 @@
   </entry>
   <entry>
     <title>「python」- 数据类型转换</title>
-    <url>/ckhvqpsvu000p9gtvbgzh5wns/</url>
+    <url>/ckhx783z3000tdctv9pjm4484/</url>
     <content><![CDATA[<h1>python之数据类型转换</h1>
 <blockquote>
 <p>直接用代码来说明</p>
@@ -660,7 +703,7 @@
   </entry>
   <entry>
     <title>「python」- 字符串</title>
-    <url>/ckhvqpsvx000t9gtv3vvp4bvq/</url>
+    <url>/ckhx783z8000xdctv1yi15mh5/</url>
     <content><![CDATA[<h1>python类型 - 字符串</h1>
 <ol>
 <li>python中的字符串就是一串字符</li>
@@ -907,8 +950,151 @@ shift_jis:日文</u><br>
       </tags>
   </entry>
   <entry>
+    <title>Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]</title>
+    <url>/ckhx783za0011dctv86ck100z/</url>
+    <content><![CDATA[<h1>Flex Layout + SVG  实现 Apple 动效</h1>
+<blockquote>
+<p>本文参考于大佬 陈东泽的<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">文章</a></p>
+</blockquote>
+<p><img src="https://pic.downk.cc/item/5f3b8f3b14195aa594ea0185.jpg" alt=""></p>
+<blockquote>
+<p>看了 陈东泽大佬对于Apple公众号里面的–&gt;<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">排版讲解</a>。突然有点想学前端了，有趣。</p>
+</blockquote>
+<h2 id="CSS学习中">CSS学习中</h2>
+<blockquote>
+<p>A B C D E的布局分布css代码大概是这样</p>
+</blockquote>
+<p><img src="https://pic.downk.cc/item/5f3b8fe114195aa594ea71e6.jpg" alt=""></p>
+<h2 id="￼0"><figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;div style="display: flex"&gt;</span><br><span class="line">    &lt;div style="display: flex; width: 50%; flex-direction: column;"&gt;</span><br><span class="line">         &lt;div style="display: block;"&gt;</span><br><span class="line">                 &lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">A</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">         &lt;/div&gt;</span><br><span class="line">        &lt;div style="display: block;"&gt;</span><br><span class="line">                &lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">B</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">         &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; width: 50%;flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">C</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">D</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">E</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></h2>
+<h2 id="仿照">仿照</h2>
+<blockquote>
+<p>仿照修改了一个，是真的有意思，突然想对放下已久的微信公众号动刀</p>
+</blockquote>
+<section style="display: block;text-align: center;">
+  <div style="display: flex;background-color: #000000;">
+    <div style="display: flex;width: 50%;flex-direction: column;">
+      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
+          height="100%" width="100%" data-filename="03_01.jpg"
+          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3a943a14195aa594af8543.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 100%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
+          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="2s" keyTimes="0; 0.01; 0.70; 1"
+            values="0; 1; 1; 0;"></animate>
+        </svg></div>
+      <div data-filename="02_01.gif"
+        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa49514195aa594b3ad5f.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 100%;width: 100%;">
+      </div>
+      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
+          height="100%" width="100%" data-filename="03_02.jpg"
+          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa8fa14195aa594b4c7b2.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 100%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
+          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="2s" keyTimes="0; 0.01; 0.70; 1"
+            values="0; 1; 1; 0;"></animate>
+        </svg></div><svg data-filename="02_02.jpg" preserveAspectRatio="xMinYMin meet"
+        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa43714195aa594b39780.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;width: 100%;"
+        viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+    <div style="display: flex;width: 50%;flex-direction: column;">
+      <div style="display: block;height: 0px !important;"><svg data-filename="02_03.gif"
+          preserveAspectRatio="xMinYMin meet"
+          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aaf2b14195aa594b64cb6.png&quot;);background-color: #141414;background-size: 100% auto;background-repeat: no-repeat;width: 100%;margin-top: 50%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
+          viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg"></svg></div>
+      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
+          height="100%" width="100%" data-filename="03_03_15_opt70.gif"
+          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aad0314195aa594b5d91b.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 200%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
+          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="5s" keyTimes="0; 0.01; 0.70; 1"
+            values="0; 1; 1; 0;"></animate>
+        </svg></div><svg data-filename="02_03.jpg" preserveAspectRatio="xMinYMin meet"
+        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3a554014195aa5949fd13a.jpg&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;width: 100%;"
+        viewBox="0 0 540 1080" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+  </div>
+  <div style="display: block;margin-top: -1px;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg"
+      opacity="0" height="100%" width="100%" data-filename="03_04.jpg"
+      style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa19f14195aa594b301e3.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 50%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
+      <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="3s" keyTimes="0; 0.01; 0.70; 1"
+        values="0; 1; 1; 0;"></animate>
+    </svg></div>
+  <div data-filename="02_04.jpg"
+    style="display: block;background-image: url(&quot;https://pic.downk.cc/item/5f3aa2de14195aa594b34bb0.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 50%;width: 100%;margin-top: -1px;">
+  </div>
+  <div style="display: block;height: 0px !important;"><svg data-filename="03_05.jpg" height="100%" opacity="0"
+      style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa1dd14195aa594b30fe1.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 50%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
+      width="100%" xmlns="http://www.w3.org/2000/svg">
+      <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="7s" keyTimes="0; 0.01; 0.70; 1"
+        values="0; 1; 1; 0;"></animate>
+    </svg></div>
+  <div data-filename="02_05.jpg"
+    style="display: block;background-image: url(&quot;https://pic.downk.cc/item/5f3aa17114195aa594b2f70d.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 50%;width: 100%;">
+  </div>
+</section>
+<h2 id="总结">总结</h2>
+<ol>
+<li>微信公众号的编辑器是不支持直接修改文章 HTML 的，要用Chrome Inspect进行调试贴上代码</li>
+<li>另外微信公众平台的编辑器也有很多“潜规则”，很多css的属性都可能作废。有人总结了一下-&gt;<a href="https://www.cnblogs.com/haqiao/p/13438686.html" target="_blank" rel="noopener">发SVG文的一些坑</a>,以后可以作为参考，另外这篇文章也不错-&gt;<a href="https://www.jianshu.com/p/8c2e4fc26e8a" target="_blank" rel="noopener">详细教你微信公众号正文页SVG交互开发</a>。</li>
+<li>考虑一下要不要捡起我的公众号吧。可以先关注一波，微信搜索： 麻麻哋阿巴阿巴。</li>
+<li>可以微信搜索 东泽聊技术,看牛人的技术操作这篇文章 也写的相当不错-&gt;<a href="https://mp.weixin.qq.com/s/GPJ2TjgIdA-XG5rNWVCXZQ" target="_blank" rel="noopener">程序员就该这样解读《隐秘的角落》</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>SVG</category>
+      </categories>
+      <tags>
+        <tag>Flex-Layout</tag>
+        <tag>SVG</tag>
+        <tag>微信公众号</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「python」- 数字</title>
+    <url>/ckhx783zc0014dctv1dmi8ib1/</url>
+    <content><![CDATA[<h1>python中的数字</h1>
+<ul>
+<li>int 整数：23</li>
+<li>float 浮点数、小数：15.8</li>
+<li>complex 复数，：-1根号</li>
+</ul>
+<h2 id="三种类型：">三种类型：</h2>
+<ol>
+<li>整数：所有的整数都属于int类</li>
+</ol>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="number">12</span></span><br><span class="line">print(type(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出 &lt;class 'int'&gt;</span></span><br></pre></td></tr></table></figure></h2>
+<h3 id="python3里面没有long，也用不着long">python3里面没有long，也用不着long</h3>
+<h2 id="￼1"><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//c语言中</span></span><br><span class="line"><span class="keyword">int</span> a <span class="comment">//32位整数</span></span><br><span class="line"><span class="keyword">long</span> b <span class="comment">//64位整数</span></span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> c <span class="number">128</span>位整数</span><br></pre></td></tr></table></figure></h2>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#python的整数可以非常大</span></span><br><span class="line">a = <span class="number">999999999999999999999999999999</span></span><br><span class="line">print(a)</span><br><span class="line">输出：<span class="number">999999999999999999999999999999</span></span><br></pre></td></tr></table></figure></h2>
+<ol start="2">
+<li>浮点数：所有浮点数都属于float类</li>
+</ol>
+<h2 id="￼3"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12.5</span></span><br><span class="line">print(type(a))</span><br><span class="line"><span class="comment">#输出&lt;class'float'&gt;</span></span><br><span class="line"><span class="comment">#python中没有double，也用不着double。</span></span><br></pre></td></tr></table></figure></h2>
+<ol start="3">
+<li>复数：复数都是complex类</li>
+</ol>
+<h2 id="￼4"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">15</span>+<span class="number">3j</span></span><br><span class="line">b = <span class="number">8</span><span class="number">-2j</span></span><br><span class="line"></span><br><span class="line">print(a+b)</span><br></pre></td></tr></table></figure></h2>
+<h2 id="类型检测">类型检测</h2>
+<h2 id="￼5"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#type(x)可以用来检测类型</span></span><br><span class="line">type(<span class="number">120</span>)  <span class="comment">#int</span></span><br><span class="line">type(<span class="number">5.0</span>)  <span class="comment">#float</span></span><br><span class="line">type(<span class="number">12</span>+<span class="number">0j</span>) <span class="comment">#complex</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="Python运算符">Python运算符</h2>
+<p>基本运算符（±*/）和其他语言都一样，但也有些不一样的。</p>
+<h2 id="￼6"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#正常除法</span></span><br><span class="line"><span class="number">16</span>/<span class="number">5</span>   <span class="comment">#3.2</span></span><br><span class="line"><span class="number">16</span>%<span class="number">5</span>   <span class="comment">#1--余数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#整除</span></span><br><span class="line"><span class="number">16</span>//<span class="number">5</span>  <span class="comment">#3</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="幂操作">幂操作</h2>
+<h2 id="￼7"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="number">3</span>**<span class="number">100</span>)  <span class="comment">#两个*代表多少次方</span></span><br><span class="line"><span class="comment">#转个思路</span></span><br><span class="line">print(<span class="number">9</span>**<span class="number">0.5</span>)   <span class="comment">#9的二分之一次方就是开根号</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="扩展赋值">扩展赋值</h2>
+<h2 id="￼8"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">15</span></span><br><span class="line">a = a + <span class="number">5</span> <span class="comment">#等价于 a += 5</span></span><br><span class="line">print(a)</span><br><span class="line"><span class="comment">#输出： 20</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="python没有-操作">python没有<code>++</code> <code>--</code> 操作</h2>
+<p><code>i++</code>  ==&gt;  <code>i+=1 </code>i–<code> ==&gt; </code>i-=1`</p>
+<p>python没有自增、自减操作，也不需要</p>
+<h2 id="运算符优先级">运算符优先级</h2>
+<h2 id="￼9"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="number">12</span>+<span class="number">6</span>/<span class="number">2</span>  <span class="comment">#15</span></span><br><span class="line">(<span class="number">12</span>+<span class="number">6</span>)/<span class="number">2</span>  <span class="comment">#9</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="优先级表：">优先级表：</h2>
+<p><u>括号 &gt; 函数 &gt; 列表/属性 &gt; 数值运算 &gt; 逻辑运算 &gt; 赋值</u></p>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python基础</tag>
+        <tag>数字</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SQlite3 &amp; Navicat premium15 初步认识与使用</title>
-    <url>/ckhvqpsw1000x9gtv3hmqbykz/</url>
+    <url>/ckhx783zd0016dctvf1cs8xzl/</url>
     <content><![CDATA[<h1>SQlite3安装教程与初步使用 &amp;&amp; navicat premium15</h1>
 <blockquote>
 <ol>
@@ -989,9 +1175,9 @@ shift_jis:日文</u><br>
 <hr>
 <h3 id="下载安装步骤"><strong>下载安装步骤</strong></h3>
 <p><strong>1. 下载方式1(官网)</strong></p>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f5e014195aa594f4bf1d.png" alt="官网下载文件具体图"></p>
+<p><img src="https://pic.downk.cc/item/5f02f5e014195aa594f4bf1d.png" alt="官网下载文件具体图"></p>
 <p><strong>2. 下载方式2(网盘)</strong></p>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f33e14195aa594f392ce.png" alt="从网盘后下载后图"></p>
+<p><img src="https://pic.downk.cc/item/5f02f33e14195aa594f392ce.png" alt="从网盘后下载后图"></p>
 <blockquote>
 <p>注：关于图中或者压缩包里的文件说明一下，文件名有tools的是工具（即图中标3）压缩包。1，2是动态链接库文件，鉴于博主好奇的天性加上参考其他博主的操作发现，没有1，2好像也没问题，只要有tools就行，所以下不下载都可以。</p>
 </blockquote>
@@ -1001,7 +1187,7 @@ shift_jis:日文</u><br>
 <li>这个是下载下来的压缩包,全部解压完整理后就是如图</li>
 <li>解压 tool压缩包 之后，又是一个文件夹把里面的东西移出来和解压的32位/64位的文件放在一起。</li>
 </ol>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f35f14195aa594f3a1ed.png" alt="最终文件夹文件显示图"></p>
+<p><img src="https://pic.downk.cc/item/5f02f35f14195aa594f3a1ed.png" alt="最终文件夹文件显示图"></p>
 <hr>
 <h3 id="安装结束">安装结束</h3>
 <p>到此为止,你已经得到了一个sqlite3,是的,可以用了。打开<code>sqlite3.exe</code>就可以创建数据库等操作。</p>
@@ -1010,25 +1196,25 @@ shift_jis:日文</u><br>
 <blockquote>
 <p>不过用之前为了方便使用sqlite3，即命令行(cmd)中直接操作,可以在系统环境变量中添加sqlite3。下面是具体操作步骤。</p>
 </blockquote>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f39014195aa594f3b54e.png" alt="第一步"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f3b414195aa594f3c44e.png" alt="第二步"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f40014195aa594f3e860.png" alt="第三步"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f42014195aa594f3f48a.png" alt="第四步"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f43214195aa594f3fc17.png" alt="第五步"></p>
+<p><img src="https://pic.downk.cc/item/5f02f39014195aa594f3b54e.png" alt="第一步"><br>
+<img src="https://pic.downk.cc/item/5f02f3b414195aa594f3c44e.png" alt="第二步"><br>
+<img src="https://pic.downk.cc/item/5f02f40014195aa594f3e860.png" alt="第三步"><br>
+<img src="https://pic.downk.cc/item/5f02f42014195aa594f3f48a.png" alt="第四步"><br>
+<img src="https://pic.downk.cc/item/5f02f43214195aa594f3fc17.png" alt="第五步"></p>
 <hr>
 <h3 id="开始操作"><strong>开始操作</strong></h3>
 <p>接下来就开始操作了，不过<code>sqlite</code>语法还是和<code>sql server</code> 语法有一些不同,具体可以看看教程，这里推荐一个比较基础的教程：<a href="https://www.runoob.com/sqlite/sqlite-tutorial.html" target="_blank" rel="noopener" title="不会还不点进去？">菜鸟教程</a></p>
 <p><strong>1. 检查</strong><br>
 检查一下sqlite3是不是已经成功在你电脑上并且能从命令行中直接打开。<br>
 Ctrl + R输入cmd 打开命令行执行 <code>sqlite3</code> ,如果是下面的图 ，恭喜你，你已经可以在命令行中唤醒sqlite了。</p>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f46a14195aa594f41356.png" alt="操作成功图"></p>
+<p><img src="https://pic.downk.cc/item/5f02f46a14195aa594f41356.png" alt="操作成功图"></p>
 <p><strong>2. 创建数据库</strong></p>
 <ul>
 <li>我以创建一个在d盘目录下的一个名字为mykey.db的数据库作为例子吧。</li>
 <li>按照你们自己想创建的目录下面试着创建一个自己的数据库文件吧。创建操作示例如图</li>
 </ul>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f48e14195aa594f424a8.png" alt="创建过程图"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f4be14195aa594f43968.png" alt="查看数据库文件所在文件夹图"></p>
+<p><img src="https://pic.downk.cc/item/5f02f48e14195aa594f424a8.png" alt="创建过程图"><br>
+<img src="https://pic.downk.cc/item/5f02f4be14195aa594f43968.png" alt="查看数据库文件所在文件夹图"></p>
 <hr>
 <h3 id="sqlite3总结"><strong>sqlite3总结</strong></h3>
 <ul>
@@ -1038,7 +1224,7 @@ Ctrl + R输入cmd 打开命令行执行 <code>sqlite3</code> ,如果是下面的
 <hr>
 <h2 id="主题2：navicat-premium15-navicat与SQlite的初步连接">主题2：navicat premium15 &amp;&amp; navicat与SQlite的初步连接</h2>
 <p>再次明确一点，「navicat 不是一个数据库软件，具体来说是个管理数据库软件。」另外本文章使用的Navicat的通用版：Navicat Premium。</p>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02de0c14195aa594ebd15b.jpg" alt="Navicat Premium 支持连接的数据库"></p>
+<p><img src="https://pic.downk.cc/item/5f02de0c14195aa594ebd15b.jpg" alt="Navicat Premium 支持连接的数据库"></p>
 <h3 id="下载安装使用"><strong>下载安装使用</strong></h3>
 <p><strong>1. 下载</strong></p>
 <ul>
@@ -1077,7 +1263,7 @@ Ctrl + R输入cmd 打开命令行执行 <code>sqlite3</code> ,如果是下面的
 <ul>
 <li><s><strong>页面欣赏</strong></s></li>
 </ul>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f4e314195aa594f4498d.png" alt="高大上&amp;简约风的navicat界面"></p>
+<p><img src="https://pic.downk.cc/item/5f02f4e314195aa594f4498d.png" alt="高大上&amp;简约风的navicat界面"></p>
 <hr>
 <ul>
 <li><strong>连接SQlite</strong></li>
@@ -1085,13 +1271,13 @@ Ctrl + R输入cmd 打开命令行执行 <code>sqlite3</code> ,如果是下面的
 <blockquote>
 <p>我们以刚才我们创建的 mykey.db 作为例子 去连接这个数据库</p>
 </blockquote>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f4ff14195aa594f4596a.png" alt="第一步选择连接sqlite数据库"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f51b14195aa594f4655b.png" alt="第二步填写创建的.db文件所在路径，填写连接名字"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f53e14195aa594f47543.png" alt="第三步检查连接"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f55a14195aa594f48163.png" alt="第四步打开连接"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f57714195aa594f48de6.png" alt="第五步检查连接"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f59714195aa594f49b75.png" alt="进入创建的数据库"><br>
-<img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f02f5b614195aa594f4aa58.png" alt="查看内容"></p>
+<p><img src="https://pic.downk.cc/item/5f02f4ff14195aa594f4596a.png" alt="第一步选择连接sqlite数据库"><br>
+<img src="https://pic.downk.cc/item/5f02f51b14195aa594f4655b.png" alt="第二步填写创建的.db文件所在路径，填写连接名字"><br>
+<img src="https://pic.downk.cc/item/5f02f53e14195aa594f47543.png" alt="第三步检查连接"><br>
+<img src="https://pic.downk.cc/item/5f02f55a14195aa594f48163.png" alt="第四步打开连接"><br>
+<img src="https://pic.downk.cc/item/5f02f57714195aa594f48de6.png" alt="第五步检查连接"><br>
+<img src="https://pic.downk.cc/item/5f02f59714195aa594f49b75.png" alt="进入创建的数据库"><br>
+<img src="https://pic.downk.cc/item/5f02f5b614195aa594f4aa58.png" alt="查看内容"></p>
 <h3 id="Navicat总结">Navicat总结</h3>
 <ul>
 <li>Navicat的作用就是让我们管理数据库的时候更加方便，更加直观的看到我们要做什么。</li>
@@ -1109,192 +1295,6 @@ Ctrl + R输入cmd 打开命令行执行 <code>sqlite3</code> ,如果是下面的
         <tag>数据库</tag>
         <tag>sql</tag>
         <tag>SQLite语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「python」- 数字</title>
-    <url>/ckhvqpsw300109gtv5cqaast3/</url>
-    <content><![CDATA[<h1>python中的数字</h1>
-<ul>
-<li>int 整数：23</li>
-<li>float 浮点数、小数：15.8</li>
-<li>complex 复数，：-1根号</li>
-</ul>
-<h2 id="三种类型：">三种类型：</h2>
-<ol>
-<li>整数：所有的整数都属于int类</li>
-</ol>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a=<span class="number">12</span></span><br><span class="line">print(type(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出 &lt;class 'int'&gt;</span></span><br></pre></td></tr></table></figure></h2>
-<h3 id="python3里面没有long，也用不着long">python3里面没有long，也用不着long</h3>
-<h2 id="￼1"><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//c语言中</span></span><br><span class="line"><span class="keyword">int</span> a <span class="comment">//32位整数</span></span><br><span class="line"><span class="keyword">long</span> b <span class="comment">//64位整数</span></span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> c <span class="number">128</span>位整数</span><br></pre></td></tr></table></figure></h2>
-<h2 id="￼2"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#python的整数可以非常大</span></span><br><span class="line">a = <span class="number">999999999999999999999999999999</span></span><br><span class="line">print(a)</span><br><span class="line">输出：<span class="number">999999999999999999999999999999</span></span><br></pre></td></tr></table></figure></h2>
-<ol start="2">
-<li>浮点数：所有浮点数都属于float类</li>
-</ol>
-<h2 id="￼3"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">12.5</span></span><br><span class="line">print(type(a))</span><br><span class="line"><span class="comment">#输出&lt;class'float'&gt;</span></span><br><span class="line"><span class="comment">#python中没有double，也用不着double。</span></span><br></pre></td></tr></table></figure></h2>
-<ol start="3">
-<li>复数：复数都是complex类</li>
-</ol>
-<h2 id="￼4"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">15</span>+<span class="number">3j</span></span><br><span class="line">b = <span class="number">8</span><span class="number">-2j</span></span><br><span class="line"></span><br><span class="line">print(a+b)</span><br></pre></td></tr></table></figure></h2>
-<h2 id="类型检测">类型检测</h2>
-<h2 id="￼5"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#type(x)可以用来检测类型</span></span><br><span class="line">type(<span class="number">120</span>)  <span class="comment">#int</span></span><br><span class="line">type(<span class="number">5.0</span>)  <span class="comment">#float</span></span><br><span class="line">type(<span class="number">12</span>+<span class="number">0j</span>) <span class="comment">#complex</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="Python运算符">Python运算符</h2>
-<p>基本运算符（±*/）和其他语言都一样，但也有些不一样的。</p>
-<h2 id="￼6"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#正常除法</span></span><br><span class="line"><span class="number">16</span>/<span class="number">5</span>   <span class="comment">#3.2</span></span><br><span class="line"><span class="number">16</span>%<span class="number">5</span>   <span class="comment">#1--余数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#整除</span></span><br><span class="line"><span class="number">16</span>//<span class="number">5</span>  <span class="comment">#3</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="幂操作">幂操作</h2>
-<h2 id="￼7"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="number">3</span>**<span class="number">100</span>)  <span class="comment">#两个*代表多少次方</span></span><br><span class="line"><span class="comment">#转个思路</span></span><br><span class="line">print(<span class="number">9</span>**<span class="number">0.5</span>)   <span class="comment">#9的二分之一次方就是开根号</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="扩展赋值">扩展赋值</h2>
-<h2 id="￼8"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">15</span></span><br><span class="line">a = a + <span class="number">5</span> <span class="comment">#等价于 a += 5</span></span><br><span class="line">print(a)</span><br><span class="line"><span class="comment">#输出： 20</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="python没有-操作">python没有<code>++</code> <code>--</code> 操作</h2>
-<p><code>i++</code>  ==&gt;  <code>i+=1 </code>i–<code> ==&gt; </code>i-=1`</p>
-<p>python没有自增、自减操作，也不需要</p>
-<h2 id="运算符优先级">运算符优先级</h2>
-<h2 id="￼9"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="number">12</span>+<span class="number">6</span>/<span class="number">2</span>  <span class="comment">#15</span></span><br><span class="line">(<span class="number">12</span>+<span class="number">6</span>)/<span class="number">2</span>  <span class="comment">#9</span></span><br></pre></td></tr></table></figure></h2>
-<h2 id="优先级表：">优先级表：</h2>
-<p><u>括号 &gt; 函数 &gt; 列表/属性 &gt; 数值运算 &gt; 逻辑运算 &gt; 赋值</u></p>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python基础</tag>
-        <tag>数字</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「python」- 元组(tuple)</title>
-    <url>/ckhvqpsw700139gtv04owgx6v/</url>
-    <content><![CDATA[<h1>python之–元组(tuple)</h1>
-<p>元组其实和list几乎一模一样，只是<u>不能修改</u>。</p>
-<h2 id="创建元组">创建元组</h2>
-<ol>
-<li>方法1：常用</li>
-</ol>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">tuple1 = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)</span><br></pre></td></tr></table></figure></h2>
-<p>回忆一下：</p>
-<ul>
-<li>元组是  <code>()</code></li>
-<li>列表是  <code>[]</code></li>
-<li>字典是 <code>{}</code></li>
-</ul>
-<ol start="2">
-<li>方法2：构造器</li>
-</ol>
-<h2 id="￼1"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = tuple((<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))</span><br></pre></td></tr></table></figure></h2>
-<h2 id="元组操作">元组操作</h2>
-<p>和list共享所有操作，除了<u>修改</u>的操作。下面通过代码来说明：</p>
-<h2 id="￼2"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>)  <span class="comment">#定义一个元组</span></span><br><span class="line"></span><br><span class="line">print(t)                      <span class="comment">#(1,2,3) √</span></span><br><span class="line">print(t[<span class="number">0</span>])                   <span class="comment">#1 √</span></span><br><span class="line">t[<span class="number">0</span>] = <span class="number">12</span>                     <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line"><span class="keyword">del</span> t[<span class="number">0</span>]                      <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.append(<span class="number">8</span>)                   <span class="comment">#报错 ×---！说了不能修改！</span></span><br><span class="line">t.pop()                       <span class="comment">#报错 ×---！说了不能修改！</span></span><br></pre></td></tr></table></figure></h2>
-<p>综上，「增」「删」「改」通通都别想，只能<strong>查</strong>。</p>
-<ul>
-<li>例子： 「查」的操作</li>
-</ul>
-<h2 id="￼3"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> t:</span><br><span class="line">    print(i)</span><br><span class="line"><span class="comment"># 1</span></span><br><span class="line"><span class="comment">#2</span></span><br><span class="line"><span class="comment">#3</span></span><br><span class="line"><span class="comment">#4 </span></span><br><span class="line">	  </span><br><span class="line"><span class="comment">#没有增删改，循环输出而已</span></span><br></pre></td></tr></table></figure></h2>
-<p>其他包括截取索引，<code>in</code>和<code>not in</code> ，<code>min</code>，<code>max</code>，<code>len</code>，<code>sum</code>都可以。</p>
-<h2 id="总结：">总结：</h2>
-<ol>
-<li>元组(tuple)通俗来理解可以为一个「受到保护」的列表(list)。</li>
-<li>元组的意义在哪？比如说 当一些东西长期以来不变的时候就应该用<code>tuple</code>，比如说中国的省份，不是说以后一定不会变化，只是在一定或较长时间内不会发生变化，那么用<code>tuple</code>更加合适。而实际意义中比如说，<u>在多人协作的一个项目之中，你确定有些部分的内容确实不用改，你可以写成一个<code>tuple</code>,就能防止有人不小心修改了<code>tuple</code>里面的内容，</u>万一将来真的有变化，那就直接从定义那里改，与其说是没意义，还不如说是一个<mark>谨慎的列表</mark>。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python基础</tag>
-        <tag>元组</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Flex Layout + SVG 实现 Apple动效练习[参考陈东泽]</title>
-    <url>/ckhvqpsw800159gtvapbc7t3k/</url>
-    <content><![CDATA[<h1>Flex Layout + SVG  实现 Apple 动效</h1>
-<blockquote>
-<p>本文参考于大佬 陈东泽的<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">文章</a></p>
-</blockquote>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f3b8f3b14195aa594ea0185.jpg" alt=""></p>
-<blockquote>
-<p>看了 陈东泽大佬对于Apple公众号里面的–&gt;<a href="https://sspai.com/post/61121" target="_blank" rel="noopener">排版讲解</a>。突然有点想学前端了，有趣。</p>
-</blockquote>
-<h2 id="CSS学习中">CSS学习中</h2>
-<blockquote>
-<p>A B C D E的布局分布css代码大概是这样</p>
-</blockquote>
-<p><img src="/img/loading.gif" data-original="https://pic.downk.cc/item/5f3b8fe114195aa594ea71e6.jpg" alt=""></p>
-<h2 id="￼0"><figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;div style="display: flex"&gt;</span><br><span class="line">    &lt;div style="display: flex; width: 50%; flex-direction: column;"&gt;</span><br><span class="line">         &lt;div style="display: block;"&gt;</span><br><span class="line">                 &lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">A</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">         &lt;/div&gt;</span><br><span class="line">        &lt;div style="display: block;"&gt;</span><br><span class="line">                &lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">B</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">         &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; width: 50%;flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">C</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">D</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div style="display: flex; flex-direction:column;"&gt;</span><br><span class="line">&lt;!<span class="selector-tag">--</span> 内容 <span class="selector-tag">E</span> <span class="selector-tag">--</span>&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></h2>
-<h2 id="仿照">仿照</h2>
-<blockquote>
-<p>仿照修改了一个，是真的有意思，突然想对放下已久的微信公众号动刀</p>
-</blockquote>
-<section style="display: block;text-align: center;">
-  <div style="display: flex;background-color: #000000;">
-    <div style="display: flex;width: 50%;flex-direction: column;">
-      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
-          height="100%" width="100%" data-filename="03_01.jpg"
-          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3a943a14195aa594af8543.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 100%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
-          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="2s" keyTimes="0; 0.01; 0.70; 1"
-            values="0; 1; 1; 0;"></animate>
-        </svg></div>
-      <div data-filename="02_01.gif"
-        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa49514195aa594b3ad5f.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 100%;width: 100%;">
-      </div>
-      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
-          height="100%" width="100%" data-filename="03_02.jpg"
-          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa8fa14195aa594b4c7b2.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 100%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
-          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="2s" keyTimes="0; 0.01; 0.70; 1"
-            values="0; 1; 1; 0;"></animate>
-        </svg></div><svg data-filename="02_02.jpg" preserveAspectRatio="xMinYMin meet"
-        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa43714195aa594b39780.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;width: 100%;"
-        viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg"></svg>
-    </div>
-    <div style="display: flex;width: 50%;flex-direction: column;">
-      <div style="display: block;height: 0px !important;"><svg data-filename="02_03.gif"
-          preserveAspectRatio="xMinYMin meet"
-          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aaf2b14195aa594b64cb6.png&quot;);background-color: #141414;background-size: 100% auto;background-repeat: no-repeat;width: 100%;margin-top: 50%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
-          viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg"></svg></div>
-      <div style="display: block;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg" opacity="0"
-          height="100%" width="100%" data-filename="03_03_15_opt70.gif"
-          style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aad0314195aa594b5d91b.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 200%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
-          <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="5s" keyTimes="0; 0.01; 0.70; 1"
-            values="0; 1; 1; 0;"></animate>
-        </svg></div><svg data-filename="02_03.jpg" preserveAspectRatio="xMinYMin meet"
-        style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3a554014195aa5949fd13a.jpg&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;width: 100%;"
-        viewBox="0 0 540 1080" xmlns="http://www.w3.org/2000/svg"></svg>
-    </div>
-  </div>
-  <div style="display: block;margin-top: -1px;height: 0px !important;"><svg xmlns="http://www.w3.org/2000/svg"
-      opacity="0" height="100%" width="100%" data-filename="03_04.jpg"
-      style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa19f14195aa594b301e3.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 50%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);">
-      <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="3s" keyTimes="0; 0.01; 0.70; 1"
-        values="0; 1; 1; 0;"></animate>
-    </svg></div>
-  <div data-filename="02_04.jpg"
-    style="display: block;background-image: url(&quot;https://pic.downk.cc/item/5f3aa2de14195aa594b34bb0.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 50%;width: 100%;margin-top: -1px;">
-  </div>
-  <div style="display: block;height: 0px !important;"><svg data-filename="03_05.jpg" height="100%" opacity="0"
-      style="display: flex;background-image: url(&quot;https://pic.downk.cc/item/5f3aa1dd14195aa594b30fe1.gif&quot;);background-color: #000000;background-size: 100% auto;background-repeat: no-repeat;padding-top: 50%;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
-      width="100%" xmlns="http://www.w3.org/2000/svg">
-      <animate attributeName="opacity" restart="whenNotActive" begin="click" dur="7s" keyTimes="0; 0.01; 0.70; 1"
-        values="0; 1; 1; 0;"></animate>
-    </svg></div>
-  <div data-filename="02_05.jpg"
-    style="display: block;background-image: url(&quot;https://pic.downk.cc/item/5f3aa17114195aa594b2f70d.png&quot;);background-color: rgb(0, 0, 0);background-size: 100%;background-repeat: no-repeat;padding-top: 50%;width: 100%;">
-  </div>
-</section>
-<h2 id="总结">总结</h2>
-<ol>
-<li>微信公众号的编辑器是不支持直接修改文章 HTML 的，要用Chrome Inspect进行调试贴上代码</li>
-<li>另外微信公众平台的编辑器也有很多“潜规则”，很多css的属性都可能作废。有人总结了一下-&gt;<a href="https://www.cnblogs.com/haqiao/p/13438686.html" target="_blank" rel="noopener">发SVG文的一些坑</a>,以后可以作为参考，另外这篇文章也不错-&gt;<a href="https://www.jianshu.com/p/8c2e4fc26e8a" target="_blank" rel="noopener">详细教你微信公众号正文页SVG交互开发</a>。</li>
-<li>考虑一下要不要捡起我的公众号吧。可以先关注一波，微信搜索： 麻麻哋阿巴阿巴。</li>
-<li>可以微信搜索 东泽聊技术,看牛人的技术操作这篇文章 也写的相当不错-&gt;<a href="https://mp.weixin.qq.com/s/GPJ2TjgIdA-XG5rNWVCXZQ" target="_blank" rel="noopener">程序员就该这样解读《隐秘的角落》</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>SVG</category>
-      </categories>
-      <tags>
-        <tag>Flex-Layout</tag>
-        <tag>SVG</tag>
-        <tag>微信公众号</tag>
       </tags>
   </entry>
 </search>

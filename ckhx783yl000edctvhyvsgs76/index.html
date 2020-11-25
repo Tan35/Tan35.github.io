@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<!-- Head tag -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Description-->
+  
+  <meta name="description" content="列表（list）可以存任何东西，包括另一个list">
+  
+
+  <!--Author-->
+  
+  <meta name="author" content="Tan35">
+  
+
+  <!--Open Graph Title-->
+  
+      <meta property="og:title" content="「python」- 列表"/>
+  
+  <!--Open Graph Description-->
+  
+      <meta property="og:description" content="列表（list）可以存任何东西，包括另一个list" />
+  
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="Tanxy"/>
+  <!--Type page-->
+  
+      <meta property="og:type" content="article" />
+  
+  <!--Page Cover-->
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Title -->
+  
+  <title>「python」- 列表 - Tanxy</title>
+
+
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/final_fav.png">
+
+  <!-- Custom CSS/Sass -->
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  <!----------------------------
+  https://github.com/GallenHu/hexo-theme-Daily
+
+ _____            _   _
+|  __ \          (_) | |            |    --------------   
+| |  | |   __ _   _  | |  _   _     |			|         
+| |  | |  / _` | | | | | | | | |	|			|
+| |__| | | (_| | | | | | | |_| |	|			|     
+|_____/   \__,_| |_| |_|  \__, |	|			|   (Modifications_)
+                          __/ |		|			
+                         |___/		|
+
+    --------------------------->
+
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Tanxy" type="application/atom+xml">
+</head>
+
+
+<body>
+
+  <!-- Nav -->
+  <header class="site-header">
+  <div class="header-inside">
+    <div class="logo">
+      <a href="/" rel="home">
+        
+        <img src="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/77.png" alt="Tanxy" height="60">
+        
+      </a>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse">
+        <ul class="navbar-nav">
+          
+          
+            <li>
+              <a href="/.">
+                
+                  主頁
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/archives">
+                
+                  彙整
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/links">
+                
+                  友人
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/about">
+                
+                  關於
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://mailchi.mp/0360e8248b9e/db8sn08o17" target="_blank" rel="noopener">
+                
+                  訂閱
+                
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <div class="button-wrap">
+      <button class="menu-toggle">Primary Menu</button>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main Content -->
+  <div class="content-area">
+  <div class="post">
+    <!-- Post Content -->
+    <div class="container">
+      <article>
+        <!-- Title date & tags -->
+        <div class="post-header">
+          <h1 class="entry-title">
+            「python」- 列表
+            
+          </h1>
+          <p class="posted-on">
+          2019-06-22
+          </p>
+          <div class="tags-links">
+            
+              
+                <a href="/tags/python基础/" rel="tag">
+                  python基础
+                </a>
+              
+                <a href="/tags/列表/" rel="tag">
+                  列表
+                </a>
+              
+                <a href="/tags/list/" rel="tag">
+                  list
+                </a>
+              
+            
+          </div>
+        </div>
+        <!-- Post Main Content -->
+        <div class="entry-content has_line_number">
+          <h1>python 学习笔记之列表</h1>
+<p>列表跟字符串很像，只不过存的不是字符，可以是任何东西（甚至是另一个list）。</p>
+<h2 id="创建列表">创建列表</h2>
+<ul>
+<li>方法1:直接写。</li>
+</ul>
+<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">l = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br></pre></td></tr></table></figure></h2>
+<ul>
+<li>方法2：构造器。</li>
+</ul>
+<h2 id="￼1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">l = list([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>])</span><br></pre></td></tr></table></figure></h2>
+<ul>
+<li>也可以通过其他序列构造列表</li>
+</ul>
+<h2 id="￼2"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">l = list(<span class="string">'abcd'</span>)  <span class="comment">#l = ['a','b','c','d'] #把字符串转成列表</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="访问列表元素">访问列表元素</h2>
+<p>(和访问字符串元素一样)。</p>
+<h2 id="￼3"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">l = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line">print(l[<span class="number">0</span>])   <span class="comment">#1</span></span><br><span class="line">print(l[<span class="number">3</span>:<span class="number">5</span>])  <span class="comment">#3456</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="序列通用操作">序列通用操作</h2>
+<p>字符串和<code>list</code>都是序列，所以会有很多操作可以通用（当然，也有不可通用的部分）。</p>
+<ul>
+<li>例子</li>
+</ul>
+<h2 id="￼4"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">3</span> <span class="keyword">in</span> [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]  <span class="comment">#判断是否存在</span></span><br><span class="line"><span class="number">3</span> <span class="keyword">not</span> <span class="keyword">in</span> [<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>]</span><br><span class="line">[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]+[<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>] <span class="comment">#连接</span></span><br><span class="line">[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]*<span class="number">3</span>       <span class="comment">#重复</span></span><br><span class="line">l[<span class="number">0</span>]            <span class="comment">#索引</span></span><br><span class="line">len(l)          <span class="comment">#长度</span></span><br><span class="line">l(start:end)    <span class="comment">#截取</span></span><br><span class="line"><span class="keyword">for</span>             <span class="comment">#循环</span></span><br><span class="line">max和min        <span class="comment">#最大和最小值</span></span><br><span class="line">sum(l)          <span class="comment">#求和，str不可用</span></span><br></pre></td></tr></table></figure></h2>
+<ul>
+<li>例子：</li>
+</ul>
+<h2 id="￼5"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">'asdfasdf'</span></span><br><span class="line">l = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br><span class="line"></span><br><span class="line">print(len(s))  <span class="comment">#8</span></span><br><span class="line">print(len(l))  <span class="comment">#4</span></span><br></pre></td></tr></table></figure></h2>
+<ul>
+<li>例子：</li>
+</ul>
+<h2 id="￼6"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">l = [<span class="number">12</span>,<span class="number">5</span>,<span class="number">8</span>,<span class="number">99</span>]</span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> l:</span><br><span class="line">	print(item)</span><br><span class="line"><span class="comment"># 12</span></span><br><span class="line"><span class="comment"># 5</span></span><br><span class="line"><span class="comment"># 8</span></span><br><span class="line"><span class="comment"># 99</span></span><br></pre></td></tr></table></figure></h2>
+<ul>
+<li>例子：</li>
+</ul>
+<h2 id="￼7"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">l = [<span class="number">12</span>,<span class="number">8</span>,<span class="number">99</span>,<span class="number">27</span>]</span><br><span class="line">print(min(l))</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：8</span></span><br><span class="line"></span><br><span class="line">l = [<span class="number">12</span>,<span class="number">8</span>,<span class="number">99</span>,<span class="number">27</span>,<span class="number">17</span>]</span><br><span class="line">print(sum[l])</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：163</span></span><br><span class="line"></span><br><span class="line">s = <span class="string">'jlkjdkl'</span></span><br><span class="line">print(sum(s))</span><br><span class="line"></span><br><span class="line"><span class="comment">#出错,字符串虽然是一个序列。因为每一元素是一个字，也是一个字符串，相加是不行的，本质上相加是数字去相加。</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="比较运算">比较运算</h2>
+<h2 id="￼8"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">l1 = [<span class="number">12</span>,<span class="number">5</span>,<span class="number">9</span>]</span><br><span class="line">l2 = [<span class="number">8</span>,<span class="number">99</span>,<span class="number">99</span>]</span><br><span class="line"></span><br><span class="line">print(l1&gt;l2)</span><br><span class="line"><span class="comment">#True</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="list-专有操作">list 专有操作</h2>
+<h2 id="￼9"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">append(x)  <span class="comment">#末尾添加</span></span><br><span class="line">     l = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">     l.append(<span class="number">5</span>) <span class="comment">#l = [1,2,3,5]</span></span><br><span class="line"></span><br><span class="line">insert(index,x) <span class="comment">#插入</span></span><br><span class="line">     l = insert(<span class="number">0</span>,<span class="number">5</span>)  <span class="comment">#l = [5,1,2,3]----在第0位插入5</span></span><br><span class="line"></span><br><span class="line">pop(i) <span class="comment">#删除，默认不带参数是删除最后一个</span></span><br><span class="line">     l.pop()     <span class="comment">#l = [1,2]</span></span><br><span class="line">     l.pop(<span class="number">0</span>)    <span class="comment">#l = [2,3]----带参数用，pop第几个--&gt;删除第几个</span></span><br><span class="line"></span><br><span class="line">remove(x)   <span class="comment">#删除，与pop的区别是，remove要你删除的是什么，不是第几个</span></span><br><span class="line">     l.remove(<span class="number">1</span>)  <span class="comment">#l = [2,3]----我要删除1，不是位置就是删除里面的内容</span></span><br><span class="line"></span><br><span class="line">count(x)   <span class="comment">#计数</span></span><br><span class="line">     l = [<span class="number">12</span>,<span class="number">5</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">12</span>,<span class="number">5</span>]</span><br><span class="line">     print(l.count(<span class="number">12</span>)) ----<span class="comment">#2   有多少个2</span></span><br><span class="line">     print(l.count(<span class="number">8</span>))------<span class="comment">#3   有多少个8</span></span><br><span class="line"></span><br><span class="line">index(x)  <span class="comment">#查找</span></span><br><span class="line">     l = [<span class="number">12</span>,<span class="number">5</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">12</span>,<span class="number">5</span>]</span><br><span class="line">     print(l.index(<span class="number">8</span>)) --<span class="comment">#2  ----8第一次出现是在第2位</span></span><br><span class="line">     print(l.index(<span class="number">99</span>))--<span class="comment">#出错---99没有出现在列表里面      </span></span><br><span class="line"></span><br><span class="line">reverse()  <span class="comment">#反转</span></span><br><span class="line">     l = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br><span class="line">     l.reverse()</span><br><span class="line">     print(l)  <span class="comment">#----l = [4,3,2,1]</span></span><br><span class="line"></span><br><span class="line">     ps:不能直接print(l.reverse())---这样会返回none，因为reverse()不是直接返回值，是修改了值，所以要再次打印</span><br><span class="line"> </span><br><span class="line">sort()   <span class="comment">#排序</span></span><br><span class="line">     l = [<span class="number">12</span>,<span class="number">88</span>,<span class="number">9</span>,<span class="number">27</span>,<span class="number">6</span>]</span><br><span class="line">     l.sort()</span><br><span class="line">     print(l) ---<span class="comment"># l = [6,9,12,27,88]--默认从小到达排序</span></span><br><span class="line">     <span class="comment">#同理不能直接print(l.sort())</span></span><br></pre></td></tr></table></figure></h2>
+<h2 id="推倒式">推倒式</h2>
+<p>推倒式是python非常有特色的一个表达式，其他语言几乎没有。(本质上)从一个序列生成另一个序列。跟循环很像。</p>
+<ul>
+<li>语法：[结果 for x in 序列if 条件]</li>
+<li>例子：</li>
+</ul>
+<h2 id="￼10"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"> l = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br><span class="line"><span class="comment">#目标变成---&gt; l2 = [6,7,8,9]</span></span><br><span class="line"> </span><br><span class="line"> l2 = [item+<span class="number">5</span> <span class="keyword">for</span> item <span class="keyword">in</span> l]</span><br><span class="line"> print(l)</span><br><span class="line"> print(l2)</span><br><span class="line"> 输出；[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br><span class="line">       [<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]</span><br><span class="line">     ps:l2 = [<span class="number">1</span> <span class="keyword">for</span> item <span class="keyword">in</span>  l]</span><br><span class="line">         输出：[<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>]----没有强制规定item一定要用</span><br><span class="line">     甚至全部变成<span class="string">'abc'</span> l2 = [<span class="string">'abc'</span> <span class="keyword">for</span> item <span class="keyword">in</span> l]</span><br><span class="line"> </span><br><span class="line"> l1 = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]</span><br><span class="line"> l2 = [item*<span class="number">2</span> <span class="keyword">for</span> item <span class="keyword">in</span> l1 <span class="keyword">if</span> item%<span class="number">3</span>==<span class="number">0</span>]</span><br><span class="line"> print(l2)</span><br><span class="line"> <span class="comment">#输出:[6,12,18]</span></span><br><span class="line"> <span class="comment">#将原本数列*2 之后得到的数列 能被3整除的</span></span><br></pre></td></tr></table></figure></h2>
+<p>推倒式非常适合用来“导出”某个数据，比如：从一组xpath中导出标题。</p>
+
+        </div>
+      </article>
+    </div>
+    <!-- Comments -->
+    <div class="container">
+      
+<section id="comment">
+  <!-- <h1 class="title">留言</h1> -->
+
+  
+
+    <div style="text-align:center;">
+      <button  id="load-disqus" onclick="disqus.load();">加载 Disqus 评论 (请确保能正常访问Disqus) </button>
+    </div>
+<!-- Definition For Click2Load Disqus -->
+<!-- 点击加载Disqus评论设置 -->
+
+  <div id="disqus_thread">
+    <script type="text/javascript">
+    var disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = 'post-python基本类型列表(list)';
+          this.page.title = '「python」- 列表';
+      };
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+  </div>
+
+
+  
+</section>
+
+    </div>
+    <!-- Pre or Next -->
+    <div class="nav-links">
+      
+        <div class="nav-previous">
+          <a href="/ckhx783yp000hdctv49yk2h0e/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
+        </div>
+      
+      
+        <div class="nav-next">
+          <a href="/ckhx783z8000xdctv1yi15mh5/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
+        </div>
+      
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <!-- Footer-widgets -->
+<div class="footer-widgets">
+  <div class="row inside-wrapper">
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">About</h1>
+        <div class="custom-widget-content">
+          
+          <div style="font-family:'Sarasa Mono HC', 'Sarasa Mono J', 'Sarasa Mono K', monospace;font-size:7px;">日常与技术</div>
+        </div>
+      </aside>
+    </div>
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">與我聯系</h1>
+        <div class="widget-text">
+          
+            
+              <a href="https://github.com/Tan35" class="icon icon-github" target="_blank">github</a>
+            
+              <a href="mailto:1486973169tan@gmail.com" class="icon icon-mail" target="_blank">mail</a>
+            
+              <a href="https://twitter.com/Tjxy_" class="icon icon-twitter" target="_blank">twitter</a>
+            
+          
+        </div>
+      </aside>
+    </div>
+    <div class="col-1-3">
+      <aside>
+        <h1 class="widget-title">站內搜索</h1>
+        <div class="widget-text">
+          <form onSubmit="return appDaily.submitSearch('')">
+            <div>
+              <!-- 定义搜索框类型等，且光标触发搜索框时Value内的字样消失-->
+              <input type="text" style="text-align: center"  id="homeSearchInput" value="..." onkeydown="if (event.keyCode==20) {}"  onblur="if(this.value=='')value='...';" onfocus="if(this.value=='...')value='';" value="..." />
+            </div>
+            <!-- <input type="submit" value="GO"> -->
+          </form>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="site-info">
+  <p>
+    <span>Tanxy &copy; 2020</span>
+    
+      <span class="split">|</span>
+      <span>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> with Theme <a href="https://github.com/GallenHu/hexo-theme-Daily" target="_blank">Daily</a></span>
+    
+  </p>
+  
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("08/10/2018 17:38:00");//在此处修改你的建站时间
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+setInterval("createtime()",250);
+
+</script>  
+  
+</footer>
+
+
+  <!-- After footer scripts -->
+  <!-- scripts -->
+
+<script src="/js/app.js"></script>
+
+
+<script src="/js/jquery.min.js"></script>
+
+
+<script>
+
+
+  
+  var disqus_url = 'https://tanxy.club/ckhx783yl000edctvhyvsgs76/';
+  
+
+/// Not to load disqus before users click the botton
+/// 不加载Disqus直到用户点击
+
+var disqus = {
+  load : function disqus(){
+      var disqus_shortname = 'Tanxy35';
+      if(typeof DISQUS !== 'object') {
+        (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        $('#load-disqus').remove(); ///加载后移除按钮
+
+
+      }
+  }
+}
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
