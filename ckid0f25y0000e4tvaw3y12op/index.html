@@ -8,7 +8,7 @@
 
   <!--Description-->
   
-  <meta name="description" content="字典本质上是一个键值对，比如用户名-&gt;用户资料">
+  <meta name="description" content="实用网站分享">
   
 
   <!--Author-->
@@ -18,11 +18,11 @@
 
   <!--Open Graph Title-->
   
-      <meta property="og:title" content="「python」- 字典"/>
+      <meta property="og:title" content="那些年你错过的网站"/>
   
   <!--Open Graph Description-->
   
-      <meta property="og:description" content="字典本质上是一个键值对，比如用户名-&gt;用户资料" />
+      <meta property="og:description" content="实用网站分享" />
   
   <!--Open Graph Site Name-->
   <meta property="og:site_name" content="Tanxy"/>
@@ -37,7 +37,7 @@
 
   <!-- Title -->
   
-  <title>「python」- 字典 - Tanxy</title>
+  <title>那些年你错过的网站 - Tanxy</title>
 
 
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Tan35/ImgHosting/Tan35-PIC/final_fav.png">
@@ -144,21 +144,25 @@
         <!-- Title date & tags -->
         <div class="post-header">
           <h1 class="entry-title">
-            「python」- 字典
+            那些年你错过的网站
             
           </h1>
           <p class="posted-on">
-          2019-08-13
+          2020-08-24
           </p>
           <div class="tags-links">
             
               
-                <a href="/tags/python基础/" rel="tag">
-                  python基础
+                <a href="/tags/网站推荐/" rel="tag">
+                  网站推荐
                 </a>
               
-                <a href="/tags/字典/" rel="tag">
-                  字典
+                <a href="/tags/图片素材/" rel="tag">
+                  图片素材
+                </a>
+              
+                <a href="/tags/vip歌曲转换/" rel="tag">
+                  vip歌曲转换
                 </a>
               
             
@@ -166,73 +170,73 @@
         </div>
         <!-- Post Main Content -->
         <div class="entry-content has_line_number">
-          <h1>python学习笔记之字典</h1>
-<ul>
-<li>要唯一，最好是数字。</li>
-<li>字典的作用：找东西。<code>key</code>很关键，要定好。</li>
-<li>字典用于存储“键值对”，用于快速获取、添加、删除、修改某个值，类似于PHP的联合数组、Java的<code>HashMap</code>、JS的<code>json</code>，用户名-&gt;用户资料等等。</li>
-<li>所有语言中的字典，都是基于Hash、二叉树或其他类似结构的一类无序数据结构，目的就是为了<u>增加数据访问的速度</u>。</li>
-</ul>
-<h2 id="创建字典">创建字典</h2>
-<p>在Python中，有两种方式创建字典。</p>
-<ol>
-<li>方法1：直接写。</li>
-</ol>
-<h2 id="￼0"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">    <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">    <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">    <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">print(d[<span class="string">'gender'</span>])  <span class="comment">#男</span></span><br><span class="line">print(d[<span class="string">'age'</span>])  <span class="comment">#35</span></span><br></pre></td></tr></table></figure></h2>
-<ol start="2">
-<li>方法2：构造器</li>
-</ol>
-<h2 id="￼1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">d2 = dict([</span><br><span class="line">     [<span class="string">'name'</span>,<span class="string">'张三'</span>],</span><br><span class="line">     [<span class="string">'age'</span>,<span class="number">35</span>],</span><br><span class="line">     [<span class="string">'gender'</span>,<span class="string">'男'</span>]</span><br><span class="line"> ])</span><br></pre></td></tr></table></figure></h2>
-<h2 id="字典的增删改查">字典的增删改查</h2>
-<ul>
-<li>例子：</li>
-</ul>
-<h2 id="￼2"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">         <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">d[<span class="string">'height'</span>] = <span class="number">185</span> <span class="comment">#增加身高为185</span></span><br><span class="line"><span class="keyword">del</span> d[<span class="string">'gender'</span>] <span class="comment">#删除性别</span></span><br><span class="line">d[<span class="string">'age'</span>] -= <span class="number">5</span><span class="comment"># 修改岁数减少5</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#循环</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> d:</span><br><span class="line">    print(item)</span><br><span class="line">    </span><br><span class="line"><span class="comment">#输出：</span></span><br><span class="line"><span class="comment">#name </span></span><br><span class="line"><span class="comment">#age</span></span><br><span class="line"><span class="comment">#gender</span></span><br><span class="line">            </span><br><span class="line">print(key + <span class="string">":"</span> + str(d[key]))</span><br></pre></td></tr></table></figure></h2>
-<ol>
-<li>要全部输出（key和value），可以进行序列的拼接。</li>
-<li>因为35是数字（整型），所以要转换为字符串。</li>
-</ol>
-<h3 id="长度：">长度：</h3>
-<h2 id="￼3"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">"张三"</span>,</span><br><span class="line">        <span class="string">"age"</span> : <span class="number">35</span>,</span><br><span class="line">        <span class="string">"gender"</span>: <span class="string">"男"</span></span><br><span class="line">    &#125;</span><br><span class="line">print(len(d))</span><br><span class="line"><span class="comment">#输出：3</span></span><br></pre></td></tr></table></figure></h2>
-<p>可以理解为3个东西，3个键值对。</p>
-<h3 id="是否相等">是否相等</h3>
-<ul>
-<li>顺序对字典毫无意义</li>
-<li>比较的是<code>key</code>，以及<code>key</code>后面的<code>value</code>是否相同。</li>
-</ul>
-<h3 id="in操作">in操作</h3>
-<p>dict 的<code>in</code>操作,<u>检测的是key不是value</u>。</p>
-<h2 id="字典的方法">字典的方法</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">方法</th>
-<th style="text-align:center">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">clear()</td>
-<td style="text-align:center">清空字典</td>
-</tr>
-<tr>
-<td style="text-align:center">keys()</td>
-<td style="text-align:center">返回所有key</td>
-</tr>
-<tr>
-<td style="text-align:center">values()</td>
-<td style="text-align:center">返回所有value</td>
-</tr>
-<tr>
-<td style="text-align:center">get(key)</td>
-<td style="text-align:center">索引，类似于[]</td>
-</tr>
-<tr>
-<td style="text-align:center">pop(key)</td>
-<td style="text-align:center">删除，类似于上面的del</td>
-</tr>
-</tbody>
-</table>
+          <p>实用网站分享</p>
+<a id="more"></a>
+<h1><b>前言</b></h1>
+<p>很多时候想处理一些比较简单的事情又不想打开一个过于累赘软件的时候，这些在线网站可能会帮到你。笔者将为这些网站进行简单的分类以方便读者进行阅读。</p>
+<p>注：下文中推荐指数中⭐越多表示推荐指数越高，📕越少表示上手难度越低。</p>
+<h2 id="💻「效率」">💻「效率」</h2>
+<p><strong><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener">1.在线表格生成工具</a></strong></p>
+<p>推荐指数：⭐⭐⭐⭐⭐<br>
+使用难度：📕📕</p>
+<p>无论你是在用<code>Latex</code>、<code>HTML</code>、<code>Text</code>、<code>Markdown</code>、<code>MediaWiki</code>，他都能将你设定好的表格进行转换。另外表格的样式，表格里字体的样式都可以进行选择，本博客中的友链页面中表格就是用这个网站生成，十分不错，但是网站偶尔有打不开的现象，是个偷懒的小工具。</p>
+<p><img src="https://i.loli.net/2020/12/06/NxIb4mQpieEBqKH.jpg" alt="工具截图"></p>
+<hr>
+<p><strong><a href="https://crop-circle.imageonline.co/cn/" target="_blank" rel="noopener">2.在线图像编辑工具</a></strong></p>
+<p>推荐指数：⭐⭐⭐⭐⭐<br>
+使用难度：📕</p>
+<p>可能你会觉得有点奇怪，是自带的图像编辑工具不好用还是Photoshop不香，但是我唯独喜欢它其中一款功能 <u>「在图像中剪切圆圈」</u>，本博客的「关于」页面中的个人头像也是使用此功能，非常方便。另外这个在线编辑图像工具除了一些基本功能还提供了很多丰富功能比如在线更改图像的伽马，单色图像，在线拉直照片等等。（本工具所有功能均为免费）</p>
+<p><img src="https://i.loli.net/2020/12/06/mMOtcRG21YUEFfe.jpg" alt="效果截图"></p>
+<hr>
+<p><strong><a href="https://squoosh.app/" target="_blank" rel="noopener">3.在线图片压缩工具</a></strong></p>
+<p>推荐指数：⭐⭐⭐<br>
+使用难度：📕</p>
+<p>如工具名字所示，外观功能都很不错的图片压缩工具。</p>
+<p><img src="https://i.loli.net/2020/12/06/B2FGCN8eUHxyqfW.jpg" alt="工具截图"></p>
+<hr>
+<p><strong><a href="https://hanabi.data-viz.cn/index?lang=zh-CN" target="_blank" rel="noopener">4.花火-在线数据短视频工具</a></strong></p>
+<p>推荐指数：⭐⭐⭐<br>
+使用难度：📕</p>
+<p>以视频或者Gif方式可视化数据。想用更漂亮的形式显示想要表示的数据吗？「有手就行」，只需要输入你想要的数据都可以一键显示。（注：免费版生成的图下面会有水印）</p>
+<p><img src="https://pic.downk.cc/item/5f4de712160a154a677cc128.gif" alt="工具截图"></p>
+<hr>
+<p><strong><a href="https://www.deepl.com/translator" target="_blank" rel="noopener">5.DeepL翻译网站</a></strong></p>
+<p>推荐指数：⭐⭐⭐<br>
+使用难度：📕</p>
+<p>一款号称全世界最好的翻译系统 DeepL，有人质疑它也有人喜欢它，不过在中英互译方面确实有些优势，会更好的理解句子所表达的重点在哪里。没有力捧，Google翻译当然也不错。想看一下和其他翻译的对比可以看看少数派这篇文章，比较详细-&gt;<a href="https://sspai.com/post/59962" target="_blank" rel="noopener">主打 AI 的翻译工具，DeepL 比 Google 翻译效果更好？</a>。</p>
+<p><img src="https://i.loli.net/2020/12/06/XDPF3agGIjipCLe.jpg" alt="工具截图"></p>
+<hr>
+<h2 id="🔞「壁纸」">🔞「壁纸」</h2>
+<p><strong><a href="https://wallhaven.cc/" target="_blank" rel="noopener">1.Wallhaven</a></strong></p>
+<p>推荐指数：⭐⭐⭐⭐⭐</p>
+<p>遇到最好的图片素材网站——高清无水印，并且免费，下载的时候有多种分辨率下载。算是比较全的一个壁纸（图片）网站。缺点就是搜索关键词是要用英文。</p>
+<p><img src="https://i.loli.net/2020/12/06/hlP5dH7asAYmJie.jpg" alt="网站截图"></p>
+<hr>
+<p><strong><a href="https://wallpaperhub.app/" target="_blank" rel="noopener">2.WallpaperHub</a></strong></p>
+<p>推荐指数：⭐⭐⭐</p>
+<p>WallpaperHub 是一家专门收集微软官方壁纸的网站，你可以找到并下载Surface、Xbox、市场营销、微软活动以及Bing 上的精美壁纸。</p>
+<p><img src="https://i.loli.net/2020/12/06/v1aTqOFuAg4eW9S.jpg" alt="网站截图"></p>
+<hr>
+<p><strong><a href="https://unsplash.com/" target="_blank" rel="noopener">3.Unsplash</a></strong></p>
+<p>推荐指数：⭐⭐⭐⭐</p>
+<p>最知名的无版权图片网站之一,图片质量很好，壁纸偏多。另外也有实时更新的话题图片，比如 <code>COVID-19</code>  话题,但是国内访问速度可能会稍慢。</p>
+<p><img src="https://i.loli.net/2020/12/06/kIb6t5yXTlgNwCz.jpg" alt="网站截图"></p>
+<hr>
+<h2 id="🎨「插画」">🎨「插画」</h2>
+<p>持续更新中 …</p>
+<hr>
+<h2 id="🗽「你想不到的」">🗽「你想不到的」</h2>
+<p><strong><a href="https://kylebing.cn/tools/music-unlock/" target="_blank" rel="noopener">1.VIP音乐转码</a></strong></p>
+<p>推荐指数：⭐⭐⭐⭐⭐</p>
+<p>(支持正版)，可将vip歌曲的加密格式转换为 <code>ogg</code> 格式,目前基本所有音乐平台的加密格式都可以解密了。</p>
+<p><img src="https://i.loli.net/2020/12/06/S2cmxUNjr9H6fZq.jpg" alt="工具截图"></p>
+<hr>
+<p><strong><a href="http://gitd.cc/" target="_blank" rel="noopener">2.Github代下载</a></strong></p>
+<p>推荐指数：⭐⭐⭐</p>
+<p>常常使用<code>git clone</code>命令的你是不是对下载的速度感到无可奈何，其实有办法去解决的，可以看看我博客园中的这篇文章-&gt;<a href="https://www.cnblogs.com/Yx-MAN/p/13546016.html" target="_blank" rel="noopener">git clone 加速的小技巧</a>。当然你也可以选择不去看，你可以直接把项目链接复制到这个网站上面，由它来帮你下载，支持GitHub主仓库，Release页面，其他源码包的直链。缺点就是下载下来的压缩包是它随机生成的名字。</p>
+<p><img src="https://i.loli.net/2020/12/06/fHIQqSYgO96vpxl.jpg" alt="网站截图"></p>
+<hr>
+<p>持续更新中！😀</p>
 
         </div>
       </article>
@@ -255,8 +259,8 @@
     <script type="text/javascript">
     var disqus_config = function () {
           this.page.url = window.location.href;
-          this.page.identifier = 'post-python基本类型字典(dict)';
-          this.page.title = '「python」- 字典';
+          this.page.identifier = 'post-final';
+          this.page.title = '那些年你错过的网站';
       };
     </script>
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
@@ -270,13 +274,9 @@
     <!-- Pre or Next -->
     <div class="nav-links">
       
-        <div class="nav-previous">
-          <a href="/ckicvsdft0007oktv9j1z4s75/" rel="prev"><span class="meta-arraw meta-arraw-left"></span> 上一頁</a>
-        </div>
-      
       
         <div class="nav-next">
-          <a href="/ckicvsdhz002woktv8ios01fx/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
+          <a href="/ckid0f277000oe4tv4i6aedi5/" rel="prev">下一頁 <span class="meta-arraw meta-arraw-right"></span></a>
         </div>
       
     </div>
@@ -375,7 +375,7 @@ setInterval("createtime()",250);
 
 
   
-  var disqus_url = 'https://tanxy.club/ckicvsdg2000coktv0k00g3px/';
+  var disqus_url = 'https://tanxy.club/ckid0f25y0000e4tvaw3y12op/';
   
 
 /// Not to load disqus before users click the botton
